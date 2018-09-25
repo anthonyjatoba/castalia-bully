@@ -1,533 +1,560 @@
 
-10.003604233667 SN.node[1].Application                   1 tá massa
-10.006393559507 SN.node[5].Application                   5 tá massa
-10.014687792058 SN.node[4].Application                   4 tá massa
-10.02525516215  SN.node[6].Application                   6 travou
-10.028139753815 SN.node[0].Application                   0 tá massa
-10.028158709203 SN.node[7].Application                   7 tá massa
-10.035919320245 SN.node[2].Application                   2 tá massa
-10.041937470856 SN.node[3].Application                   3 tá massa
-10.044377732724 SN.node[8].Application                   8 tá massa
-20.003672223318 SN.node[1].Application                   1 tá massa
-20.006720690051 SN.node[5].Application                   5 tá massa
-20.014830346937 SN.node[4].Application                   4 tá massa
-20.024968944253 SN.node[6].Application                   6 tá massa
-20.027851852123 SN.node[7].Application                   7 tá massa
-20.028739612412 SN.node[0].Application                   0 tá massa
-20.036431249381 SN.node[2].Application                   2 tá massa
-20.041877489597 SN.node[3].Application                   3 tá massa
-20.044108117556 SN.node[8].Application                   8 tá massa
-30.003740212969 SN.node[1].Application                   1 tá massa
-30.007047820595 SN.node[5].Application                   5 tá massa
-30.014972901816 SN.node[4].Application                   4 travou
-30.024682726356 SN.node[6].Application                   6 tá massa
-30.027544995043 SN.node[7].Application                   7 tá massa
-30.029339471009 SN.node[0].Application                   0 tá massa
-30.036943178517 SN.node[2].Application                   2 tá massa
-30.041817508338 SN.node[3].Application                   3 tá massa
-30.043838502388 SN.node[8].Application                   8 tá massa
-40.00380820262  SN.node[1].Application                   1 tá massa
-40.007374951139 SN.node[5].Application                   5 tá massa
-40.015115456695 SN.node[4].Application                   4 tá massa
-40.024396508459 SN.node[6].Application                   6 tá massa
-40.027238137963 SN.node[7].Application                   7 travou
-40.029939329606 SN.node[0].Application                   0 tá massa
-40.037455107653 SN.node[2].Application                   2 tá massa
-40.041757527079 SN.node[3].Application                   3 tá massa
-40.04356888722  SN.node[8].Application                   8 tá massa
-50.003876192271 SN.node[1].Application                   1 tá massa
-50.007702081683 SN.node[5].Application                   5 tá massa
-50.015258011574 SN.node[4].Application                   4 travou
-50.024110290562 SN.node[6].Application                   6 tá massa
-50.026931280883 SN.node[7].Application                   7 tá massa
-50.030539188203 SN.node[0].Application                   0 tá massa
-50.037967036789 SN.node[2].Application                   2 tá massa
-50.04169754582  SN.node[3].Application                   3 travou
-50.043299272052 SN.node[8].Application                   8 tá massa
-60.003944181922 SN.node[1].Application                   1 tá massa
-60.008029212227 SN.node[5].Application                   5 tá massa
-60.015400566453 SN.node[4].Application                   4 tá massa
-60.023824072665 SN.node[6].Application                   6 travou
-60.026624423803 SN.node[7].Application                   7 tá massa
-60.0311390468   SN.node[0].Application                   0 travou
-60.038478965925 SN.node[2].Application                   2 tá massa
-60.041637564561 SN.node[3].Application                   3 tá massa
-60.043029656884 SN.node[8].Application                   8 tá massa
-70.004012171573 SN.node[1].Application                   1 tá massa
-70.008356342771 SN.node[5].Application                   5 tá massa
-70.015543121332 SN.node[4].Application                   4 tá massa
-70.023537854768 SN.node[6].Application                   6 tá massa
-70.026317566723 SN.node[7].Application                   7 tá massa
-70.031738905397 SN.node[0].Application                   0 tá massa
-70.038990895061 SN.node[2].Application                   2 travou
-70.041577583302 SN.node[3].Application                   3 tá massa
-70.042760041716 SN.node[8].Application                   8 tá massa
-80.004080161224 SN.node[1].Application                   1 tá massa
-80.008683473315 SN.node[5].Application                   5 tá massa
-80.015685676211 SN.node[4].Application                   4 travou
-80.023251636871 SN.node[6].Application                   6 tá massa
-80.026010709643 SN.node[7].Application                   7 tá massa
-80.032338763994 SN.node[0].Application                   0 travou
-80.039502824197 SN.node[2].Application                   2 tá massa
-80.041517602043 SN.node[3].Application                   3 tá massa
-80.042490426548 SN.node[8].Application                   8 tá massa
-90.004148150875 SN.node[1].Application                   1 tá massa
-90.009010603859 SN.node[5].Application                   5 tá massa
-90.01582823109  SN.node[4].Application                   4 travou
-90.022965418974 SN.node[6].Application                   6 tá massa
-90.025703852563 SN.node[7].Application                   7 tá massa
-90.032938622591 SN.node[0].Application                   0 tá massa
-90.040014753333 SN.node[2].Application                   2 tá massa
-90.041457620784 SN.node[3].Application                   3 tá massa
-90.04222081138  SN.node[8].Application                   8 tá massa
-100.004216140526SN.node[1].Application                   1 travou
-100.009337734403SN.node[5].Application                   5 tá massa
-100.015970785969SN.node[4].Application                   4 tá massa
-100.022679201077SN.node[6].Application                   6 tá massa
-100.025396995483SN.node[7].Application                   7 tá massa
-100.033538481188SN.node[0].Application                   0 travou
-100.040526682469SN.node[2].Application                   2 tá massa
-100.041397639525SN.node[3].Application                   3 tá massa
-100.041951196212SN.node[8].Application                   8 tá massa
-110.004284130177SN.node[1].Application                   1 tá massa
-110.009664864947SN.node[5].Application                   5 tá massa
-110.016113340848SN.node[4].Application                   4 tá massa
-110.02239298318 SN.node[6].Application                   6 tá massa
-110.025090138403SN.node[7].Application                   7 tá massa
-110.034138339785SN.node[0].Application                   0 travou
-110.041038611605SN.node[2].Application                   2 tá massa
-110.041337658266SN.node[3].Application                   3 tá massa
-110.041681581044SN.node[8].Application                   8 tá massa
-120.004352119828SN.node[1].Application                   1 tá massa
-120.009991995491SN.node[5].Application                   5 tá massa
-120.016255895727SN.node[4].Application                   4 tá massa
-120.022106765283SN.node[6].Application                   6 tá massa
-120.024783281323SN.node[7].Application                   7 tá massa
-120.034738198382SN.node[0].Application                   0 tá massa
-120.041277677007SN.node[3].Application                   3 travou
-120.041411965876SN.node[8].Application                   8 tá massa
-120.041550540741SN.node[2].Application                   2 travou
-130.004420109479SN.node[1].Application                   1 travou
-130.010319126035SN.node[5].Application                   5 tá massa
-130.016398450606SN.node[4].Application                   4 tá massa
-130.021820547386SN.node[6].Application                   6 tá massa
-130.024476424243SN.node[7].Application                   7 travou
-130.035338056979SN.node[0].Application                   0 tá massa
-130.041142350708SN.node[8].Application                   8 tá massa
-130.041217695748SN.node[3].Application                   3 tá massa
-130.042062469877SN.node[2].Application                   2 tá massa
-140.00448809913 SN.node[1].Application                   1 tá massa
-140.010646256579SN.node[5].Application                   5 tá massa
-140.016541005485SN.node[4].Application                   4 travou
-140.021534329489SN.node[6].Application                   6 tá massa
-140.024169567163SN.node[7].Application                   7 tá massa
-140.035937915576SN.node[0].Application                   0 tá massa
-140.04087273554 SN.node[8].Application                   8 travou
-140.041157714489SN.node[3].Application                   3 tá massa
-140.042574399013SN.node[2].Application                   2 tá massa
-150.004556088781SN.node[1].Application                   1 tá massa
-150.010973387123SN.node[5].Application                   5 tá massa
-150.016683560364SN.node[4].Application                   4 travou
-150.021248111592SN.node[6].Application                   6 tá massa
-150.023862710083SN.node[7].Application                   7 tá massa
-150.036537774173SN.node[0].Application                   0 tá massa
-150.040603120372SN.node[8].Application                   8 tá massa
-150.04109773323 SN.node[3].Application                   3 tá massa
-150.043086328149SN.node[2].Application                   2 tá massa
-160.004624078432SN.node[1].Application                   1 tá massa
-160.011300517667SN.node[5].Application                   5 travou
-160.016826115243SN.node[4].Application                   4 tá massa
-160.020961893695SN.node[6].Application                   6 travou
-160.023555853003SN.node[7].Application                   7 tá massa
-160.03713763277 SN.node[0].Application                   0 tá massa
-160.040333505204SN.node[8].Application                   8 tá massa
-160.041037751971SN.node[3].Application                   3 tá massa
-160.043598257285SN.node[2].Application                   2 tá massa
-170.004692068083SN.node[1].Application                   1 travou
-170.011627648211SN.node[5].Application                   5 travou
-170.016968670122SN.node[4].Application                   4 tá massa
-170.020675675798SN.node[6].Application                   6 tá massa
-170.023248995923SN.node[7].Application                   7 travou
-170.037737491367SN.node[0].Application                   0 travou
-170.040063890036SN.node[8].Application                   8 tá massa
-170.040977770712SN.node[3].Application                   3 tá massa
-170.044110186421SN.node[2].Application                   2 tá massa
-180.004760057734SN.node[1].Application                   1 tá massa
-180.011954778755SN.node[5].Application                   5 travou
-180.017111225001SN.node[4].Application                   4 tá massa
-180.020389457901SN.node[6].Application                   6 tá massa
-180.022942138843SN.node[7].Application                   7 tá massa
-180.038337349964SN.node[0].Application                   0 tá massa
-180.039794274868SN.node[8].Application                   8 tá massa
-180.040917789453SN.node[3].Application                   3 tá massa
-180.044622115557SN.node[2].Application                   2 tá massa
-190.004828047385SN.node[1].Application                   1 tá massa
-190.012281909299SN.node[5].Application                   5 tá massa
-190.01725377988 SN.node[4].Application                   4 tá massa
-190.020103240004SN.node[6].Application                   6 tá massa
-190.022635281763SN.node[7].Application                   7 tá massa
-190.038937208561SN.node[0].Application                   0 travou
-190.0395246597  SN.node[8].Application                   8 tá massa
-190.040857808194SN.node[3].Application                   3 tá massa
-190.045134044693SN.node[2].Application                   2 tá massa
-200.004896037036SN.node[1].Application                   1 travou
-200.012609039843SN.node[5].Application                   5 tá massa
-200.017396334759SN.node[4].Application                   4 tá massa
-200.019817022107SN.node[6].Application                   6 tá massa
-200.022328424683SN.node[7].Application                   7 tá massa
-200.039255044532SN.node[8].Application                   8 tá massa
-200.039537067158SN.node[0].Application                   0 tá massa
-200.040797826935SN.node[3].Application                   3 tá massa
-200.045645973829SN.node[2].Application                   2 tá massa
-210.004964026687SN.node[1].Application                   1 tá massa
-210.012936170387SN.node[5].Application                   5 tá massa
-210.017538889638SN.node[4].Application                   4 tá massa
-210.01953080421 SN.node[6].Application                   6 tá massa
-210.022021567603SN.node[7].Application                   7 tá massa
-210.038985429364SN.node[8].Application                   8 travou
-210.040136925755SN.node[0].Application                   0 tá massa
-210.040737845676SN.node[3].Application                   3 tá massa
-210.046157902965SN.node[2].Application                   2 tá massa
-220.005032016338SN.node[1].Application                   1 tá massa
-220.013263300931SN.node[5].Application                   5 tá massa
-220.017681444517SN.node[4].Application                   4 tá massa
-220.019244586313SN.node[6].Application                   6 tá massa
-220.021714710523SN.node[7].Application                   7 tá massa
-220.038715814196SN.node[8].Application                   8 travou
-220.040677864417SN.node[3].Application                   3 tá massa
-220.040736784352SN.node[0].Application                   0 tá massa
-220.046669832101SN.node[2].Application                   2 travou
-230.005100005989SN.node[1].Application                   1 tá massa
-230.013590431475SN.node[5].Application                   5 tá massa
-230.017823999396SN.node[4].Application                   4 tá massa
-230.018958368416SN.node[6].Application                   6 travou
-230.021407853443SN.node[7].Application                   7 tá massa
-230.038446199028SN.node[8].Application                   8 tá massa
-230.040617883158SN.node[3].Application                   3 travou
-230.041336642949SN.node[0].Application                   0 tá massa
-230.047181761237SN.node[2].Application                   2 travou
-240.00516799564 SN.node[1].Application                   1 tá massa
-240.013917562019SN.node[5].Application                   5 travou
-240.017966554275SN.node[4].Application                   4 travou
-240.018672150519SN.node[6].Application                   6 tá massa
-240.021100996363SN.node[7].Application                   7 tá massa
-240.03817658386 SN.node[8].Application                   8 tá massa
-240.040557901899SN.node[3].Application                   3 travou
-240.041936501546SN.node[0].Application                   0 travou
-240.047693690373SN.node[2].Application                   2 tá massa
-250.005235985291SN.node[1].Application                   1 tá massa
-250.014244692563SN.node[5].Application                   5 tá massa
-250.018109109154SN.node[4].Application                   4 tá massa
-250.018385932622SN.node[6].Application                   6 tá massa
-250.020794139283SN.node[7].Application                   7 tá massa
-250.037906968692SN.node[8].Application                   8 tá massa
-250.04049792064 SN.node[3].Application                   3 tá massa
-250.042536360143SN.node[0].Application                   0 tá massa
-250.048205619509SN.node[2].Application                   2 tá massa
-260.005303974942SN.node[1].Application                   1 tá massa
-260.014571823107SN.node[5].Application                   5 travou
-260.018099714725SN.node[6].Application                   6 tá massa
-260.018251664033SN.node[4].Application                   4 tá massa
-260.020487282203SN.node[7].Application                   7 tá massa
-260.037637353524SN.node[8].Application                   8 tá massa
-260.040437939381SN.node[3].Application                   3 tá massa
-260.04313621874 SN.node[0].Application                   0 tá massa
-260.048717548645SN.node[2].Application                   2 tá massa
-270.005371964593SN.node[1].Application                   1 tá massa
-270.014898953651SN.node[5].Application                   5 travou
-270.017813496828SN.node[6].Application                   6 tá massa
-270.018394218912SN.node[4].Application                   4 travou
-270.020180425123SN.node[7].Application                   7 tá massa
-270.037367738356SN.node[8].Application                   8 travou
-270.040377958122SN.node[3].Application                   3 tá massa
-270.043736077337SN.node[0].Application                   0 tá massa
-270.049229477781SN.node[2].Application                   2 tá massa
-280.005439954244SN.node[1].Application                   1 tá massa
-280.015226084195SN.node[5].Application                   5 tá massa
-280.017527278931SN.node[6].Application                   6 tá massa
-280.018536773791SN.node[4].Application                   4 tá massa
-280.019873568043SN.node[7].Application                   7 tá massa
-280.037098123188SN.node[8].Application                   8 travou
-280.040317976863SN.node[3].Application                   3 travou
-280.044335935934SN.node[0].Application                   0 travou
-280.049741406917SN.node[2].Application                   2 travou
-290.005507943895SN.node[1].Application                   1 tá massa
-290.015553214739SN.node[5].Application                   5 tá massa
-290.017241061034SN.node[6].Application                   6 tá massa
-290.01867932867 SN.node[4].Application                   4 travou
-290.019566710963SN.node[7].Application                   7 travou
-290.03682850802 SN.node[8].Application                   8 tá massa
-290.040257995604SN.node[3].Application                   3 tá massa
-290.044935794531SN.node[0].Application                   0 tá massa
-290.050253336053SN.node[2].Application                   2 tá massa
-300.005575933546SN.node[1].Application                   1 tá massa
-300.015880345283SN.node[5].Application                   5 travou
-300.016954843137SN.node[6].Application                   6 travou
-300.018821883549SN.node[4].Application                   4 tá massa
-300.019259853883SN.node[7].Application                   7 tá massa
-300.036558892852SN.node[8].Application                   8 tá massa
-300.040198014345SN.node[3].Application                   3 tá massa
-300.045535653128SN.node[0].Application                   0 tá massa
-300.050765265189SN.node[2].Application                   2 tá massa
-310.005643923197SN.node[1].Application                   1 travou
-310.016207475827SN.node[5].Application                   5 tá massa
-310.01666862524 SN.node[6].Application                   6 tá massa
-310.018952996803SN.node[7].Application                   7 tá massa
-310.018964438428SN.node[4].Application                   4 tá massa
-310.036289277684SN.node[8].Application                   8 tá massa
-310.040138033086SN.node[3].Application                   3 tá massa
-310.046135511725SN.node[0].Application                   0 tá massa
-310.051277194325SN.node[2].Application                   2 tá massa
-320.005711912848SN.node[1].Application                   1 tá massa
-320.016382407343SN.node[6].Application                   6 tá massa
-320.016534606371SN.node[5].Application                   5 tá massa
-320.018646139723SN.node[7].Application                   7 tá massa
-320.019106993307SN.node[4].Application                   4 tá massa
-320.036019662516SN.node[8].Application                   8 tá massa
-320.040078051827SN.node[3].Application                   3 tá massa
-320.046735370322SN.node[0].Application                   0 tá massa
-320.051789123461SN.node[2].Application                   2 tá massa
-330.005779902499SN.node[1].Application                   1 tá massa
-330.016096189446SN.node[6].Application                   6 tá massa
-330.016861736915SN.node[5].Application                   5 tá massa
-330.018339282643SN.node[7].Application                   7 tá massa
-330.019249548186SN.node[4].Application                   4 travou
-330.035750047348SN.node[8].Application                   8 tá massa
-330.040018070568SN.node[3].Application                   3 tá massa
-330.047335228919SN.node[0].Application                   0 tá massa
-330.052301052597SN.node[2].Application                   2 tá massa
-340.00584789215 SN.node[1].Application                   1 tá massa
-340.015809971549SN.node[6].Application                   6 tá massa
-340.017188867459SN.node[5].Application                   5 tá massa
-340.018032425563SN.node[7].Application                   7 tá massa
-340.019392103065SN.node[4].Application                   4 tá massa
-340.03548043218 SN.node[8].Application                   8 tá massa
-340.039958089309SN.node[3].Application                   3 tá massa
-340.047935087516SN.node[0].Application                   0 tá massa
-340.052812981733SN.node[2].Application                   2 travou
-350.005915881801SN.node[1].Application                   1 tá massa
-350.015523753652SN.node[6].Application                   6 tá massa
-350.017515998003SN.node[5].Application                   5 tá massa
-350.017725568483SN.node[7].Application                   7 travou
-350.019534657944SN.node[4].Application                   4 tá massa
-350.035210817012SN.node[8].Application                   8 travou
-350.03989810805 SN.node[3].Application                   3 tá massa
-350.048534946113SN.node[0].Application                   0 tá massa
-350.053324910869SN.node[2].Application                   2 tá massa
-360.005983871452SN.node[1].Application                   1 travou
-360.015237535755SN.node[6].Application                   6 tá massa
-360.017418711403SN.node[7].Application                   7 travou
-360.017843128547SN.node[5].Application                   5 tá massa
-360.019677212823SN.node[4].Application                   4 tá massa
-360.034941201844SN.node[8].Application                   8 travou
-360.039838126791SN.node[3].Application                   3 travou
-360.04913480471 SN.node[0].Application                   0 travou
-360.053836840005SN.node[2].Application                   2 tá massa
-370.006051861103SN.node[1].Application                   1 tá massa
-370.014951317858SN.node[6].Application                   6 tá massa
-370.017111854323SN.node[7].Application                   7 travou
-370.018170259091SN.node[5].Application                   5 tá massa
-370.019819767702SN.node[4].Application                   4 tá massa
-370.034671586676SN.node[8].Application                   8 travou
-370.039778145532SN.node[3].Application                   3 tá massa
-370.049734663307SN.node[0].Application                   0 travou
-370.054348769141SN.node[2].Application                   2 tá massa
-380.006119850754SN.node[1].Application                   1 tá massa
-380.014665099961SN.node[6].Application                   6 travou
-380.016804997243SN.node[7].Application                   7 tá massa
-380.018497389635SN.node[5].Application                   5 tá massa
-380.019962322581SN.node[4].Application                   4 tá massa
-380.034401971508SN.node[8].Application                   8 tá massa
-380.039718164273SN.node[3].Application                   3 tá massa
-380.050334521904SN.node[0].Application                   0 travou
-380.054860698277SN.node[2].Application                   2 tá massa
-390.006187840405SN.node[1].Application                   1 tá massa
-390.014378882064SN.node[6].Application                   6 tá massa
-390.016498140163SN.node[7].Application                   7 tá massa
-390.018824520179SN.node[5].Application                   5 tá massa
-390.02010487746 SN.node[4].Application                   4 tá massa
-390.03413235634 SN.node[8].Application                   8 tá massa
-390.039658183014SN.node[3].Application                   3 tá massa
-390.050934380501SN.node[0].Application                   0 tá massa
-390.055372627413SN.node[2].Application                   2 tá massa
-400.006255830056SN.node[1].Application                   1 tá massa
-400.014092664167SN.node[6].Application                   6 tá massa
-400.016191283083SN.node[7].Application                   7 tá massa
-400.019151650723SN.node[5].Application                   5 tá massa
-400.020247432339SN.node[4].Application                   4 tá massa
-400.033862741172SN.node[8].Application                   8 tá massa
-400.039598201755SN.node[3].Application                   3 tá massa
-400.051534239098SN.node[0].Application                   0 tá massa
-400.055884556549SN.node[2].Application                   2 travou
-410.006323819707SN.node[1].Application                   1 tá massa
-410.01380644627 SN.node[6].Application                   6 tá massa
-410.015884426003SN.node[7].Application                   7 tá massa
-410.019478781267SN.node[5].Application                   5 tá massa
-410.020389987218SN.node[4].Application                   4 travou
-410.033593126004SN.node[8].Application                   8 tá massa
-410.039538220496SN.node[3].Application                   3 travou
-410.052134097695SN.node[0].Application                   0 tá massa
-410.056396485685SN.node[2].Application                   2 tá massa
-420.006391809358SN.node[1].Application                   1 tá massa
-420.013520228373SN.node[6].Application                   6 tá massa
-420.015577568923SN.node[7].Application                   7 travou
-420.019805911811SN.node[5].Application                   5 tá massa
-420.020532542097SN.node[4].Application                   4 tá massa
-420.033323510836SN.node[8].Application                   8 tá massa
-420.039478239237SN.node[3].Application                   3 tá massa
-420.052733956292SN.node[0].Application                   0 tá massa
-420.056908414821SN.node[2].Application                   2 tá massa
-430.006459799009SN.node[1].Application                   1 tá massa
-430.013234010476SN.node[6].Application                   6 tá massa
-430.015270711843SN.node[7].Application                   7 tá massa
-430.020133042355SN.node[5].Application                   5 tá massa
-430.020675096976SN.node[4].Application                   4 tá massa
-430.033053895668SN.node[8].Application                   8 travou
-430.039418257978SN.node[3].Application                   3 tá massa
-430.053333814889SN.node[0].Application                   0 tá massa
-430.057420343957SN.node[2].Application                   2 travou
-440.00652778866 SN.node[1].Application                   1 travou
-440.012947792579SN.node[6].Application                   6 tá massa
-440.014963854763SN.node[7].Application                   7 tá massa
-440.020460172899SN.node[5].Application                   5 tá massa
-440.020817651855SN.node[4].Application                   4 tá massa
-440.0327842805  SN.node[8].Application                   8 tá massa
-440.039358276719SN.node[3].Application                   3 travou
-440.053933673486SN.node[0].Application                   0 travou
-440.057932273093SN.node[2].Application                   2 travou
-450.006595778311SN.node[1].Application                   1 tá massa
-450.012661574682SN.node[6].Application                   6 tá massa
-450.014656997683SN.node[7].Application                   7 tá massa
-450.020787303443SN.node[5].Application                   5 tá massa
-450.020960206734SN.node[4].Application                   4 tá massa
-450.032514665332SN.node[8].Application                   8 tá massa
-450.03929829546 SN.node[3].Application                   3 tá massa
-450.054533532083SN.node[0].Application                   0 travou
-450.058444202229SN.node[2].Application                   2 tá massa
-460.006663767962SN.node[1].Application                   1 tá massa
-460.012375356785SN.node[6].Application                   6 tá massa
-460.014350140603SN.node[7].Application                   7 travou
-460.021102761613SN.node[4].Application                   4 tá massa
-460.021114433987SN.node[5].Application                   5 tá massa
-460.032245050164SN.node[8].Application                   8 travou
-460.039238314201SN.node[3].Application                   3 tá massa
-460.05513339068 SN.node[0].Application                   0 tá massa
-460.058956131365SN.node[2].Application                   2 tá massa
-470.006731757613SN.node[1].Application                   1 tá massa
-470.012089138888SN.node[6].Application                   6 tá massa
-470.014043283523SN.node[7].Application                   7 tá massa
-470.021245316492SN.node[4].Application                   4 tá massa
-470.021441564531SN.node[5].Application                   5 tá massa
-470.031975434996SN.node[8].Application                   8 tá massa
-470.039178332942SN.node[3].Application                   3 travou
-470.055733249277SN.node[0].Application                   0 tá massa
-470.059468060501SN.node[2].Application                   2 tá massa
-480.006799747264SN.node[1].Application                   1 tá massa
-480.011802920991SN.node[6].Application                   6 tá massa
-480.013736426443SN.node[7].Application                   7 tá massa
-480.021387871371SN.node[4].Application                   4 travou
-480.021768695075SN.node[5].Application                   5 tá massa
-480.031705819828SN.node[8].Application                   8 tá massa
-480.039118351683SN.node[3].Application                   3 tá massa
-480.056333107874SN.node[0].Application                   0 tá massa
-480.059979989637SN.node[2].Application                   2 tá massa
-490.006867736915SN.node[1].Application                   1 tá massa
-490.011516703094SN.node[6].Application                   6 tá massa
-490.013429569363SN.node[7].Application                   7 tá massa
-490.02153042625 SN.node[4].Application                   4 tá massa
-490.022095825619SN.node[5].Application                   5 tá massa
-490.03143620466 SN.node[8].Application                   8 tá massa
-490.039058370424SN.node[3].Application                   3 tá massa
-490.056932966471SN.node[0].Application                   0 tá massa
-490.060491918773SN.node[2].Application                   2 tá massa
-500.006935726566SN.node[1].Application                   1 tá massa
-500.011230485197SN.node[6].Application                   6 travou
-500.013122712283SN.node[7].Application                   7 tá massa
-500.021672981129SN.node[4].Application                   4 tá massa
-500.022422956163SN.node[5].Application                   5 travou
-500.031166589492SN.node[8].Application                   8 tá massa
-500.038998389165SN.node[3].Application                   3 tá massa
-500.057532825068SN.node[0].Application                   0 tá massa
-500.061003847909SN.node[2].Application                   2 tá massa
-510.007003716217SN.node[1].Application                   1 tá massa
-510.0109442673  SN.node[6].Application                   6 travou
-510.012815855203SN.node[7].Application                   7 tá massa
-510.021815536008SN.node[4].Application                   4 tá massa
-510.022750086707SN.node[5].Application                   5 tá massa
-510.030896974324SN.node[8].Application                   8 tá massa
-510.038938407906SN.node[3].Application                   3 tá massa
-510.058132683665SN.node[0].Application                   0 travou
-510.061515777045SN.node[2].Application                   2 tá massa
-520.007071705868SN.node[1].Application                   1 travou
-520.010658049403SN.node[6].Application                   6 travou
-520.012508998123SN.node[7].Application                   7 tá massa
-520.021958090887SN.node[4].Application                   4 tá massa
-520.023077217251SN.node[5].Application                   5 tá massa
-520.030627359156SN.node[8].Application                   8 tá massa
-520.038878426647SN.node[3].Application                   3 tá massa
-520.058732542262SN.node[0].Application                   0 tá massa
-520.062027706181SN.node[2].Application                   2 tá massa
-530.007139695519SN.node[1].Application                   1 tá massa
-530.010371831506SN.node[6].Application                   6 tá massa
-530.012202141043SN.node[7].Application                   7 travou
-530.022100645766SN.node[4].Application                   4 tá massa
-530.023404347795SN.node[5].Application                   5 travou
-530.030357743988SN.node[8].Application                   8 tá massa
-530.038818445388SN.node[3].Application                   3 tá massa
-530.059332400859SN.node[0].Application                   0 tá massa
-530.062539635317SN.node[2].Application                   2 tá massa
-540.00720768517 SN.node[1].Application                   1 tá massa
-540.010085613609SN.node[6].Application                   6 tá massa
-540.011895283963SN.node[7].Application                   7 tá massa
-540.022243200645SN.node[4].Application                   4 tá massa
-540.023731478339SN.node[5].Application                   5 travou
-540.03008812882 SN.node[8].Application                   8 tá massa
-540.038758464129SN.node[3].Application                   3 tá massa
-540.059932259456SN.node[0].Application                   0 tá massa
-540.063051564453SN.node[2].Application                   2 tá massa
-550.007275674821SN.node[1].Application                   1 tá massa
-550.009799395712SN.node[6].Application                   6 tá massa
-550.011588426883SN.node[7].Application                   7 tá massa
-550.022385755524SN.node[4].Application                   4 tá massa
-550.024058608883SN.node[5].Application                   5 tá massa
-550.029818513652SN.node[8].Application                   8 tá massa
-550.03869848287 SN.node[3].Application                   3 tá massa
-550.060532118053SN.node[0].Application                   0 tá massa
-550.063563493589SN.node[2].Application                   2 tá massa
-560.007343664472SN.node[1].Application                   1 tá massa
-560.009513177815SN.node[6].Application                   6 tá massa
-560.011281569803SN.node[7].Application                   7 tá massa
-560.022528310403SN.node[4].Application                   4 tá massa
-560.024385739427SN.node[5].Application                   5 tá massa
-560.029548898484SN.node[8].Application                   8 tá massa
-560.038638501611SN.node[3].Application                   3 tá massa
-560.06113197665 SN.node[0].Application                   0 tá massa
-560.064075422725SN.node[2].Application                   2 travou
-570.007411654123SN.node[1].Application                   1 tá massa
-570.009226959918SN.node[6].Application                   6 tá massa
-570.010974712723SN.node[7].Application                   7 tá massa
-570.022670865282SN.node[4].Application                   4 travou
-570.024712869971SN.node[5].Application                   5 tá massa
-570.029279283316SN.node[8].Application                   8 tá massa
-570.038578520352SN.node[3].Application                   3 tá massa
-570.061731835247SN.node[0].Application                   0 tá massa
-570.064587351861SN.node[2].Application                   2 tá massa
-580.007479643774SN.node[1].Application                   1 tá massa
-580.008940742021SN.node[6].Application                   6 tá massa
-580.010667855643SN.node[7].Application                   7 tá massa
-580.022813420161SN.node[4].Application                   4 tá massa
-580.025040000515SN.node[5].Application                   5 tá massa
-580.029009668148SN.node[8].Application                   8 travou
-580.038518539093SN.node[3].Application                   3 tá massa
-580.062331693844SN.node[0].Application                   0 travou
-580.065099280997SN.node[2].Application                   2 tá massa
-590.007547633425SN.node[1].Application                   1 travou
-590.008654524124SN.node[6].Application                   6 tá massa
-590.010360998563SN.node[7].Application                   7 travou
-590.02295597504 SN.node[4].Application                   4 tá massa
-590.025367131059SN.node[5].Application                   5 tá massa
-590.02874005298 SN.node[8].Application                   8 tá massa
-590.038458557834SN.node[3].Application                   3 travou
-590.062931552441SN.node[0].Application                   0 tá massa
-590.065611210133SN.node[2].Application                   2 tá massa
-600.007615623076SN.node[1].Application                   1 tá massa
+0.003536244016  SN.node[1].Application                   net size: 4
+0.027539895218  SN.node[0].Application                   net size: 4
+0.035407391109  SN.node[2].Application                   net size: 4
+0.041997452115  SN.node[3].Application                   net size: 4
+5.041967461485  SN.node[3].Application                   O sink tá massa
+5.041967461485  SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+5.556976074034  SN.node[0].Application                   0 received a package from 3
+5.556976074034  SN.node[1].Application                   1 received a package from 3
+5.556976074034  SN.node[2].Application                   2 received a package from 3
+10.041937470855 SN.node[3].Application                   O sink tá massa
+10.041937470855 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+10.438838794234 SN.node[0].Application                   0 received a package from 3
+10.438838794234 SN.node[1].Application                   1 received a package from 3
+10.438838794234 SN.node[2].Application                   2 received a package from 3
+15.041907480225 SN.node[3].Application                   O sink tá massa
+15.041907480225 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+15.315657941728 SN.node[0].Application                   0 received a package from 3
+15.315657941728 SN.node[1].Application                   1 received a package from 3
+15.315657941728 SN.node[2].Application                   2 received a package from 3
+20.041877489595 SN.node[3].Application                   O sink travou
+25.003706218142 SN.node[1].Application                   1 detectou a falha
+25.029039541709 SN.node[0].Application                   0 detectou a falha
+25.036687213949 SN.node[2].Application                   2 detectou a falha
+25.041847498965 SN.node[3].Application                   O sink tá massa
+25.041847498965 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+25.074275733168 SN.node[1].Application                   1 received a package from 3
+30.029339471007 SN.node[0].Application                   0 detectou a falha
+30.036943178517 SN.node[2].Application                   2 detectou a falha
+30.041817508335 SN.node[3].Application                   O sink tá massa
+30.041817508335 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+30.573508781445 SN.node[0].Application                   0 received a package from 3
+30.573508781445 SN.node[1].Application                   1 received a package from 3
+30.573508781445 SN.node[2].Application                   2 received a package from 3
+35.041787517705 SN.node[3].Application                   O sink tá massa
+35.041787517705 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+35.448084148898 SN.node[0].Application                   0 received a package from 3
+35.448084148898 SN.node[1].Application                   1 received a package from 3
+35.448084148898 SN.node[2].Application                   2 received a package from 3
+40.041757527075 SN.node[3].Application                   O sink tá massa
+40.041757527075 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+40.334690206757 SN.node[0].Application                   0 received a package from 3
+40.334690206757 SN.node[1].Application                   1 received a package from 3
+40.334690206757 SN.node[2].Application                   2 received a package from 3
+45.041727536445 SN.node[3].Application                   O sink tá massa
+45.041727536445 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+45.216777914978 SN.node[0].Application                   0 received a package from 3
+45.216777914978 SN.node[1].Application                   1 received a package from 3
+45.216777914978 SN.node[2].Application                   2 received a package from 3
+50.041697545815 SN.node[3].Application                   O sink tá massa
+50.041697545815 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+50.086687999649 SN.node[0].Application                   0 received a package from 3
+50.086687999649 SN.node[1].Application                   1 received a package from 3
+50.086687999649 SN.node[2].Application                   2 received a package from 3
+55.041667555185 SN.node[3].Application                   O sink tá massa
+55.041667555185 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+55.584190137966 SN.node[0].Application                   0 received a package from 3
+55.584190137966 SN.node[1].Application                   1 received a package from 3
+55.584190137966 SN.node[2].Application                   2 received a package from 3
+60.041637564555 SN.node[3].Application                   O sink tá massa
+60.041637564555 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+60.457901700993 SN.node[0].Application                   0 received a package from 3
+60.457901700993 SN.node[1].Application                   1 received a package from 3
+60.457901700993 SN.node[2].Application                   2 received a package from 3
+65.041607573925 SN.node[3].Application                   O sink tá massa
+65.041607573925 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+65.341421368042 SN.node[0].Application                   0 received a package from 3
+65.341421368042 SN.node[1].Application                   1 received a package from 3
+65.341421368042 SN.node[2].Application                   2 received a package from 3
+70.041577583295 SN.node[3].Application                   O sink tá massa
+70.041577583295 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+70.82718301689  SN.node[0].Application                   0 received a package from 3
+70.82718301689  SN.node[1].Application                   1 received a package from 3
+70.82718301689  SN.node[2].Application                   2 received a package from 3
+75.041547592665 SN.node[3].Application                   O sink tá massa
+75.041547592665 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+76.325811831592 SN.node[0].Application                   0 received a package from 3
+76.325811831592 SN.node[1].Application                   1 received a package from 3
+76.325811831592 SN.node[2].Application                   2 received a package from 3
+80.041517602035 SN.node[3].Application                   O sink tá massa
+80.041517602035 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+80.596592111529 SN.node[0].Application                   0 received a package from 3
+80.596592111529 SN.node[1].Application                   1 received a package from 3
+80.596592111529 SN.node[2].Application                   2 received a package from 3
+85.041487611405 SN.node[3].Application                   O sink tá massa
+85.041487611405 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+85.4740485756   SN.node[0].Application                   0 received a package from 3
+85.4740485756   SN.node[1].Application                   1 received a package from 3
+85.4740485756   SN.node[2].Application                   2 received a package from 3
+90.041457620775 SN.node[3].Application                   O sink tá massa
+90.041457620775 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+90.355741135309 SN.node[0].Application                   0 received a package from 3
+90.355741135309 SN.node[1].Application                   1 received a package from 3
+90.355741135309 SN.node[2].Application                   2 received a package from 3
+95.041427630145 SN.node[3].Application                   O sink tá massa
+95.041427630145 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+95.229821865412 SN.node[0].Application                   0 received a package from 3
+95.229821865412 SN.node[1].Application                   1 received a package from 3
+95.229821865412 SN.node[2].Application                   2 received a package from 3
+100.041397639515SN.node[3].Application                   O sink tá massa
+100.041397639515SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+100.110332266019SN.node[0].Application                   0 received a package from 3
+100.110332266019SN.node[1].Application                   1 received a package from 3
+100.110332266019SN.node[2].Application                   2 received a package from 3
+105.041367648885SN.node[3].Application                   O sink travou
+110.004284130167SN.node[1].Application                   1 detectou a falha
+110.034138339775SN.node[0].Application                   0 detectou a falha
+110.041038611605SN.node[2].Application                   2 detectou a falha
+110.041337658255SN.node[3].Application                   O sink travou
+115.004318124992SN.node[1].Application                   1 detectou a falha
+115.034438269073SN.node[0].Application                   0 detectou a falha
+115.041294576173SN.node[2].Application                   2 detectou a falha
+115.041307667625SN.node[3].Application                   O sink travou
+120.004352119817SN.node[1].Application                   1 detectou a falha
+120.034738198371SN.node[0].Application                   0 detectou a falha
+120.041277676995SN.node[3].Application                   O sink travou
+120.041550540741SN.node[2].Application                   2 detectou a falha
+125.004386114642SN.node[1].Application                   1 detectou a falha
+125.035038127669SN.node[0].Application                   0 detectou a falha
+125.041247686365SN.node[3].Application                   O sink tá massa
+125.041247686365SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+125.041806505309SN.node[2].Application                   2 detectou a falha
+125.12115481063 SN.node[0].Application                   0 received a package from 3
+125.12115481063 SN.node[1].Application                   1 received a package from 3
+125.12115481063 SN.node[2].Application                   2 received a package from 3
+130.041217695735SN.node[3].Application                   O sink tá massa
+130.041217695735SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+130.615676151847SN.node[0].Application                   0 received a package from 3
+130.615676151847SN.node[1].Application                   1 received a package from 3
+130.615676151847SN.node[2].Application                   2 received a package from 3
+135.041187705105SN.node[3].Application                   O sink tá massa
+135.041187705105SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+136.114320929102SN.node[0].Application                   0 received a package from 3
+136.114320929102SN.node[1].Application                   1 received a package from 3
+136.114320929102SN.node[2].Application                   2 received a package from 3
+140.041157714475SN.node[3].Application                   O sink tá massa
+140.041157714475SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+140.372889953595SN.node[0].Application                   0 received a package from 3
+140.372889953595SN.node[1].Application                   1 received a package from 3
+140.372889953595SN.node[2].Application                   2 received a package from 3
+145.041127723845SN.node[3].Application                   O sink tá massa
+145.041127723845SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+145.255025240351SN.node[0].Application                   0 received a package from 3
+145.255025240351SN.node[1].Application                   1 received a package from 3
+145.255025240351SN.node[2].Application                   2 received a package from 3
+150.041097733215SN.node[3].Application                   O sink tá massa
+150.041097733215SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+150.1408615898  SN.node[0].Application                   0 received a package from 3
+150.1408615898  SN.node[1].Application                   1 received a package from 3
+150.1408615898  SN.node[2].Application                   2 received a package from 3
+155.041067742585SN.node[3].Application                   O sink tá massa
+155.041067742585SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+155.624456746951SN.node[0].Application                   0 received a package from 3
+155.624456746951SN.node[1].Application                   1 received a package from 3
+155.624456746951SN.node[2].Application                   2 received a package from 3
+160.041037751955SN.node[3].Application                   O sink travou
+165.004658073242SN.node[1].Application                   1 detectou a falha
+165.037437562053SN.node[0].Application                   0 detectou a falha
+165.041007761325SN.node[3].Application                   O sink travou
+165.043854221853SN.node[2].Application                   2 detectou a falha
+170.004692068067SN.node[1].Application                   1 detectou a falha
+170.037737491351SN.node[0].Application                   0 detectou a falha
+170.040977770695SN.node[3].Application                   O sink travou
+170.044110186421SN.node[2].Application                   2 detectou a falha
+175.004726062892SN.node[1].Application                   1 detectou a falha
+175.038037420649SN.node[0].Application                   0 detectou a falha
+175.040947780065SN.node[3].Application                   O sink travou
+175.044366150989SN.node[2].Application                   2 detectou a falha
+180.004760057717SN.node[1].Application                   1 detectou a falha
+180.038337349947SN.node[0].Application                   0 detectou a falha
+180.040917789435SN.node[3].Application                   O sink travou
+180.044622115557SN.node[2].Application                   2 detectou a falha
+185.004794052542SN.node[1].Application                   1 detectou a falha
+185.038637279245SN.node[0].Application                   0 detectou a falha
+185.040887798805SN.node[3].Application                   O sink tá massa
+185.040887798805SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+185.044878080125SN.node[2].Application                   2 detectou a falha
+185.516549120541SN.node[0].Application                   0 received a package from 3
+185.516549120541SN.node[1].Application                   1 received a package from 3
+185.516549120541SN.node[2].Application                   2 received a package from 3
+190.040857808175SN.node[3].Application                   O sink tá massa
+190.040857808175SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+190.401945554727SN.node[0].Application                   0 received a package from 3
+190.401945554727SN.node[1].Application                   1 received a package from 3
+190.401945554727SN.node[2].Application                   2 received a package from 3
+195.040827817545SN.node[3].Application                   O sink travou
+200.004896037017SN.node[1].Application                   1 detectou a falha
+200.039537067139SN.node[0].Application                   0 detectou a falha
+200.040797826915SN.node[3].Application                   O sink travou
+200.045645973829SN.node[2].Application                   2 detectou a falha
+205.004930031842SN.node[1].Application                   1 detectou a falha
+205.039836996437SN.node[0].Application                   0 detectou a falha
+205.040767836285SN.node[3].Application                   O sink travou
+205.045901938397SN.node[2].Application                   2 detectou a falha
+210.004964026667SN.node[1].Application                   1 detectou a falha
+210.040136925735SN.node[0].Application                   0 detectou a falha
+210.040737845655SN.node[3].Application                   O sink tá massa
+210.040737845655SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+210.046157902965SN.node[2].Application                   2 detectou a falha
+210.525740934578SN.node[0].Application                   0 received a package from 3
+210.525740934578SN.node[1].Application                   1 received a package from 3
+210.525740934578SN.node[2].Application                   2 received a package from 3
+215.040707855025SN.node[3].Application                   O sink tá massa
+215.040707855025SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+215.415347871495SN.node[0].Application                   0 received a package from 3
+215.415347871495SN.node[1].Application                   1 received a package from 3
+215.415347871495SN.node[2].Application                   2 received a package from 3
+220.040677864395SN.node[3].Application                   O sink travou
+225.005066011142SN.node[1].Application                   1 detectou a falha
+225.040647873765SN.node[3].Application                   O sink tá massa
+225.040647873765SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+225.041036713629SN.node[0].Application                   0 detectou a falha
+225.046925796669SN.node[2].Application                   2 detectou a falha
+225.77955267125 SN.node[0].Application                   0 received a package from 3
+225.77955267125 SN.node[1].Application                   1 received a package from 3
+225.77955267125 SN.node[2].Application                   2 received a package from 3
+230.040617883135SN.node[3].Application                   O sink tá massa
+230.040617883135SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+230.055290013319SN.node[0].Application                   0 received a package from 3
+230.055290013319SN.node[1].Application                   1 received a package from 3
+230.055290013319SN.node[2].Application                   2 received a package from 3
+235.040587892505SN.node[3].Application                   O sink tá massa
+235.040587892505SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+235.544029080418SN.node[0].Application                   0 received a package from 3
+235.544029080418SN.node[1].Application                   1 received a package from 3
+235.544029080418SN.node[2].Application                   2 received a package from 3
+240.040557901875SN.node[3].Application                   O sink tá massa
+240.040557901875SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+240.417848436674SN.node[0].Application                   0 received a package from 3
+240.417848436674SN.node[1].Application                   1 received a package from 3
+240.417848436674SN.node[2].Application                   2 received a package from 3
+245.040527911245SN.node[3].Application                   O sink travou
+250.005235985267SN.node[1].Application                   1 detectou a falha
+250.040497920615SN.node[3].Application                   O sink travou
+250.042536360119SN.node[0].Application                   0 detectou a falha
+250.048205619509SN.node[2].Application                   2 detectou a falha
+255.005269980092SN.node[1].Application                   1 detectou a falha
+255.040467929985SN.node[3].Application                   O sink travou
+255.042836289417SN.node[0].Application                   0 detectou a falha
+255.048461584077SN.node[2].Application                   2 detectou a falha
+260.005303974917SN.node[1].Application                   1 detectou a falha
+260.040437939355SN.node[3].Application                   O sink travou
+260.043136218715SN.node[0].Application                   0 detectou a falha
+260.048717548645SN.node[2].Application                   2 detectou a falha
+265.005337969742SN.node[1].Application                   1 detectou a falha
+265.040407948725SN.node[3].Application                   O sink tá massa
+265.040407948725SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+265.043436148013SN.node[0].Application                   0 detectou a falha
+265.048973513213SN.node[2].Application                   2 detectou a falha
+265.434337329451SN.node[0].Application                   0 received a package from 3
+265.434337329451SN.node[1].Application                   1 received a package from 3
+265.434337329451SN.node[2].Application                   2 received a package from 3
+270.040377958095SN.node[3].Application                   O sink tá massa
+270.040377958095SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+270.314692321515SN.node[0].Application                   0 received a package from 3
+270.314692321515SN.node[1].Application                   1 received a package from 3
+270.314692321515SN.node[2].Application                   2 received a package from 3
+275.040347967465SN.node[3].Application                   O sink tá massa
+275.040347967465SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+275.191422879711SN.node[0].Application                   0 received a package from 3
+275.191422879711SN.node[1].Application                   1 received a package from 3
+275.191422879711SN.node[2].Application                   2 received a package from 3
+280.040317976835SN.node[3].Application                   O sink tá massa
+280.040317976835SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+280.083497931636SN.node[0].Application                   0 received a package from 3
+280.083497931636SN.node[1].Application                   1 received a package from 3
+280.083497931636SN.node[2].Application                   2 received a package from 3
+285.040287986205SN.node[3].Application                   O sink tá massa
+285.040287986205SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+286.180049025112SN.node[0].Application                   0 received a package from 3
+286.180049025112SN.node[1].Application                   1 received a package from 3
+286.180049025112SN.node[2].Application                   2 received a package from 3
+290.040257995575SN.node[3].Application                   O sink tá massa
+290.040257995575SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+291.670721885334SN.node[0].Application                   0 received a package from 3
+291.670721885334SN.node[1].Application                   1 received a package from 3
+291.670721885334SN.node[2].Application                   2 received a package from 3
+295.040228004945SN.node[3].Application                   O sink tá massa
+295.040228004945SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+295.327556979672SN.node[0].Application                   0 received a package from 3
+295.327556979672SN.node[1].Application                   1 received a package from 3
+295.327556979672SN.node[2].Application                   2 received a package from 3
+300.040198014315SN.node[3].Application                   O sink tá massa
+300.040198014315SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+300.206555710245SN.node[0].Application                   0 received a package from 3
+300.206555710245SN.node[1].Application                   1 received a package from 3
+300.206555710245SN.node[2].Application                   2 received a package from 3
+305.040168023685SN.node[3].Application                   O sink travou
+310.005643923167SN.node[1].Application                   1 detectou a falha
+310.040138033055SN.node[3].Application                   O sink travou
+310.046135511695SN.node[0].Application                   0 detectou a falha
+310.051277194325SN.node[2].Application                   2 detectou a falha
+315.005677917992SN.node[1].Application                   1 detectou a falha
+315.040108042425SN.node[3].Application                   O sink tá massa
+315.040108042425SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+315.046435440993SN.node[0].Application                   0 detectou a falha
+315.051533158893SN.node[2].Application                   2 detectou a falha
+316.067391229492SN.node[0].Application                   0 received a package from 3
+316.067391229492SN.node[1].Application                   1 received a package from 3
+316.067391229492SN.node[2].Application                   2 received a package from 3
+320.040078051795SN.node[3].Application                   O sink tá massa
+320.040078051795SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+321.559521320341SN.node[0].Application                   0 received a package from 3
+321.559521320341SN.node[1].Application                   1 received a package from 3
+321.559521320341SN.node[2].Application                   2 received a package from 3
+325.040048061165SN.node[3].Application                   O sink tá massa
+325.040048061165SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+325.213636393546SN.node[0].Application                   0 received a package from 3
+325.213636393546SN.node[1].Application                   1 received a package from 3
+325.213636393546SN.node[2].Application                   2 received a package from 3
+330.040018070535SN.node[3].Application                   O sink travou
+335.005813897292SN.node[1].Application                   1 detectou a falha
+335.039988079905SN.node[3].Application                   O sink travou
+335.047635158185SN.node[0].Application                   0 detectou a falha
+335.052557017165SN.node[2].Application                   2 detectou a falha
+340.005847892117SN.node[1].Application                   1 detectou a falha
+340.039958089275SN.node[3].Application                   O sink travou
+340.047935087483SN.node[0].Application                   0 detectou a falha
+340.052812981733SN.node[2].Application                   2 detectou a falha
+345.005881886942SN.node[1].Application                   1 detectou a falha
+345.039928098645SN.node[3].Application                   O sink travou
+345.048235016781SN.node[0].Application                   0 detectou a falha
+345.053068946301SN.node[2].Application                   2 detectou a falha
+350.005915881767SN.node[1].Application                   1 detectou a falha
+350.039898108015SN.node[3].Application                   O sink travou
+350.048534946079SN.node[0].Application                   0 detectou a falha
+350.053324910869SN.node[2].Application                   2 detectou a falha
+355.005949876592SN.node[1].Application                   1 detectou a falha
+355.039868117385SN.node[3].Application                   O sink travou
+355.048834875377SN.node[0].Application                   0 detectou a falha
+355.053580875437SN.node[2].Application                   2 detectou a falha
+360.005983871417SN.node[1].Application                   1 detectou a falha
+360.039838126755SN.node[3].Application                   O sink tá massa
+360.039838126755SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+360.049134804675SN.node[0].Application                   0 detectou a falha
+360.053836840005SN.node[2].Application                   2 detectou a falha
+360.597166771078SN.node[0].Application                   0 received a package from 3
+360.597166771078SN.node[1].Application                   1 received a package from 3
+360.597166771078SN.node[2].Application                   2 received a package from 3
+365.039808136125SN.node[3].Application                   O sink tá massa
+365.039808136125SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+365.484084863278SN.node[0].Application                   0 received a package from 3
+365.484084863278SN.node[1].Application                   1 received a package from 3
+365.484084863278SN.node[2].Application                   2 received a package from 3
+370.039778145495SN.node[3].Application                   O sink tá massa
+370.039778145495SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+370.357741823559SN.node[0].Application                   0 received a package from 3
+370.357741823559SN.node[1].Application                   1 received a package from 3
+370.357741823559SN.node[2].Application                   2 received a package from 3
+375.039748154865SN.node[3].Application                   O sink travou
+380.006119850717SN.node[1].Application                   1 detectou a falha
+380.039718164235SN.node[3].Application                   O sink travou
+380.050334521867SN.node[0].Application                   0 detectou a falha
+380.054860698277SN.node[2].Application                   2 detectou a falha
+385.006153845542SN.node[1].Application                   1 detectou a falha
+385.039688173605SN.node[3].Application                   O sink travou
+385.050634451165SN.node[0].Application                   0 detectou a falha
+385.055116662845SN.node[2].Application                   2 detectou a falha
+390.006187840367SN.node[1].Application                   1 detectou a falha
+390.039658182975SN.node[3].Application                   O sink travou
+390.050934380463SN.node[0].Application                   0 detectou a falha
+390.055372627413SN.node[2].Application                   2 detectou a falha
+395.006221835192SN.node[1].Application                   1 detectou a falha
+395.039628192345SN.node[3].Application                   O sink travou
+395.051234309761SN.node[0].Application                   0 detectou a falha
+395.055628591981SN.node[2].Application                   2 detectou a falha
+400.006255830017SN.node[1].Application                   1 detectou a falha
+400.039598201715SN.node[3].Application                   O sink travou
+400.051534239059SN.node[0].Application                   0 detectou a falha
+400.055884556549SN.node[2].Application                   2 detectou a falha
+405.006289824842SN.node[1].Application                   1 detectou a falha
+405.039568211085SN.node[3].Application                   O sink tá massa
+405.039568211085SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+405.051834168357SN.node[0].Application                   0 detectou a falha
+405.056140521117SN.node[2].Application                   2 detectou a falha
+406.360208829117SN.node[0].Application                   0 received a package from 3
+406.360208829117SN.node[1].Application                   1 received a package from 3
+406.360208829117SN.node[2].Application                   2 received a package from 3
+410.039538220455SN.node[3].Application                   O sink travou
+415.006357814492SN.node[1].Application                   1 detectou a falha
+415.039508229825SN.node[3].Application                   O sink tá massa
+415.039508229825SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+415.052434026953SN.node[0].Application                   0 detectou a falha
+415.056652450253SN.node[2].Application                   2 detectou a falha
+415.498243506726SN.node[0].Application                   0 received a package from 3
+415.498243506726SN.node[1].Application                   1 received a package from 3
+415.498243506726SN.node[2].Application                   2 received a package from 3
+420.039478239195SN.node[3].Application                   O sink tá massa
+420.039478239195SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+420.378007435017SN.node[1].Application                   1 received a package from 3
+425.039448248565SN.node[3].Application                   O sink tá massa
+425.039448248565SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+425.053033885549SN.node[0].Application                   0 detectou a falha
+425.057164379389SN.node[2].Application                   2 detectou a falha
+425.266231677734SN.node[0].Application                   0 received a package from 3
+425.266231677734SN.node[1].Application                   1 received a package from 3
+425.266231677734SN.node[2].Application                   2 received a package from 3
+430.039418257935SN.node[3].Application                   O sink tá massa
+430.039418257935SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+430.751993660603SN.node[0].Application                   0 received a package from 3
+430.751993660603SN.node[1].Application                   1 received a package from 3
+430.751993660603SN.node[2].Application                   2 received a package from 3
+435.039388267305SN.node[3].Application                   O sink travou
+440.006527788617SN.node[1].Application                   1 detectou a falha
+440.039358276675SN.node[3].Application                   O sink travou
+440.053933673443SN.node[0].Application                   0 detectou a falha
+440.057932273093SN.node[2].Application                   2 detectou a falha
+445.006561783442SN.node[1].Application                   1 detectou a falha
+445.039328286045SN.node[3].Application                   O sink travou
+445.054233602741SN.node[0].Application                   0 detectou a falha
+445.058188237661SN.node[2].Application                   2 detectou a falha
+450.006595778267SN.node[1].Application                   1 detectou a falha
+450.039298295415SN.node[3].Application                   O sink tá massa
+450.039298295415SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+450.054533532039SN.node[0].Application                   0 detectou a falha
+450.058444202229SN.node[2].Application                   2 detectou a falha
+450.275008938573SN.node[0].Application                   0 received a package from 3
+450.275008938573SN.node[1].Application                   1 received a package from 3
+450.275008938573SN.node[2].Application                   2 received a package from 3
+455.039268304785SN.node[3].Application                   O sink tá massa
+455.039268304785SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+455.152782059332SN.node[0].Application                   0 received a package from 3
+455.152782059332SN.node[1].Application                   1 received a package from 3
+455.152782059332SN.node[2].Application                   2 received a package from 3
+460.039238314155SN.node[3].Application                   O sink tá massa
+460.039238314155SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+460.64892277924 SN.node[0].Application                   0 received a package from 3
+460.64892277924 SN.node[1].Application                   1 received a package from 3
+460.64892277924 SN.node[2].Application                   2 received a package from 3
+465.039208323525SN.node[3].Application                   O sink tá massa
+465.039208323525SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+465.530137419844SN.node[0].Application                   0 received a package from 3
+465.530137419844SN.node[1].Application                   1 received a package from 3
+465.530137419844SN.node[2].Application                   2 received a package from 3
+470.039178332895SN.node[3].Application                   O sink tá massa
+470.039178332895SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+470.40540196566 SN.node[0].Application                   0 received a package from 3
+470.40540196566 SN.node[1].Application                   1 received a package from 3
+470.40540196566 SN.node[2].Application                   2 received a package from 3
+475.039148342265SN.node[3].Application                   O sink tá massa
+475.039148342265SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+475.285830751521SN.node[0].Application                   0 received a package from 3
+475.285830751521SN.node[1].Application                   1 received a package from 3
+475.285830751521SN.node[2].Application                   2 received a package from 3
+480.039118351635SN.node[3].Application                   O sink travou
+485.006833742042SN.node[1].Application                   1 detectou a falha
+485.039088361005SN.node[3].Application                   O sink travou
+485.056633037125SN.node[0].Application                   0 detectou a falha
+485.060235954205SN.node[2].Application                   2 detectou a falha
+490.006867736867SN.node[1].Application                   1 detectou a falha
+490.039058370375SN.node[3].Application                   O sink tá massa
+490.039058370375SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+490.056932966423SN.node[0].Application                   0 detectou a falha
+490.060491918773SN.node[2].Application                   2 detectou a falha
+490.53294676761 SN.node[0].Application                   0 received a package from 3
+490.53294676761 SN.node[1].Application                   1 received a package from 3
+490.53294676761 SN.node[2].Application                   2 received a package from 3
+495.039028379745SN.node[3].Application                   O sink tá massa
+495.039028379745SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+496.639418184997SN.node[0].Application                   0 received a package from 3
+496.639418184997SN.node[1].Application                   1 received a package from 3
+496.639418184997SN.node[2].Application                   2 received a package from 3
+500.038998389115SN.node[3].Application                   O sink tá massa
+500.038998389115SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+500.295673662292SN.node[0].Application                   0 received a package from 3
+500.295673662292SN.node[1].Application                   1 received a package from 3
+500.295673662292SN.node[2].Application                   2 received a package from 3
+505.038968398485SN.node[3].Application                   O sink tá massa
+505.038968398485SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+505.173582657977SN.node[0].Application                   0 received a package from 3
+505.173582657977SN.node[1].Application                   1 received a package from 3
+505.173582657977SN.node[2].Application                   2 received a package from 3
+510.038938407855SN.node[3].Application                   O sink tá massa
+510.038938407855SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+510.056676853046SN.node[0].Application                   0 received a package from 3
+510.056676853046SN.node[1].Application                   1 received a package from 3
+510.056676853046SN.node[2].Application                   2 received a package from 3
+515.038908417225SN.node[3].Application                   O sink tá massa
+515.038908417225SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+515.058432612913SN.node[0].Application                   0 detectou a falha
+515.061771741613SN.node[2].Application                   2 detectou a falha
+515.548554763245SN.node[0].Application                   0 received a package from 3
+515.548554763245SN.node[1].Application                   1 received a package from 3
+515.548554763245SN.node[2].Application                   2 received a package from 3
+520.038878426595SN.node[3].Application                   O sink tá massa
+520.038878426595SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+520.425042620141SN.node[0].Application                   0 received a package from 3
+520.425042620141SN.node[1].Application                   1 received a package from 3
+520.425042620141SN.node[2].Application                   2 received a package from 3
+525.038848435965SN.node[3].Application                   O sink tá massa
+525.038848435965SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+525.313509058889SN.node[0].Application                   0 received a package from 3
+525.313509058889SN.node[1].Application                   1 received a package from 3
+525.313509058889SN.node[2].Application                   2 received a package from 3
+530.038818445335SN.node[3].Application                   O sink travou
+535.007173690292SN.node[1].Application                   1 detectou a falha
+535.038788454705SN.node[3].Application                   O sink tá massa
+535.038788454705SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+535.059632330105SN.node[0].Application                   0 detectou a falha
+535.062795599885SN.node[2].Application                   2 detectou a falha
+535.064841693   SN.node[1].Application                   1 received a package from 3
+540.038758464075SN.node[3].Application                   O sink travou
+540.059932259403SN.node[0].Application                   0 detectou a falha
+540.063051564453SN.node[2].Application                   2 detectou a falha
+545.007241679942SN.node[1].Application                   1 detectou a falha
+545.038728473445SN.node[3].Application                   O sink travou
+545.060232188701SN.node[0].Application                   0 detectou a falha
+545.063307529021SN.node[2].Application                   2 detectou a falha
+550.007275674767SN.node[1].Application                   1 detectou a falha
+550.038698482815SN.node[3].Application                   O sink tá massa
+550.038698482815SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+550.060532117999SN.node[0].Application                   0 detectou a falha
+550.063563493589SN.node[2].Application                   2 detectou a falha
+550.317333036925SN.node[0].Application                   0 received a package from 3
+550.317333036925SN.node[1].Application                   1 received a package from 3
+550.317333036925SN.node[2].Application                   2 received a package from 3
+555.038668492185SN.node[3].Application                   O sink tá massa
+555.038668492185SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+555.203932853295SN.node[0].Application                   0 received a package from 3
+555.203932853295SN.node[1].Application                   1 received a package from 3
+555.203932853295SN.node[2].Application                   2 received a package from 3
+560.038638501555SN.node[3].Application                   O sink tá massa
+560.038638501555SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+561.311168420833SN.node[0].Application                   0 received a package from 3
+561.311168420833SN.node[1].Application                   1 received a package from 3
+561.311168420833SN.node[2].Application                   2 received a package from 3
+565.038608510925SN.node[3].Application                   O sink travou
+570.007411654067SN.node[1].Application                   1 detectou a falha
+570.038578520295SN.node[3].Application                   O sink tá massa
+570.038578520295SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+570.061731835191SN.node[0].Application                   0 detectou a falha
+570.064587351861SN.node[2].Application                   2 detectou a falha
+570.44848038899 SN.node[0].Application                   0 received a package from 3
+570.44848038899 SN.node[1].Application                   1 received a package from 3
+570.44848038899 SN.node[2].Application                   2 received a package from 3
+575.038548529665SN.node[3].Application                   O sink tá massa
+575.038548529665SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+575.330168394918SN.node[0].Application                   0 received a package from 3
+575.330168394918SN.node[1].Application                   1 received a package from 3
+575.330168394918SN.node[2].Application                   2 received a package from 3
+580.038518539035SN.node[3].Application                   O sink tá massa
+580.038518539035SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+580.826399228654SN.node[0].Application                   0 received a package from 3
+580.826399228654SN.node[1].Application                   1 received a package from 3
+580.826399228654SN.node[2].Application                   2 received a package from 3
+585.038488548405SN.node[3].Application                   O sink tá massa
+585.038488548405SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+585.703854089331SN.node[0].Application                   0 received a package from 3
+585.703854089331SN.node[1].Application                   1 received a package from 3
+585.703854089331SN.node[2].Application                   2 received a package from 3
+590.038458557775SN.node[3].Application                   O sink tá massa
+590.038458557775SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+590.589113403494SN.node[0].Application                   0 received a package from 3
+590.589113403494SN.node[1].Application                   1 received a package from 3
+590.589113403494SN.node[2].Application                   2 received a package from 3
+595.038428567145SN.node[3].Application                   O sink tá massa
+595.038428567145SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+595.462040595114SN.node[0].Application                   0 received a package from 3
+595.462040595114SN.node[1].Application                   1 received a package from 3
+595.462040595114SN.node[2].Application                   2 received a package from 3

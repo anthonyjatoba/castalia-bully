@@ -40,6 +40,8 @@ class VirtualApplication: public CastaliaModule, public TimerService {
 	double latencyMax;
 	int latencyBuckets;
 
+  int netSize;
+
 	/*--- Custom class parameters ---*/
 	int self;								// the node's ID
 	string selfAddress;						// the node's routing level address

@@ -19,28 +19,19 @@
 using namespace std;
 
 enum ValueReportingTimers {
-	REQUEST_SAMPLE = 1,
-	SEND_DATA = 2,
-	HEARTBEAT = 3,
+	HEARTBEAT = 1,
+	CHECK = 2,
 };
 
 class ValueReporting: public VirtualApplication {
  private:
-	double maxSampleInterval;
-	double minSampleInterval;
 	bool working;
 
-	int routingLevel;
-	double lastSensedValue;
-	int currSentSampleSN;
-
-	double randomBackoffIntervalFraction;
-	bool sentOnce;
+	simtime_t lastHeartbeat;
 
  protected:
 	void startup();
 	void fromNetworkLayer(ApplicationPacket *, const char *, double, double);
-	void handleSensorReading(SensorReadingMessage *);
 	void sendHeartbeat();
 	void timerFiredCallback(int);
 };

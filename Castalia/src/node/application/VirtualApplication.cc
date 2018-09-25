@@ -40,6 +40,8 @@ void VirtualApplication::initialize()
 	constantDataPayload = par("constantDataPayload");
 	isSink = hasPar("isSink") ? par("isSink") : false;
 
+	netSize = par("netSize");
+
 	double startup_delay = parent->par("startupOffset");
 	// Randomize the delay if the startupRandomization is non-zero
 	startup_delay += genk_dblrand(0) * (double)parent->par("startupRandomization");
@@ -200,8 +202,7 @@ void VirtualApplication::toNetworkLayer(cPacket * pkt, const char *dst)
 	if (size == 0)
 		size = constantDataPayload;
 	if (packetHeaderOverhead > 0) size += packetHeaderOverhead;
-	trace() << "Sending [" << appPkt->getName() << "] of size " <<
-		size << " bytes to communication layer";
+	trace() << "Sending [" << appPkt->getName() << "] of size " << size << " bytes to communication layer";
 	appPkt->setByteLength(size);
 	send(appPkt, "toCommunicationModule");
 }

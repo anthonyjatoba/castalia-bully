@@ -12,7 +12,7 @@
 
 package node.application.valueReporting;
 
-// The sensor node module. Connects to the wireless channel in order to communicate 
+// The sensor node module. Connects to the wireless channel in order to communicate
 // with other nodes. Connects to psysical processes so it can sample them.
 
 simple ValueReporting like node.application.iApplication {
@@ -22,9 +22,8 @@ simple ValueReporting like node.application.iApplication {
 	int priority = default (1);
 	int packetHeaderOverhead = default (8);	// in bytes
 	int constantDataPayload = default (12);	// in bytes
-	int maxSampleInterval = default (60000);// in msec
-	int minSampleInterval = default (1000);	// in msec
 	bool isSink = default (false);
+  int netSize = default (0);
 
  gates:
  	output toCommunicationModule;
@@ -33,4 +32,3 @@ simple ValueReporting like node.application.iApplication {
 	input fromSensorDeviceManager;
 	input fromResourceManager;
 }
-
