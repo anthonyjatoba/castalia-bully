@@ -23,7 +23,7 @@ simple ValueReporting like node.application.iApplication {
 	int packetHeaderOverhead = default (8);	// in bytes
 	int constantDataPayload = default (12);	// in bytes
 	bool isSink = default (false);
-  int netSize = default (0);
+  bool isLeader = default (false);
 
  gates:
  	output toCommunicationModule;

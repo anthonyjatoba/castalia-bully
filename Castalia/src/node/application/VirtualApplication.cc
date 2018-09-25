@@ -40,7 +40,7 @@ void VirtualApplication::initialize()
 	constantDataPayload = par("constantDataPayload");
 	isSink = hasPar("isSink") ? par("isSink") : false;
 
-	netSize = par("netSize");
+	isLeader = hasPar("isLeader") ? par("isLeader") : false;
 
 	double startup_delay = parent->par("startupOffset");
 	// Randomize the delay if the startupRandomization is non-zero
