@@ -3,558 +3,1142 @@
 0.027539895218  SN.node[0].Application                   net size: 4
 0.035407391109  SN.node[2].Application                   net size: 4
 0.041997452115  SN.node[3].Application                   net size: 4
-5.041967461485  SN.node[3].Application                   O sink tá massa
-5.041967461485  SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-5.556976074034  SN.node[0].Application                   0 received a package from 3
-5.556976074034  SN.node[1].Application                   1 received a package from 3
-5.556976074034  SN.node[2].Application                   2 received a package from 3
-10.041937470855 SN.node[3].Application                   O sink tá massa
-10.041937470855 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-10.438838794234 SN.node[0].Application                   0 received a package from 3
-10.438838794234 SN.node[1].Application                   1 received a package from 3
-10.438838794234 SN.node[2].Application                   2 received a package from 3
-15.041907480225 SN.node[3].Application                   O sink tá massa
-15.041907480225 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-15.315657941728 SN.node[0].Application                   0 received a package from 3
-15.315657941728 SN.node[1].Application                   1 received a package from 3
-15.315657941728 SN.node[2].Application                   2 received a package from 3
-20.041877489595 SN.node[3].Application                   O sink travou
-25.003706218142 SN.node[1].Application                   1 detectou a falha
-25.029039541709 SN.node[0].Application                   0 detectou a falha
-25.036687213949 SN.node[2].Application                   2 detectou a falha
-25.041847498965 SN.node[3].Application                   O sink tá massa
-25.041847498965 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-25.074275733168 SN.node[1].Application                   1 received a package from 3
+0.041997452115  SN.node[3].Application                   AOW 0
+10.003604233667 SN.node[1].Application                   1 detectou a falha
+10.003604233667 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+10.028139753815 SN.node[0].Application                   0 detectou a falha
+10.028139753815 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+10.035919320245 SN.node[2].Application                   2 detectou a falha
+10.035919320245 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+10.041937470856 SN.node[3].Application                   3 detectou a falha
+10.041937470856 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+10.433564761299 SN.node[0].Application                   0 received a package from 3
+10.433564761299 SN.node[1].Application                   1 received a package from 3
+10.433564761299 SN.node[2].Application                   2 received a package from 3
+10.437029684185 SN.node[1].Application                   1 received a package from 0
+10.437029684185 SN.node[2].Application                   2 received a package from 0
+10.437029684185 SN.node[3].Application                   3 received a package from 0
+11.049775944078 SN.node[0].Application                   0 received a package from 2
+11.049775944078 SN.node[1].Application                   1 received a package from 2
+11.049775944078 SN.node[3].Application                   3 received a package from 2
+11.655837824563 SN.node[0].Application                   0 received a package from 1
+11.655837824563 SN.node[2].Application                   2 received a package from 1
+11.655837824563 SN.node[3].Application                   3 received a package from 1
+20.003672223317 SN.node[1].Application                   1 detectou a falha
+20.003672223317 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+20.028739612411 SN.node[0].Application                   0 detectou a falha
+20.028739612411 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+20.036431249381 SN.node[2].Application                   2 detectou a falha
+20.036431249381 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+20.041877489596 SN.node[3].Application                   3 detectou a falha
+20.041877489596 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+20.194062630893 SN.node[1].Application                   1 received a package from 3
+20.195786465925 SN.node[0].Application                   0 received a package from 2
+20.195786465925 SN.node[1].Application                   1 received a package from 2
+20.195786465925 SN.node[3].Application                   3 received a package from 2
+20.804975747277 SN.node[0].Application                   0 received a package from 1
+20.804975747277 SN.node[2].Application                   2 received a package from 1
+20.804975747277 SN.node[3].Application                   3 received a package from 1
+21.421750952983 SN.node[1].Application                   1 received a package from 0
+21.421750952983 SN.node[2].Application                   2 received a package from 0
+21.421750952983 SN.node[3].Application                   3 received a package from 0
+30.003740212967 SN.node[1].Application                   1 detectou a falha
+30.003740212967 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 30.029339471007 SN.node[0].Application                   0 detectou a falha
+30.029339471007 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 30.036943178517 SN.node[2].Application                   2 detectou a falha
-30.041817508335 SN.node[3].Application                   O sink tá massa
-30.041817508335 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-30.573508781445 SN.node[0].Application                   0 received a package from 3
-30.573508781445 SN.node[1].Application                   1 received a package from 3
-30.573508781445 SN.node[2].Application                   2 received a package from 3
-35.041787517705 SN.node[3].Application                   O sink tá massa
-35.041787517705 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-35.448084148898 SN.node[0].Application                   0 received a package from 3
-35.448084148898 SN.node[1].Application                   1 received a package from 3
-35.448084148898 SN.node[2].Application                   2 received a package from 3
-40.041757527075 SN.node[3].Application                   O sink tá massa
-40.041757527075 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-40.334690206757 SN.node[0].Application                   0 received a package from 3
-40.334690206757 SN.node[1].Application                   1 received a package from 3
-40.334690206757 SN.node[2].Application                   2 received a package from 3
-45.041727536445 SN.node[3].Application                   O sink tá massa
-45.041727536445 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-45.216777914978 SN.node[0].Application                   0 received a package from 3
-45.216777914978 SN.node[1].Application                   1 received a package from 3
-45.216777914978 SN.node[2].Application                   2 received a package from 3
-50.041697545815 SN.node[3].Application                   O sink tá massa
-50.041697545815 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-50.086687999649 SN.node[0].Application                   0 received a package from 3
-50.086687999649 SN.node[1].Application                   1 received a package from 3
-50.086687999649 SN.node[2].Application                   2 received a package from 3
-55.041667555185 SN.node[3].Application                   O sink tá massa
-55.041667555185 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-55.584190137966 SN.node[0].Application                   0 received a package from 3
-55.584190137966 SN.node[1].Application                   1 received a package from 3
-55.584190137966 SN.node[2].Application                   2 received a package from 3
-60.041637564555 SN.node[3].Application                   O sink tá massa
-60.041637564555 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-60.457901700993 SN.node[0].Application                   0 received a package from 3
-60.457901700993 SN.node[1].Application                   1 received a package from 3
-60.457901700993 SN.node[2].Application                   2 received a package from 3
-65.041607573925 SN.node[3].Application                   O sink tá massa
-65.041607573925 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-65.341421368042 SN.node[0].Application                   0 received a package from 3
-65.341421368042 SN.node[1].Application                   1 received a package from 3
-65.341421368042 SN.node[2].Application                   2 received a package from 3
-70.041577583295 SN.node[3].Application                   O sink tá massa
-70.041577583295 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-70.82718301689  SN.node[0].Application                   0 received a package from 3
-70.82718301689  SN.node[1].Application                   1 received a package from 3
-70.82718301689  SN.node[2].Application                   2 received a package from 3
-75.041547592665 SN.node[3].Application                   O sink tá massa
-75.041547592665 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-76.325811831592 SN.node[0].Application                   0 received a package from 3
-76.325811831592 SN.node[1].Application                   1 received a package from 3
-76.325811831592 SN.node[2].Application                   2 received a package from 3
-80.041517602035 SN.node[3].Application                   O sink tá massa
-80.041517602035 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-80.596592111529 SN.node[0].Application                   0 received a package from 3
-80.596592111529 SN.node[1].Application                   1 received a package from 3
-80.596592111529 SN.node[2].Application                   2 received a package from 3
-85.041487611405 SN.node[3].Application                   O sink tá massa
-85.041487611405 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-85.4740485756   SN.node[0].Application                   0 received a package from 3
-85.4740485756   SN.node[1].Application                   1 received a package from 3
-85.4740485756   SN.node[2].Application                   2 received a package from 3
-90.041457620775 SN.node[3].Application                   O sink tá massa
-90.041457620775 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-90.355741135309 SN.node[0].Application                   0 received a package from 3
-90.355741135309 SN.node[1].Application                   1 received a package from 3
-90.355741135309 SN.node[2].Application                   2 received a package from 3
-95.041427630145 SN.node[3].Application                   O sink tá massa
-95.041427630145 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-95.229821865412 SN.node[0].Application                   0 received a package from 3
-95.229821865412 SN.node[1].Application                   1 received a package from 3
-95.229821865412 SN.node[2].Application                   2 received a package from 3
-100.041397639515SN.node[3].Application                   O sink tá massa
-100.041397639515SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-100.110332266019SN.node[0].Application                   0 received a package from 3
-100.110332266019SN.node[1].Application                   1 received a package from 3
-100.110332266019SN.node[2].Application                   2 received a package from 3
-105.041367648885SN.node[3].Application                   O sink travou
+30.036943178517 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+30.041817508336 SN.node[3].Application                   3 detectou a falha
+30.041817508336 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+30.566759484344 SN.node[0].Application                   0 received a package from 1
+30.566759484344 SN.node[2].Application                   2 received a package from 1
+30.566759484344 SN.node[3].Application                   3 received a package from 1
+31.17571674632  SN.node[0].Application                   0 received a package from 3
+31.17571674632  SN.node[1].Application                   1 received a package from 3
+31.17571674632  SN.node[2].Application                   2 received a package from 3
+31.785909130006 SN.node[1].Application                   1 received a package from 0
+31.785909130006 SN.node[2].Application                   2 received a package from 0
+31.785909130006 SN.node[3].Application                   3 received a package from 0
+32.400684964989 SN.node[0].Application                   0 received a package from 2
+32.400684964989 SN.node[1].Application                   1 received a package from 2
+32.400684964989 SN.node[3].Application                   3 received a package from 2
+40.003808202617 SN.node[1].Application                   1 detectou a falha
+40.003808202617 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+40.029939329603 SN.node[0].Application                   0 detectou a falha
+40.029939329603 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+40.037455107653 SN.node[2].Application                   2 detectou a falha
+40.037455107653 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+40.041757527076 SN.node[3].Application                   3 detectou a falha
+40.041757527076 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+40.325558551981 SN.node[1].Application                   1 received a package from 0
+40.325558551981 SN.node[2].Application                   2 received a package from 0
+40.325558551981 SN.node[3].Application                   3 received a package from 0
+40.936250944369 SN.node[0].Application                   0 received a package from 2
+40.936250944369 SN.node[1].Application                   1 received a package from 2
+40.936250944369 SN.node[3].Application                   3 received a package from 2
+41.549800494578 SN.node[0].Application                   0 received a package from 1
+41.549800494578 SN.node[2].Application                   2 received a package from 1
+41.549800494578 SN.node[3].Application                   3 received a package from 1
+42.16343445851  SN.node[0].Application                   0 received a package from 3
+42.16343445851  SN.node[1].Application                   1 received a package from 3
+42.16343445851  SN.node[2].Application                   2 received a package from 3
+50.003876192267 SN.node[1].Application                   1 detectou a falha
+50.003876192267 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+50.030539188199 SN.node[0].Application                   0 detectou a falha
+50.030539188199 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+50.037967036789 SN.node[2].Application                   2 detectou a falha
+50.037967036789 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+50.041697545816 SN.node[3].Application                   3 detectou a falha
+50.041697545816 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+50.088656638461 SN.node[0].Application                   0 received a package from 1
+50.088656638461 SN.node[2].Application                   2 received a package from 1
+50.088656638461 SN.node[3].Application                   3 received a package from 1
+50.699598387936 SN.node[0].Application                   0 received a package from 3
+50.699598387936 SN.node[1].Application                   1 received a package from 3
+50.699598387936 SN.node[2].Application                   2 received a package from 3
+51.313111922482 SN.node[1].Application                   1 received a package from 0
+51.313111922482 SN.node[2].Application                   2 received a package from 0
+51.313111922482 SN.node[3].Application                   3 received a package from 0
+51.923811477932 SN.node[0].Application                   0 received a package from 2
+51.923811477932 SN.node[1].Application                   1 received a package from 2
+51.923811477932 SN.node[3].Application                   3 received a package from 2
+60.003944181917 SN.node[1].Application                   1 detectou a falha
+60.003944181917 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+60.031139046795 SN.node[0].Application                   0 detectou a falha
+60.031139046795 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+60.038478965925 SN.node[2].Application                   2 detectou a falha
+60.038478965925 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+60.041637564556 SN.node[3].Application                   3 detectou a falha
+60.041637564556 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+60.45775959799  SN.node[0].Application                   0 received a package from 2
+60.45775959799  SN.node[1].Application                   1 received a package from 2
+60.45775959799  SN.node[3].Application                   3 received a package from 2
+61.067932469361 SN.node[1].Application                   1 received a package from 0
+61.067932469361 SN.node[2].Application                   2 received a package from 0
+61.067932469361 SN.node[3].Application                   3 received a package from 0
+61.680150082896 SN.node[0].Application                   0 received a package from 3
+61.680150082896 SN.node[1].Application                   1 received a package from 3
+61.680150082896 SN.node[2].Application                   2 received a package from 3
+62.287765039962 SN.node[0].Application                   0 received a package from 1
+62.287765039962 SN.node[2].Application                   2 received a package from 1
+62.287765039962 SN.node[3].Application                   3 received a package from 1
+70.004012171567 SN.node[1].Application                   1 detectou a falha
+70.004012171567 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+70.031738905391 SN.node[0].Application                   0 detectou a falha
+70.031738905391 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+70.038990895061 SN.node[2].Application                   2 detectou a falha
+70.038990895061 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+70.041577583296 SN.node[3].Application                   3 detectou a falha
+70.041577583296 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+70.217366856796 SN.node[1].Application                   1 received a package from 0
+70.217366856796 SN.node[2].Application                   2 received a package from 0
+70.217366856796 SN.node[3].Application                   3 received a package from 0
+70.829550943531 SN.node[0].Application                   0 received a package from 2
+70.829550943531 SN.node[1].Application                   1 received a package from 2
+70.829550943531 SN.node[3].Application                   3 received a package from 2
+71.441121482874 SN.node[0].Application                   0 received a package from 1
+71.441121482874 SN.node[2].Application                   2 received a package from 1
+71.441121482874 SN.node[3].Application                   3 received a package from 1
+72.066145826584 SN.node[0].Application                   0 received a package from 3
+72.066145826584 SN.node[1].Application                   1 received a package from 3
+72.066145826584 SN.node[2].Application                   2 received a package from 3
+80.004080161217 SN.node[1].Application                   1 detectou a falha
+80.004080161217 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+80.032338763987 SN.node[0].Application                   0 detectou a falha
+80.032338763987 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+80.039502824197 SN.node[2].Application                   2 detectou a falha
+80.039502824197 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+80.041517602036 SN.node[3].Application                   3 detectou a falha
+80.041517602036 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+80.590844106263 SN.node[0].Application                   0 received a package from 2
+80.590844106263 SN.node[1].Application                   1 received a package from 2
+80.590844106263 SN.node[3].Application                   3 received a package from 2
+81.199707505198 SN.node[1].Application                   1 received a package from 0
+81.199707505198 SN.node[2].Application                   2 received a package from 0
+81.199707505198 SN.node[3].Application                   3 received a package from 0
+81.811390459712 SN.node[0].Application                   0 received a package from 1
+81.811390459712 SN.node[2].Application                   2 received a package from 1
+81.811390459712 SN.node[3].Application                   3 received a package from 1
+82.42844213725  SN.node[0].Application                   0 received a package from 3
+82.42844213725  SN.node[1].Application                   1 received a package from 3
+82.42844213725  SN.node[2].Application                   2 received a package from 3
+90.004148150867 SN.node[1].Application                   1 detectou a falha
+90.004148150867 SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+90.032938622583 SN.node[0].Application                   0 detectou a falha
+90.032938622583 SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+90.040014753333 SN.node[2].Application                   2 detectou a falha
+90.040014753333 SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+90.041457620776 SN.node[3].Application                   3 detectou a falha
+90.041457620776 SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+90.351588508225 SN.node[0].Application                   0 received a package from 3
+90.351588508225 SN.node[1].Application                   1 received a package from 3
+90.351588508225 SN.node[2].Application                   2 received a package from 3
+90.965427822968 SN.node[0].Application                   0 received a package from 1
+90.965427822968 SN.node[2].Application                   2 received a package from 1
+90.965427822968 SN.node[3].Application                   3 received a package from 1
+91.573533061775 SN.node[1].Application                   1 received a package from 0
+91.573533061775 SN.node[2].Application                   2 received a package from 0
+91.573533061775 SN.node[3].Application                   3 received a package from 0
+92.178928203902 SN.node[0].Application                   0 received a package from 2
+92.178928203902 SN.node[1].Application                   1 received a package from 2
+92.178928203902 SN.node[3].Application                   3 received a package from 2
+100.004216140517SN.node[1].Application                   1 detectou a falha
+100.004216140517SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+100.033538481179SN.node[0].Application                   0 detectou a falha
+100.033538481179SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+100.040526682469SN.node[2].Application                   2 detectou a falha
+100.040526682469SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+100.041397639516SN.node[3].Application                   3 detectou a falha
+100.041397639516SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+100.112865296833SN.node[0].Application                   0 received a package from 1
+100.112865296833SN.node[2].Application                   2 received a package from 1
+100.112865296833SN.node[3].Application                   3 received a package from 1
+100.724067785464SN.node[1].Application                   1 received a package from 0
+100.724067785464SN.node[2].Application                   2 received a package from 0
+100.724067785464SN.node[3].Application                   3 received a package from 0
+101.331771694605SN.node[0].Application                   0 received a package from 2
+101.331771694605SN.node[1].Application                   1 received a package from 2
+101.331771694605SN.node[3].Application                   3 received a package from 2
+101.940134374519SN.node[0].Application                   0 received a package from 3
+101.940134374519SN.node[1].Application                   1 received a package from 3
+101.940134374519SN.node[2].Application                   2 received a package from 3
 110.004284130167SN.node[1].Application                   1 detectou a falha
+110.004284130167SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 110.034138339775SN.node[0].Application                   0 detectou a falha
+110.034138339775SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 110.041038611605SN.node[2].Application                   2 detectou a falha
-110.041337658255SN.node[3].Application                   O sink travou
-115.004318124992SN.node[1].Application                   1 detectou a falha
-115.034438269073SN.node[0].Application                   0 detectou a falha
-115.041294576173SN.node[2].Application                   2 detectou a falha
-115.041307667625SN.node[3].Application                   O sink travou
+110.041038611605SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+110.041337658256SN.node[3].Application                   3 detectou a falha
+110.041337658256SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+110.482484614977SN.node[0].Application                   0 received a package from 1
+110.482484614977SN.node[2].Application                   2 received a package from 1
+110.482484614977SN.node[3].Application                   3 received a package from 1
+111.090858355749SN.node[0].Application                   0 received a package from 2
+111.090858355749SN.node[1].Application                   1 received a package from 2
+111.090858355749SN.node[3].Application                   3 received a package from 2
+111.700982575616SN.node[0].Application                   0 received a package from 3
+111.700982575616SN.node[1].Application                   1 received a package from 3
+111.700982575616SN.node[2].Application                   2 received a package from 3
+112.320126861196SN.node[1].Application                   1 received a package from 0
+112.320126861196SN.node[2].Application                   2 received a package from 0
+112.320126861196SN.node[3].Application                   3 received a package from 0
 120.004352119817SN.node[1].Application                   1 detectou a falha
+120.004352119817SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 120.034738198371SN.node[0].Application                   0 detectou a falha
-120.041277676995SN.node[3].Application                   O sink travou
+120.034738198371SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+120.041277676996SN.node[3].Application                   3 detectou a falha
+120.041277676996SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 120.041550540741SN.node[2].Application                   2 detectou a falha
-125.004386114642SN.node[1].Application                   1 detectou a falha
-125.035038127669SN.node[0].Application                   0 detectou a falha
-125.041247686365SN.node[3].Application                   O sink tá massa
-125.041247686365SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-125.041806505309SN.node[2].Application                   2 detectou a falha
-125.12115481063 SN.node[0].Application                   0 received a package from 3
-125.12115481063 SN.node[1].Application                   1 received a package from 3
-125.12115481063 SN.node[2].Application                   2 received a package from 3
-130.041217695735SN.node[3].Application                   O sink tá massa
-130.041217695735SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-130.615676151847SN.node[0].Application                   0 received a package from 3
-130.615676151847SN.node[1].Application                   1 received a package from 3
-130.615676151847SN.node[2].Application                   2 received a package from 3
-135.041187705105SN.node[3].Application                   O sink tá massa
-135.041187705105SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-136.114320929102SN.node[0].Application                   0 received a package from 3
-136.114320929102SN.node[1].Application                   1 received a package from 3
-136.114320929102SN.node[2].Application                   2 received a package from 3
-140.041157714475SN.node[3].Application                   O sink tá massa
-140.041157714475SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-140.372889953595SN.node[0].Application                   0 received a package from 3
-140.372889953595SN.node[1].Application                   1 received a package from 3
-140.372889953595SN.node[2].Application                   2 received a package from 3
-145.041127723845SN.node[3].Application                   O sink tá massa
-145.041127723845SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-145.255025240351SN.node[0].Application                   0 received a package from 3
-145.255025240351SN.node[1].Application                   1 received a package from 3
-145.255025240351SN.node[2].Application                   2 received a package from 3
-150.041097733215SN.node[3].Application                   O sink tá massa
-150.041097733215SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-150.1408615898  SN.node[0].Application                   0 received a package from 3
-150.1408615898  SN.node[1].Application                   1 received a package from 3
-150.1408615898  SN.node[2].Application                   2 received a package from 3
-155.041067742585SN.node[3].Application                   O sink tá massa
-155.041067742585SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-155.624456746951SN.node[0].Application                   0 received a package from 3
-155.624456746951SN.node[1].Application                   1 received a package from 3
-155.624456746951SN.node[2].Application                   2 received a package from 3
-160.041037751955SN.node[3].Application                   O sink travou
-165.004658073242SN.node[1].Application                   1 detectou a falha
-165.037437562053SN.node[0].Application                   0 detectou a falha
-165.041007761325SN.node[3].Application                   O sink travou
-165.043854221853SN.node[2].Application                   2 detectou a falha
+120.041550540741SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+120.244564796507SN.node[1].Application                   1 received a package from 0
+120.244564796507SN.node[2].Application                   2 received a package from 0
+120.244564796507SN.node[3].Application                   3 received a package from 0
+120.851313315459SN.node[0].Application                   0 received a package from 1
+120.851313315459SN.node[2].Application                   2 received a package from 1
+120.851313315459SN.node[3].Application                   3 received a package from 1
+121.460493861705SN.node[0].Application                   0 received a package from 2
+121.460493861705SN.node[1].Application                   1 received a package from 2
+121.460493861705SN.node[3].Application                   3 received a package from 2
+123.301265908558SN.node[0].Application                   0 received a package from 3
+123.301265908558SN.node[1].Application                   1 received a package from 3
+123.301265908558SN.node[2].Application                   2 received a package from 3
+130.004420109467SN.node[1].Application                   1 detectou a falha
+130.004420109467SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+130.035338056967SN.node[0].Application                   0 detectou a falha
+130.035338056967SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+130.041217695736SN.node[3].Application                   3 detectou a falha
+130.041217695736SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+130.042062469877SN.node[2].Application                   2 detectou a falha
+130.042062469877SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+130.611965313568SN.node[1].Application                   1 received a package from 0
+130.611965313568SN.node[2].Application                   2 received a package from 0
+130.611965313568SN.node[3].Application                   3 received a package from 0
+131.225467940721SN.node[0].Application                   0 received a package from 2
+131.225467940721SN.node[1].Application                   1 received a package from 2
+131.225467940721SN.node[3].Application                   3 received a package from 2
+131.83249204999 SN.node[0].Application                   0 received a package from 3
+131.83249204999 SN.node[1].Application                   1 received a package from 3
+131.83249204999 SN.node[2].Application                   2 received a package from 3
+132.449349221771SN.node[0].Application                   0 received a package from 1
+132.449349221771SN.node[2].Application                   2 received a package from 1
+132.449349221771SN.node[3].Application                   3 received a package from 1
+140.004488099117SN.node[1].Application                   1 detectou a falha
+140.004488099117SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+140.035937915563SN.node[0].Application                   0 detectou a falha
+140.035937915563SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+140.041157714476SN.node[3].Application                   3 detectou a falha
+140.041157714476SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+140.042574399013SN.node[2].Application                   2 detectou a falha
+140.042574399013SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+140.376368730533SN.node[1].Application                   1 received a package from 0
+140.376368730533SN.node[2].Application                   2 received a package from 0
+140.376368730533SN.node[3].Application                   3 received a package from 0
+140.991853482278SN.node[0].Application                   0 received a package from 3
+140.991853482278SN.node[1].Application                   1 received a package from 3
+140.991853482278SN.node[2].Application                   2 received a package from 3
+141.596025760399SN.node[0].Application                   0 received a package from 1
+141.596025760399SN.node[2].Application                   2 received a package from 1
+141.596025760399SN.node[3].Application                   3 received a package from 1
+142.210143242974SN.node[0].Application                   0 received a package from 2
+142.210143242974SN.node[1].Application                   1 received a package from 2
+142.210143242974SN.node[3].Application                   3 received a package from 2
+150.004556088767SN.node[1].Application                   1 detectou a falha
+150.004556088767SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+150.036537774159SN.node[0].Application                   0 detectou a falha
+150.036537774159SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+150.041097733216SN.node[3].Application                   3 detectou a falha
+150.041097733216SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+150.043086328149SN.node[2].Application                   2 detectou a falha
+150.043086328149SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+150.133165568112SN.node[0].Application                   0 received a package from 1
+150.133165568112SN.node[2].Application                   2 received a package from 1
+150.133165568112SN.node[3].Application                   3 received a package from 1
+150.742624101945SN.node[0].Application                   0 received a package from 2
+150.742624101945SN.node[1].Application                   1 received a package from 2
+150.742624101945SN.node[3].Application                   3 received a package from 2
+151.35347068264 SN.node[1].Application                   1 received a package from 0
+151.35347068264 SN.node[2].Application                   2 received a package from 0
+151.35347068264 SN.node[3].Application                   3 received a package from 0
+160.004624078417SN.node[1].Application                   1 detectou a falha
+160.004624078417SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+160.037137632755SN.node[0].Application                   0 detectou a falha
+160.037137632755SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+160.041037751956SN.node[3].Application                   3 detectou a falha
+160.041037751956SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+160.043598257285SN.node[2].Application                   2 detectou a falha
+160.043598257285SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+160.503054138923SN.node[1].Application                   1 received a package from 0
+160.503054138923SN.node[2].Application                   2 received a package from 0
+160.503054138923SN.node[3].Application                   3 received a package from 0
+161.119006526768SN.node[0].Application                   0 received a package from 1
+161.119006526768SN.node[2].Application                   2 received a package from 1
+161.119006526768SN.node[3].Application                   3 received a package from 1
+161.728609460014SN.node[0].Application                   0 received a package from 2
+161.728609460014SN.node[1].Application                   1 received a package from 2
+161.728609460014SN.node[3].Application                   3 received a package from 2
+162.333550752018SN.node[0].Application                   0 received a package from 3
+162.333550752018SN.node[1].Application                   1 received a package from 3
+162.333550752018SN.node[2].Application                   2 received a package from 3
 170.004692068067SN.node[1].Application                   1 detectou a falha
+170.004692068067SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 170.037737491351SN.node[0].Application                   0 detectou a falha
-170.040977770695SN.node[3].Application                   O sink travou
+170.037737491351SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+170.040977770696SN.node[3].Application                   3 detectou a falha
+170.040977770696SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 170.044110186421SN.node[2].Application                   2 detectou a falha
-175.004726062892SN.node[1].Application                   1 detectou a falha
-175.038037420649SN.node[0].Application                   0 detectou a falha
-175.040947780065SN.node[3].Application                   O sink travou
-175.044366150989SN.node[2].Application                   2 detectou a falha
+170.044110186421SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+170.263372898929SN.node[0].Application                   0 received a package from 1
+170.263372898929SN.node[2].Application                   2 received a package from 1
+170.263372898929SN.node[3].Application                   3 received a package from 1
+170.874135463118SN.node[1].Application                   1 received a package from 0
+170.874135463118SN.node[2].Application                   2 received a package from 0
+170.874135463118SN.node[3].Application                   3 received a package from 0
+171.492351519036SN.node[0].Application                   0 received a package from 2
+171.492351519036SN.node[1].Application                   1 received a package from 2
+171.492351519036SN.node[3].Application                   3 received a package from 2
+172.716027732477SN.node[0].Application                   0 received a package from 3
+172.716027732477SN.node[1].Application                   1 received a package from 3
+172.716027732477SN.node[2].Application                   2 received a package from 3
 180.004760057717SN.node[1].Application                   1 detectou a falha
-180.038337349947SN.node[0].Application                   0 detectou a falha
-180.040917789435SN.node[3].Application                   O sink travou
-180.044622115557SN.node[2].Application                   2 detectou a falha
+180.004760057717SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+180.030783194017SN.node[0].Application                   0 received a package from 1
+180.030783194017SN.node[2].Application                   2 received a package from 1
+180.030783194017SN.node[3].Application                   3 received a package from 1
 185.004794052542SN.node[1].Application                   1 detectou a falha
+185.004794052542SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 185.038637279245SN.node[0].Application                   0 detectou a falha
-185.040887798805SN.node[3].Application                   O sink tá massa
-185.040887798805SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+185.038637279245SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+185.040887798806SN.node[3].Application                   3 detectou a falha
+185.040887798806SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 185.044878080125SN.node[2].Application                   2 detectou a falha
-185.516549120541SN.node[0].Application                   0 received a package from 3
-185.516549120541SN.node[1].Application                   1 received a package from 3
-185.516549120541SN.node[2].Application                   2 received a package from 3
-190.040857808175SN.node[3].Application                   O sink tá massa
-190.040857808175SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-190.401945554727SN.node[0].Application                   0 received a package from 3
-190.401945554727SN.node[1].Application                   1 received a package from 3
-190.401945554727SN.node[2].Application                   2 received a package from 3
-195.040827817545SN.node[3].Application                   O sink travou
-200.004896037017SN.node[1].Application                   1 detectou a falha
-200.039537067139SN.node[0].Application                   0 detectou a falha
-200.040797826915SN.node[3].Application                   O sink travou
-200.045645973829SN.node[2].Application                   2 detectou a falha
+185.044878080125SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+185.514096235605SN.node[0].Application                   0 received a package from 3
+185.514096235605SN.node[1].Application                   1 received a package from 3
+185.514096235605SN.node[2].Application                   2 received a package from 3
+186.125490307034SN.node[1].Application                   1 received a package from 0
+186.125490307034SN.node[2].Application                   2 received a package from 0
+186.125490307034SN.node[3].Application                   3 received a package from 0
+186.734640882582SN.node[0].Application                   0 received a package from 1
+186.734640882582SN.node[2].Application                   2 received a package from 1
+186.734640882582SN.node[3].Application                   3 received a package from 1
+187.353771559754SN.node[0].Application                   0 received a package from 2
+187.353771559754SN.node[1].Application                   1 received a package from 2
+187.353771559754SN.node[3].Application                   3 received a package from 2
+195.004862042192SN.node[1].Application                   1 detectou a falha
+195.004862042192SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+195.039237137841SN.node[0].Application                   0 detectou a falha
+195.039237137841SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+195.040827817546SN.node[3].Application                   3 detectou a falha
+195.040827817546SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+195.045390009261SN.node[2].Application                   2 detectou a falha
+195.045390009261SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+195.27742040993 SN.node[0].Application                   0 received a package from 3
+195.27742040993 SN.node[1].Application                   1 received a package from 3
+195.27742040993 SN.node[2].Application                   2 received a package from 3
+195.889427859504SN.node[0].Application                   0 received a package from 2
+195.889427859504SN.node[1].Application                   1 received a package from 2
+195.889427859504SN.node[3].Application                   3 received a package from 2
+196.497737893412SN.node[1].Application                   1 received a package from 0
+196.497737893412SN.node[2].Application                   2 received a package from 0
+196.497737893412SN.node[3].Application                   3 received a package from 0
+197.106832493838SN.node[0].Application                   0 received a package from 1
+197.106832493838SN.node[2].Application                   2 received a package from 1
+197.106832493838SN.node[3].Application                   3 received a package from 1
 205.004930031842SN.node[1].Application                   1 detectou a falha
-205.039836996437SN.node[0].Application                   0 detectou a falha
-205.040767836285SN.node[3].Application                   O sink travou
-205.045901938397SN.node[2].Application                   2 detectou a falha
+205.004930031842SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+205.037404966729SN.node[0].Application                   0 received a package from 1
+205.037404966729SN.node[2].Application                   2 received a package from 1
+205.037404966729SN.node[3].Application                   3 received a package from 1
 210.004964026667SN.node[1].Application                   1 detectou a falha
+210.004964026667SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 210.040136925735SN.node[0].Application                   0 detectou a falha
-210.040737845655SN.node[3].Application                   O sink tá massa
-210.040737845655SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+210.040136925735SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+210.040737845656SN.node[3].Application                   3 detectou a falha
+210.040737845656SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 210.046157902965SN.node[2].Application                   2 detectou a falha
-210.525740934578SN.node[0].Application                   0 received a package from 3
-210.525740934578SN.node[1].Application                   1 received a package from 3
-210.525740934578SN.node[2].Application                   2 received a package from 3
-215.040707855025SN.node[3].Application                   O sink tá massa
-215.040707855025SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-215.415347871495SN.node[0].Application                   0 received a package from 3
-215.415347871495SN.node[1].Application                   1 received a package from 3
-215.415347871495SN.node[2].Application                   2 received a package from 3
-220.040677864395SN.node[3].Application                   O sink travou
-225.005066011142SN.node[1].Application                   1 detectou a falha
-225.040647873765SN.node[3].Application                   O sink tá massa
-225.040647873765SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-225.041036713629SN.node[0].Application                   0 detectou a falha
-225.046925796669SN.node[2].Application                   2 detectou a falha
-225.77955267125 SN.node[0].Application                   0 received a package from 3
-225.77955267125 SN.node[1].Application                   1 received a package from 3
-225.77955267125 SN.node[2].Application                   2 received a package from 3
-230.040617883135SN.node[3].Application                   O sink tá massa
-230.040617883135SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-230.055290013319SN.node[0].Application                   0 received a package from 3
-230.055290013319SN.node[1].Application                   1 received a package from 3
-230.055290013319SN.node[2].Application                   2 received a package from 3
-235.040587892505SN.node[3].Application                   O sink tá massa
-235.040587892505SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-235.544029080418SN.node[0].Application                   0 received a package from 3
-235.544029080418SN.node[1].Application                   1 received a package from 3
-235.544029080418SN.node[2].Application                   2 received a package from 3
-240.040557901875SN.node[3].Application                   O sink tá massa
-240.040557901875SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-240.417848436674SN.node[0].Application                   0 received a package from 3
-240.417848436674SN.node[1].Application                   1 received a package from 3
-240.417848436674SN.node[2].Application                   2 received a package from 3
-245.040527911245SN.node[3].Application                   O sink travou
+210.046157902965SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+210.527661174368SN.node[0].Application                   0 received a package from 3
+210.527661174368SN.node[1].Application                   1 received a package from 3
+210.527661174368SN.node[2].Application                   2 received a package from 3
+211.139201999221SN.node[0].Application                   0 received a package from 1
+211.139201999221SN.node[2].Application                   2 received a package from 1
+211.139201999221SN.node[3].Application                   3 received a package from 1
+211.747187175023SN.node[0].Application                   0 received a package from 2
+211.747187175023SN.node[1].Application                   1 received a package from 2
+211.747187175023SN.node[3].Application                   3 received a package from 2
+212.369788769953SN.node[1].Application                   1 received a package from 0
+212.369788769953SN.node[2].Application                   2 received a package from 0
+212.369788769953SN.node[3].Application                   3 received a package from 0
+220.005032016317SN.node[1].Application                   1 detectou a falha
+220.005032016317SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+220.040677864396SN.node[3].Application                   3 detectou a falha
+220.040677864396SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+220.040736784331SN.node[0].Application                   0 detectou a falha
+220.040736784331SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+220.046669832101SN.node[2].Application                   2 detectou a falha
+220.046669832101SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+220.293149097343SN.node[0].Application                   0 received a package from 3
+220.293149097343SN.node[1].Application                   1 received a package from 3
+220.293149097343SN.node[2].Application                   2 received a package from 3
+220.897698105506SN.node[0].Application                   0 received a package from 2
+220.897698105506SN.node[1].Application                   1 received a package from 2
+220.897698105506SN.node[3].Application                   3 received a package from 2
+221.513939201435SN.node[0].Application                   0 received a package from 1
+221.513939201435SN.node[2].Application                   2 received a package from 1
+221.513939201435SN.node[3].Application                   3 received a package from 1
+230.005100005967SN.node[1].Application                   1 detectou a falha
+230.005100005967SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+230.040617883136SN.node[3].Application                   3 detectou a falha
+230.040617883136SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+230.041336642927SN.node[0].Application                   0 detectou a falha
+230.041336642927SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+230.047181761237SN.node[2].Application                   2 detectou a falha
+230.047181761237SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+230.052943995912SN.node[0].Application                   0 received a package from 3
+230.052943995912SN.node[1].Application                   1 received a package from 3
+230.052943995912SN.node[2].Application                   2 received a package from 3
+230.661758271618SN.node[0].Application                   0 received a package from 2
+230.661758271618SN.node[1].Application                   1 received a package from 2
+230.661758271618SN.node[3].Application                   3 received a package from 2
+231.269183341835SN.node[0].Application                   0 received a package from 1
+231.269183341835SN.node[2].Application                   2 received a package from 1
+231.269183341835SN.node[3].Application                   3 received a package from 1
+231.883938032129SN.node[1].Application                   1 received a package from 0
+231.883938032129SN.node[2].Application                   2 received a package from 0
+231.883938032129SN.node[3].Application                   3 received a package from 0
+240.005167995617SN.node[1].Application                   1 detectou a falha
+240.005167995617SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+240.040557901876SN.node[3].Application                   3 detectou a falha
+240.040557901876SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+240.041936501523SN.node[0].Application                   0 detectou a falha
+240.041936501523SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+240.047693690373SN.node[2].Application                   2 detectou a falha
+240.047693690373SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+240.41764720256 SN.node[1].Application                   1 received a package from 0
+240.41764720256 SN.node[2].Application                   2 received a package from 0
+240.41764720256 SN.node[3].Application                   3 received a package from 0
+241.032565736225SN.node[0].Application                   0 received a package from 1
+241.032565736225SN.node[2].Application                   2 received a package from 1
+241.032565736225SN.node[3].Application                   3 received a package from 1
+241.637282068259SN.node[1].Application                   1 received a package from 3
+241.64560420571 SN.node[0].Application                   0 received a package from 2
+241.64560420571 SN.node[1].Application                   1 received a package from 2
+241.64560420571 SN.node[3].Application                   3 received a package from 2
 250.005235985267SN.node[1].Application                   1 detectou a falha
-250.040497920615SN.node[3].Application                   O sink travou
+250.005235985267SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+250.040497920616SN.node[3].Application                   3 detectou a falha
+250.040497920616SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 250.042536360119SN.node[0].Application                   0 detectou a falha
+250.042536360119SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 250.048205619509SN.node[2].Application                   2 detectou a falha
-255.005269980092SN.node[1].Application                   1 detectou a falha
-255.040467929985SN.node[3].Application                   O sink travou
-255.042836289417SN.node[0].Application                   0 detectou a falha
-255.048461584077SN.node[2].Application                   2 detectou a falha
+250.048205619509SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+250.181892045706SN.node[0].Application                   0 received a package from 3
+250.181892045706SN.node[1].Application                   1 received a package from 3
+250.181892045706SN.node[2].Application                   2 received a package from 3
+250.788441650352SN.node[1].Application                   1 received a package from 0
+250.788441650352SN.node[2].Application                   2 received a package from 0
+250.788441650352SN.node[3].Application                   3 received a package from 0
+250.800978027023SN.node[0].Application                   0 received a package from 2
+250.800978027023SN.node[1].Application                   1 received a package from 2
+250.800978027023SN.node[3].Application                   3 received a package from 2
+251.398477873033SN.node[0].Application                   0 received a package from 1
+251.398477873033SN.node[2].Application                   2 received a package from 1
+251.398477873033SN.node[3].Application                   3 received a package from 1
 260.005303974917SN.node[1].Application                   1 detectou a falha
-260.040437939355SN.node[3].Application                   O sink travou
+260.005303974917SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+260.040437939356SN.node[3].Application                   3 detectou a falha
+260.040437939356SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 260.043136218715SN.node[0].Application                   0 detectou a falha
+260.043136218715SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 260.048717548645SN.node[2].Application                   2 detectou a falha
-265.005337969742SN.node[1].Application                   1 detectou a falha
-265.040407948725SN.node[3].Application                   O sink tá massa
-265.040407948725SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-265.043436148013SN.node[0].Application                   0 detectou a falha
-265.048973513213SN.node[2].Application                   2 detectou a falha
-265.434337329451SN.node[0].Application                   0 received a package from 3
-265.434337329451SN.node[1].Application                   1 received a package from 3
-265.434337329451SN.node[2].Application                   2 received a package from 3
-270.040377958095SN.node[3].Application                   O sink tá massa
-270.040377958095SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-270.314692321515SN.node[0].Application                   0 received a package from 3
-270.314692321515SN.node[1].Application                   1 received a package from 3
-270.314692321515SN.node[2].Application                   2 received a package from 3
-275.040347967465SN.node[3].Application                   O sink tá massa
-275.040347967465SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-275.191422879711SN.node[0].Application                   0 received a package from 3
-275.191422879711SN.node[1].Application                   1 received a package from 3
-275.191422879711SN.node[2].Application                   2 received a package from 3
-280.040317976835SN.node[3].Application                   O sink tá massa
-280.040317976835SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-280.083497931636SN.node[0].Application                   0 received a package from 3
-280.083497931636SN.node[1].Application                   1 received a package from 3
-280.083497931636SN.node[2].Application                   2 received a package from 3
-285.040287986205SN.node[3].Application                   O sink tá massa
-285.040287986205SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-286.180049025112SN.node[0].Application                   0 received a package from 3
-286.180049025112SN.node[1].Application                   1 received a package from 3
-286.180049025112SN.node[2].Application                   2 received a package from 3
-290.040257995575SN.node[3].Application                   O sink tá massa
-290.040257995575SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-291.670721885334SN.node[0].Application                   0 received a package from 3
-291.670721885334SN.node[1].Application                   1 received a package from 3
-291.670721885334SN.node[2].Application                   2 received a package from 3
-295.040228004945SN.node[3].Application                   O sink tá massa
-295.040228004945SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-295.327556979672SN.node[0].Application                   0 received a package from 3
-295.327556979672SN.node[1].Application                   1 received a package from 3
-295.327556979672SN.node[2].Application                   2 received a package from 3
-300.040198014315SN.node[3].Application                   O sink tá massa
-300.040198014315SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-300.206555710245SN.node[0].Application                   0 received a package from 3
-300.206555710245SN.node[1].Application                   1 received a package from 3
-300.206555710245SN.node[2].Application                   2 received a package from 3
-305.040168023685SN.node[3].Application                   O sink travou
+260.048717548645SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+260.561876678994SN.node[0].Application                   0 received a package from 1
+260.561876678994SN.node[2].Application                   2 received a package from 1
+260.561876678994SN.node[3].Application                   3 received a package from 1
+261.169176390058SN.node[0].Application                   0 received a package from 3
+261.169176390058SN.node[1].Application                   1 received a package from 3
+261.169176390058SN.node[2].Application                   2 received a package from 3
+261.770619076793SN.node[1].Application                   1 received a package from 0
+261.770619076793SN.node[2].Application                   2 received a package from 0
+261.770619076793SN.node[3].Application                   3 received a package from 0
+262.386131932622SN.node[0].Application                   0 received a package from 2
+262.386131932622SN.node[1].Application                   1 received a package from 2
+262.386131932622SN.node[3].Application                   3 received a package from 2
+270.005371964567SN.node[1].Application                   1 detectou a falha
+270.005371964567SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+270.040377958096SN.node[3].Application                   3 detectou a falha
+270.040377958096SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+270.043736077311SN.node[0].Application                   0 detectou a falha
+270.043736077311SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+270.049229477781SN.node[2].Application                   2 detectou a falha
+270.049229477781SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+270.310203136982SN.node[0].Application                   0 received a package from 3
+270.310203136982SN.node[1].Application                   1 received a package from 3
+270.310203136982SN.node[2].Application                   2 received a package from 3
+270.922257526056SN.node[0].Application                   0 received a package from 2
+270.922257526056SN.node[1].Application                   1 received a package from 2
+270.922257526056SN.node[3].Application                   3 received a package from 2
+271.535071477127SN.node[0].Application                   0 received a package from 1
+271.535071477127SN.node[2].Application                   2 received a package from 1
+271.535071477127SN.node[3].Application                   3 received a package from 1
+272.148098230611SN.node[1].Application                   1 received a package from 0
+272.148098230611SN.node[2].Application                   2 received a package from 0
+272.148098230611SN.node[3].Application                   3 received a package from 0
+280.005439954217SN.node[1].Application                   1 detectou a falha
+280.005439954217SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+280.040317976836SN.node[3].Application                   3 detectou a falha
+280.040317976836SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+280.044335935907SN.node[0].Application                   0 detectou a falha
+280.044335935907SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+280.049741406917SN.node[2].Application                   2 detectou a falha
+280.049741406917SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+280.072532363558SN.node[0].Application                   0 received a package from 1
+280.072532363558SN.node[2].Application                   2 received a package from 1
+280.072532363558SN.node[3].Application                   3 received a package from 1
+280.681537819428SN.node[1].Application                   1 received a package from 0
+280.681537819428SN.node[2].Application                   2 received a package from 0
+280.681537819428SN.node[3].Application                   3 received a package from 0
+281.298836046892SN.node[0].Application                   0 received a package from 2
+281.298836046892SN.node[1].Application                   1 received a package from 2
+281.298836046892SN.node[3].Application                   3 received a package from 2
+281.907704826409SN.node[0].Application                   0 received a package from 3
+281.907704826409SN.node[1].Application                   1 received a package from 3
+281.907704826409SN.node[2].Application                   2 received a package from 3
+290.005507943867SN.node[1].Application                   1 detectou a falha
+290.005507943867SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+290.040257995576SN.node[3].Application                   3 detectou a falha
+290.040257995576SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+290.044935794503SN.node[0].Application                   0 detectou a falha
+290.044935794503SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+290.050253336053SN.node[2].Application                   2 detectou a falha
+290.050253336053SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+290.444140661071SN.node[0].Application                   0 received a package from 2
+290.444140661071SN.node[1].Application                   1 received a package from 2
+290.444140661071SN.node[3].Application                   3 received a package from 2
+291.050194744342SN.node[1].Application                   1 received a package from 3
+291.066026323682SN.node[1].Application                   1 received a package from 0
+291.066026323682SN.node[2].Application                   2 received a package from 0
+291.066026323682SN.node[3].Application                   3 received a package from 0
+292.28343708715 SN.node[0].Application                   0 received a package from 1
+292.28343708715 SN.node[2].Application                   2 received a package from 1
+292.28343708715 SN.node[3].Application                   3 received a package from 1
+300.005575933517SN.node[1].Application                   1 detectou a falha
+300.005575933517SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+300.040198014316SN.node[3].Application                   3 detectou a falha
+300.040198014316SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+300.045535653099SN.node[0].Application                   0 detectou a falha
+300.045535653099SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+300.050765265189SN.node[2].Application                   2 detectou a falha
+300.050765265189SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+300.811373224116SN.node[1].Application                   1 received a package from 0
+300.811373224116SN.node[2].Application                   2 received a package from 0
+300.811373224116SN.node[3].Application                   3 received a package from 0
+301.429705820178SN.node[0].Application                   0 received a package from 3
+301.429705820178SN.node[1].Application                   1 received a package from 3
+301.429705820178SN.node[2].Application                   2 received a package from 3
 310.005643923167SN.node[1].Application                   1 detectou a falha
-310.040138033055SN.node[3].Application                   O sink travou
+310.005643923167SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+310.040138033056SN.node[3].Application                   3 detectou a falha
+310.040138033056SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 310.046135511695SN.node[0].Application                   0 detectou a falha
+310.046135511695SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 310.051277194325SN.node[2].Application                   2 detectou a falha
-315.005677917992SN.node[1].Application                   1 detectou a falha
-315.040108042425SN.node[3].Application                   O sink tá massa
-315.040108042425SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-315.046435440993SN.node[0].Application                   0 detectou a falha
-315.051533158893SN.node[2].Application                   2 detectou a falha
-316.067391229492SN.node[0].Application                   0 received a package from 3
-316.067391229492SN.node[1].Application                   1 received a package from 3
-316.067391229492SN.node[2].Application                   2 received a package from 3
-320.040078051795SN.node[3].Application                   O sink tá massa
-320.040078051795SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-321.559521320341SN.node[0].Application                   0 received a package from 3
-321.559521320341SN.node[1].Application                   1 received a package from 3
-321.559521320341SN.node[2].Application                   2 received a package from 3
-325.040048061165SN.node[3].Application                   O sink tá massa
-325.040048061165SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-325.213636393546SN.node[0].Application                   0 received a package from 3
-325.213636393546SN.node[1].Application                   1 received a package from 3
-325.213636393546SN.node[2].Application                   2 received a package from 3
-330.040018070535SN.node[3].Application                   O sink travou
-335.005813897292SN.node[1].Application                   1 detectou a falha
-335.039988079905SN.node[3].Application                   O sink travou
-335.047635158185SN.node[0].Application                   0 detectou a falha
-335.052557017165SN.node[2].Application                   2 detectou a falha
+310.051277194325SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+310.576018853109SN.node[1].Application                   1 received a package from 0
+310.576018853109SN.node[2].Application                   2 received a package from 0
+310.576018853109SN.node[3].Application                   3 received a package from 0
+311.183741002604SN.node[0].Application                   0 received a package from 2
+311.183741002604SN.node[1].Application                   1 received a package from 2
+311.183741002604SN.node[3].Application                   3 received a package from 2
+311.793105015388SN.node[0].Application                   0 received a package from 1
+311.793105015388SN.node[2].Application                   2 received a package from 1
+311.793105015388SN.node[3].Application                   3 received a package from 1
+312.401783584294SN.node[0].Application                   0 received a package from 3
+312.401783584294SN.node[1].Application                   1 received a package from 3
+312.401783584294SN.node[2].Application                   2 received a package from 3
+320.005711912817SN.node[1].Application                   1 detectou a falha
+320.005711912817SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+320.040078051796SN.node[3].Application                   3 detectou a falha
+320.040078051796SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+320.046735370291SN.node[0].Application                   0 detectou a falha
+320.046735370291SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+320.051789123461SN.node[2].Application                   2 detectou a falha
+320.051789123461SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+320.332326489747SN.node[0].Application                   0 received a package from 1
+320.332326489747SN.node[2].Application                   2 received a package from 1
+320.332326489747SN.node[3].Application                   3 received a package from 1
+320.335599615745SN.node[0].Application                   0 received a package from 2
+320.335599615745SN.node[1].Application                   1 received a package from 2
+320.335599615745SN.node[3].Application                   3 received a package from 2
+320.951207638034SN.node[1].Application                   1 received a package from 0
+320.951207638034SN.node[2].Application                   2 received a package from 0
+320.951207638034SN.node[3].Application                   3 received a package from 0
+322.78487239469 SN.node[0].Application                   0 received a package from 3
+322.78487239469 SN.node[1].Application                   1 received a package from 3
+322.78487239469 SN.node[2].Application                   2 received a package from 3
+330.005779902467SN.node[1].Application                   1 detectou a falha
+330.005779902467SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+330.040018070536SN.node[3].Application                   3 detectou a falha
+330.040018070536SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+330.047335228887SN.node[0].Application                   0 detectou a falha
+330.047335228887SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+330.052301052597SN.node[2].Application                   2 detectou a falha
+330.052301052597SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+330.095537696902SN.node[1].Application                   1 received a package from 0
+330.095537696902SN.node[2].Application                   2 received a package from 0
+330.095537696902SN.node[3].Application                   3 received a package from 0
+330.706848045624SN.node[0].Application                   0 received a package from 1
+330.706848045624SN.node[2].Application                   2 received a package from 1
+330.706848045624SN.node[3].Application                   3 received a package from 1
+331.316608358992SN.node[0].Application                   0 received a package from 2
+331.316608358992SN.node[1].Application                   1 received a package from 2
+331.316608358992SN.node[3].Application                   3 received a package from 2
+331.926595839654SN.node[0].Application                   0 received a package from 3
+331.926595839654SN.node[1].Application                   1 received a package from 3
+331.926595839654SN.node[2].Application                   2 received a package from 3
 340.005847892117SN.node[1].Application                   1 detectou a falha
-340.039958089275SN.node[3].Application                   O sink travou
+340.005847892117SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+340.039958089276SN.node[3].Application                   3 detectou a falha
+340.039958089276SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 340.047935087483SN.node[0].Application                   0 detectou a falha
+340.047935087483SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 340.052812981733SN.node[2].Application                   2 detectou a falha
-345.005881886942SN.node[1].Application                   1 detectou a falha
-345.039928098645SN.node[3].Application                   O sink travou
-345.048235016781SN.node[0].Application                   0 detectou a falha
-345.053068946301SN.node[2].Application                   2 detectou a falha
+340.052812981733SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+340.46338637009 SN.node[0].Application                   0 received a package from 3
+340.46338637009 SN.node[1].Application                   1 received a package from 3
+340.46338637009 SN.node[2].Application                   2 received a package from 3
+340.465168909397SN.node[1].Application                   1 received a package from 0
+340.465168909397SN.node[2].Application                   2 received a package from 0
+340.465168909397SN.node[3].Application                   3 received a package from 0
+341.075581123619SN.node[0].Application                   0 received a package from 2
+341.075581123619SN.node[1].Application                   1 received a package from 2
+341.075581123619SN.node[3].Application                   3 received a package from 2
+341.689423624518SN.node[0].Application                   0 received a package from 1
+341.689423624518SN.node[2].Application                   2 received a package from 1
+341.689423624518SN.node[3].Application                   3 received a package from 1
 350.005915881767SN.node[1].Application                   1 detectou a falha
-350.039898108015SN.node[3].Application                   O sink travou
+350.005915881767SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+350.039898108016SN.node[3].Application                   3 detectou a falha
+350.039898108016SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 350.048534946079SN.node[0].Application                   0 detectou a falha
+350.048534946079SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 350.053324910869SN.node[2].Application                   2 detectou a falha
-355.005949876592SN.node[1].Application                   1 detectou a falha
-355.039868117385SN.node[3].Application                   O sink travou
-355.048834875377SN.node[0].Application                   0 detectou a falha
-355.053580875437SN.node[2].Application                   2 detectou a falha
+350.053324910869SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+350.228671703211SN.node[1].Application                   1 received a package from 0
+350.228671703211SN.node[2].Application                   2 received a package from 0
+350.228671703211SN.node[3].Application                   3 received a package from 0
+350.846160325178SN.node[0].Application                   0 received a package from 1
+350.846160325178SN.node[2].Application                   2 received a package from 1
+350.846160325178SN.node[3].Application                   3 received a package from 1
+351.45360068839 SN.node[0].Application                   0 received a package from 2
+351.45360068839 SN.node[1].Application                   1 received a package from 2
+351.45360068839 SN.node[3].Application                   3 received a package from 2
+352.059586214587SN.node[0].Application                   0 received a package from 3
+352.059586214587SN.node[1].Application                   1 received a package from 3
+352.059586214587SN.node[2].Application                   2 received a package from 3
 360.005983871417SN.node[1].Application                   1 detectou a falha
-360.039838126755SN.node[3].Application                   O sink tá massa
-360.039838126755SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+360.005983871417SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+360.039838126756SN.node[3].Application                   3 detectou a falha
+360.039838126756SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 360.049134804675SN.node[0].Application                   0 detectou a falha
+360.049134804675SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 360.053836840005SN.node[2].Application                   2 detectou a falha
-360.597166771078SN.node[0].Application                   0 received a package from 3
-360.597166771078SN.node[1].Application                   1 received a package from 3
-360.597166771078SN.node[2].Application                   2 received a package from 3
-365.039808136125SN.node[3].Application                   O sink tá massa
-365.039808136125SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-365.484084863278SN.node[0].Application                   0 received a package from 3
-365.484084863278SN.node[1].Application                   1 received a package from 3
-365.484084863278SN.node[2].Application                   2 received a package from 3
-370.039778145495SN.node[3].Application                   O sink tá massa
-370.039778145495SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-370.357741823559SN.node[0].Application                   0 received a package from 3
-370.357741823559SN.node[1].Application                   1 received a package from 3
-370.357741823559SN.node[2].Application                   2 received a package from 3
-375.039748154865SN.node[3].Application                   O sink travou
+360.053836840005SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+360.597471813992SN.node[1].Application                   1 received a package from 0
+360.597471813992SN.node[2].Application                   2 received a package from 0
+360.597471813992SN.node[3].Application                   3 received a package from 0
+361.207684547589SN.node[0].Application                   0 received a package from 2
+361.207684547589SN.node[1].Application                   1 received a package from 2
+361.207684547589SN.node[3].Application                   3 received a package from 2
+361.820405029077SN.node[0].Application                   0 received a package from 3
+361.820405029077SN.node[1].Application                   1 received a package from 3
+361.820405029077SN.node[2].Application                   2 received a package from 3
+363.04450412586 SN.node[0].Application                   0 received a package from 1
+363.04450412586 SN.node[2].Application                   2 received a package from 1
+363.04450412586 SN.node[3].Application                   3 received a package from 1
+370.006051861067SN.node[1].Application                   1 detectou a falha
+370.006051861067SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+370.039778145496SN.node[3].Application                   3 detectou a falha
+370.039778145496SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+370.049734663271SN.node[0].Application                   0 detectou a falha
+370.049734663271SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+370.054348769141SN.node[2].Application                   2 detectou a falha
+370.054348769141SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+370.356499155653SN.node[0].Application                   0 received a package from 2
+370.356499155653SN.node[1].Application                   1 received a package from 2
+370.356499155653SN.node[3].Application                   3 received a package from 2
+370.970178477443SN.node[0].Application                   0 received a package from 3
+370.970178477443SN.node[1].Application                   1 received a package from 3
+370.970178477443SN.node[2].Application                   2 received a package from 3
+371.57756414584 SN.node[1].Application                   1 received a package from 0
+371.57756414584 SN.node[2].Application                   2 received a package from 0
+371.57756414584 SN.node[3].Application                   3 received a package from 0
+372.190659753775SN.node[0].Application                   0 received a package from 1
+372.190659753775SN.node[2].Application                   2 received a package from 1
+372.190659753775SN.node[3].Application                   3 received a package from 1
 380.006119850717SN.node[1].Application                   1 detectou a falha
-380.039718164235SN.node[3].Application                   O sink travou
+380.006119850717SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+380.039718164236SN.node[3].Application                   3 detectou a falha
+380.039718164236SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 380.050334521867SN.node[0].Application                   0 detectou a falha
+380.050334521867SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 380.054860698277SN.node[2].Application                   2 detectou a falha
-385.006153845542SN.node[1].Application                   1 detectou a falha
-385.039688173605SN.node[3].Application                   O sink travou
-385.050634451165SN.node[0].Application                   0 detectou a falha
-385.055116662845SN.node[2].Application                   2 detectou a falha
+380.054860698277SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+380.11750268672 SN.node[0].Application                   0 received a package from 3
+380.11750268672 SN.node[1].Application                   1 received a package from 3
+380.11750268672 SN.node[2].Application                   2 received a package from 3
+380.728872881851SN.node[0].Application                   0 received a package from 1
+380.728872881851SN.node[2].Application                   2 received a package from 1
+380.728872881851SN.node[3].Application                   3 received a package from 1
+381.350577818041SN.node[1].Application                   1 received a package from 0
+381.350577818041SN.node[2].Application                   2 received a package from 0
+381.350577818041SN.node[3].Application                   3 received a package from 0
+382.560923409741SN.node[0].Application                   0 received a package from 2
+382.560923409741SN.node[1].Application                   1 received a package from 2
+382.560923409741SN.node[3].Application                   3 received a package from 2
 390.006187840367SN.node[1].Application                   1 detectou a falha
-390.039658182975SN.node[3].Application                   O sink travou
+390.006187840367SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+390.039658182976SN.node[3].Application                   3 detectou a falha
+390.039658182976SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 390.050934380463SN.node[0].Application                   0 detectou a falha
+390.050934380463SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 390.055372627413SN.node[2].Application                   2 detectou a falha
-395.006221835192SN.node[1].Application                   1 detectou a falha
-395.039628192345SN.node[3].Application                   O sink travou
-395.051234309761SN.node[0].Application                   0 detectou a falha
-395.055628591981SN.node[2].Application                   2 detectou a falha
+390.055372627413SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+390.486277582333SN.node[1].Application                   1 received a package from 3
+390.493979452197SN.node[0].Application                   0 received a package from 2
+390.493979452197SN.node[1].Application                   1 received a package from 2
+390.493979452197SN.node[3].Application                   3 received a package from 2
+391.098612318078SN.node[1].Application                   1 received a package from 0
+391.098612318078SN.node[2].Application                   2 received a package from 0
+391.098612318078SN.node[3].Application                   3 received a package from 0
+391.715264468903SN.node[0].Application                   0 received a package from 1
+391.715264468903SN.node[2].Application                   2 received a package from 1
+391.715264468903SN.node[3].Application                   3 received a package from 1
 400.006255830017SN.node[1].Application                   1 detectou a falha
-400.039598201715SN.node[3].Application                   O sink travou
+400.006255830017SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+400.039598201716SN.node[3].Application                   3 detectou a falha
+400.039598201716SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 400.051534239059SN.node[0].Application                   0 detectou a falha
+400.051534239059SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 400.055884556549SN.node[2].Application                   2 detectou a falha
-405.006289824842SN.node[1].Application                   1 detectou a falha
-405.039568211085SN.node[3].Application                   O sink tá massa
-405.039568211085SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-405.051834168357SN.node[0].Application                   0 detectou a falha
-405.056140521117SN.node[2].Application                   2 detectou a falha
-406.360208829117SN.node[0].Application                   0 received a package from 3
-406.360208829117SN.node[1].Application                   1 received a package from 3
-406.360208829117SN.node[2].Application                   2 received a package from 3
-410.039538220455SN.node[3].Application                   O sink travou
-415.006357814492SN.node[1].Application                   1 detectou a falha
-415.039508229825SN.node[3].Application                   O sink tá massa
-415.039508229825SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-415.052434026953SN.node[0].Application                   0 detectou a falha
-415.056652450253SN.node[2].Application                   2 detectou a falha
-415.498243506726SN.node[0].Application                   0 received a package from 3
-415.498243506726SN.node[1].Application                   1 received a package from 3
-415.498243506726SN.node[2].Application                   2 received a package from 3
-420.039478239195SN.node[3].Application                   O sink tá massa
-420.039478239195SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-420.378007435017SN.node[1].Application                   1 received a package from 3
-425.039448248565SN.node[3].Application                   O sink tá massa
-425.039448248565SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-425.053033885549SN.node[0].Application                   0 detectou a falha
-425.057164379389SN.node[2].Application                   2 detectou a falha
-425.266231677734SN.node[0].Application                   0 received a package from 3
-425.266231677734SN.node[1].Application                   1 received a package from 3
-425.266231677734SN.node[2].Application                   2 received a package from 3
-430.039418257935SN.node[3].Application                   O sink tá massa
-430.039418257935SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-430.751993660603SN.node[0].Application                   0 received a package from 3
-430.751993660603SN.node[1].Application                   1 received a package from 3
-430.751993660603SN.node[2].Application                   2 received a package from 3
-435.039388267305SN.node[3].Application                   O sink travou
+400.055884556549SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+400.248926575369SN.node[1].Application                   1 received a package from 0
+400.248926575369SN.node[2].Application                   2 received a package from 0
+400.248926575369SN.node[3].Application                   3 received a package from 0
+400.857211010224SN.node[0].Application                   0 received a package from 3
+400.857211010224SN.node[1].Application                   1 received a package from 3
+400.857211010224SN.node[2].Application                   2 received a package from 3
+401.469396677422SN.node[0].Application                   0 received a package from 1
+401.469396677422SN.node[2].Application                   2 received a package from 1
+401.469396677422SN.node[3].Application                   3 received a package from 1
+402.083500942085SN.node[0].Application                   0 received a package from 2
+402.083500942085SN.node[1].Application                   1 received a package from 2
+402.083500942085SN.node[3].Application                   3 received a package from 2
+410.006323819667SN.node[1].Application                   1 detectou a falha
+410.006323819667SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+410.039538220456SN.node[3].Application                   3 detectou a falha
+410.039538220456SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+410.052134097655SN.node[0].Application                   0 detectou a falha
+410.052134097655SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+410.056396485685SN.node[2].Application                   2 detectou a falha
+410.056396485685SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+410.630087602685SN.node[0].Application                   0 received a package from 1
+410.630087602685SN.node[2].Application                   2 received a package from 1
+410.630087602685SN.node[3].Application                   3 received a package from 1
+411.232311079819SN.node[0].Application                   0 received a package from 2
+411.232311079819SN.node[1].Application                   1 received a package from 2
+411.232311079819SN.node[3].Application                   3 received a package from 2
+411.851273556792SN.node[0].Application                   0 received a package from 3
+411.851273556792SN.node[1].Application                   1 received a package from 3
+411.851273556792SN.node[2].Application                   2 received a package from 3
+412.456803048592SN.node[1].Application                   1 received a package from 0
+412.456803048592SN.node[2].Application                   2 received a package from 0
+412.456803048592SN.node[3].Application                   3 received a package from 0
+420.006391809317SN.node[1].Application                   1 detectou a falha
+420.006391809317SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+420.039478239196SN.node[3].Application                   3 detectou a falha
+420.039478239196SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+420.052733956251SN.node[0].Application                   0 detectou a falha
+420.052733956251SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+420.056908414821SN.node[2].Application                   2 detectou a falha
+420.056908414821SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+420.379649630514SN.node[0].Application                   0 received a package from 2
+420.379649630514SN.node[1].Application                   1 received a package from 2
+420.379649630514SN.node[3].Application                   3 received a package from 2
+420.993803092363SN.node[1].Application                   1 received a package from 0
+420.993803092363SN.node[2].Application                   2 received a package from 0
+420.993803092363SN.node[3].Application                   3 received a package from 0
+421.603920021392SN.node[0].Application                   0 received a package from 3
+421.603920021392SN.node[1].Application                   1 received a package from 3
+421.603920021392SN.node[2].Application                   2 received a package from 3
+423.432107605699SN.node[0].Application                   0 received a package from 1
+423.432107605699SN.node[2].Application                   2 received a package from 1
+423.432107605699SN.node[3].Application                   3 received a package from 1
+430.006459798967SN.node[1].Application                   1 detectou a falha
+430.006459798967SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+430.039418257936SN.node[3].Application                   3 detectou a falha
+430.039418257936SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+430.053333814847SN.node[0].Application                   0 detectou a falha
+430.053333814847SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+430.057420343957SN.node[2].Application                   2 detectou a falha
+430.057420343957SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+430.138891625208SN.node[1].Application                   1 received a package from 0
+430.138891625208SN.node[2].Application                   2 received a package from 0
+430.138891625208SN.node[3].Application                   3 received a package from 0
+430.759376809049SN.node[0].Application                   0 received a package from 3
+430.759376809049SN.node[1].Application                   1 received a package from 3
+430.759376809049SN.node[2].Application                   2 received a package from 3
+431.358862816625SN.node[0].Application                   0 received a package from 1
+431.358862816625SN.node[2].Application                   2 received a package from 1
+431.358862816625SN.node[3].Application                   3 received a package from 1
+431.360967762401SN.node[0].Application                   0 received a package from 2
+431.360967762401SN.node[1].Application                   1 received a package from 2
+431.360967762401SN.node[3].Application                   3 received a package from 2
 440.006527788617SN.node[1].Application                   1 detectou a falha
-440.039358276675SN.node[3].Application                   O sink travou
+440.006527788617SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+440.039358276676SN.node[3].Application                   3 detectou a falha
+440.039358276676SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 440.053933673443SN.node[0].Application                   0 detectou a falha
+440.053933673443SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 440.057932273093SN.node[2].Application                   2 detectou a falha
-445.006561783442SN.node[1].Application                   1 detectou a falha
-445.039328286045SN.node[3].Application                   O sink travou
-445.054233602741SN.node[0].Application                   0 detectou a falha
-445.058188237661SN.node[2].Application                   2 detectou a falha
+440.057932273093SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+440.518438266978SN.node[1].Application                   1 received a package from 0
+440.518438266978SN.node[2].Application                   2 received a package from 0
+440.518438266978SN.node[3].Application                   3 received a package from 0
+441.121089033127SN.node[0].Application                   0 received a package from 1
+441.121089033127SN.node[2].Application                   2 received a package from 1
+441.121089033127SN.node[3].Application                   3 received a package from 1
+441.736804202165SN.node[0].Application                   0 received a package from 2
+441.736804202165SN.node[1].Application                   1 received a package from 2
+441.736804202165SN.node[3].Application                   3 received a package from 2
+442.347404850253SN.node[0].Application                   0 received a package from 3
+442.347404850253SN.node[1].Application                   1 received a package from 3
+442.347404850253SN.node[2].Application                   2 received a package from 3
 450.006595778267SN.node[1].Application                   1 detectou a falha
-450.039298295415SN.node[3].Application                   O sink tá massa
-450.039298295415SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+450.006595778267SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+450.039298295416SN.node[3].Application                   3 detectou a falha
+450.039298295416SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 450.054533532039SN.node[0].Application                   0 detectou a falha
+450.054533532039SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 450.058444202229SN.node[2].Application                   2 detectou a falha
-450.275008938573SN.node[0].Application                   0 received a package from 3
-450.275008938573SN.node[1].Application                   1 received a package from 3
-450.275008938573SN.node[2].Application                   2 received a package from 3
-455.039268304785SN.node[3].Application                   O sink tá massa
-455.039268304785SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-455.152782059332SN.node[0].Application                   0 received a package from 3
-455.152782059332SN.node[1].Application                   1 received a package from 3
-455.152782059332SN.node[2].Application                   2 received a package from 3
-460.039238314155SN.node[3].Application                   O sink tá massa
-460.039238314155SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-460.64892277924 SN.node[0].Application                   0 received a package from 3
-460.64892277924 SN.node[1].Application                   1 received a package from 3
-460.64892277924 SN.node[2].Application                   2 received a package from 3
-465.039208323525SN.node[3].Application                   O sink tá massa
-465.039208323525SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-465.530137419844SN.node[0].Application                   0 received a package from 3
-465.530137419844SN.node[1].Application                   1 received a package from 3
-465.530137419844SN.node[2].Application                   2 received a package from 3
-470.039178332895SN.node[3].Application                   O sink tá massa
-470.039178332895SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-470.40540196566 SN.node[0].Application                   0 received a package from 3
-470.40540196566 SN.node[1].Application                   1 received a package from 3
-470.40540196566 SN.node[2].Application                   2 received a package from 3
-475.039148342265SN.node[3].Application                   O sink tá massa
-475.039148342265SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-475.285830751521SN.node[0].Application                   0 received a package from 3
-475.285830751521SN.node[1].Application                   1 received a package from 3
-475.285830751521SN.node[2].Application                   2 received a package from 3
-480.039118351635SN.node[3].Application                   O sink travou
-485.006833742042SN.node[1].Application                   1 detectou a falha
-485.039088361005SN.node[3].Application                   O sink travou
-485.056633037125SN.node[0].Application                   0 detectou a falha
-485.060235954205SN.node[2].Application                   2 detectou a falha
+450.058444202229SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+450.270161702662SN.node[0].Application                   0 received a package from 2
+450.270161702662SN.node[1].Application                   1 received a package from 2
+450.270161702662SN.node[3].Application                   3 received a package from 2
+450.88055077503 SN.node[1].Application                   1 received a package from 0
+450.88055077503 SN.node[2].Application                   2 received a package from 0
+450.88055077503 SN.node[3].Application                   3 received a package from 0
+451.496701442342SN.node[0].Application                   0 received a package from 3
+451.496701442342SN.node[1].Application                   1 received a package from 3
+451.496701442342SN.node[2].Application                   2 received a package from 3
+452.102969155538SN.node[0].Application                   0 received a package from 1
+452.102969155538SN.node[2].Application                   2 received a package from 1
+452.102969155538SN.node[3].Application                   3 received a package from 1
+460.006663767917SN.node[1].Application                   1 detectou a falha
+460.006663767917SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+460.039238314156SN.node[3].Application                   3 detectou a falha
+460.039238314156SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+460.055133390635SN.node[0].Application                   0 detectou a falha
+460.055133390635SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+460.058956131365SN.node[2].Application                   2 detectou a falha
+460.058956131365SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+460.640765897613SN.node[1].Application                   1 received a package from 0
+460.640765897613SN.node[2].Application                   2 received a package from 0
+460.640765897613SN.node[3].Application                   3 received a package from 0
+461.253567547568SN.node[0].Application                   0 received a package from 2
+461.253567547568SN.node[1].Application                   1 received a package from 2
+461.253567547568SN.node[3].Application                   3 received a package from 2
+461.866331968325SN.node[0].Application                   0 received a package from 1
+461.866331968325SN.node[2].Application                   2 received a package from 1
+461.866331968325SN.node[3].Application                   3 received a package from 1
+462.478984829225SN.node[0].Application                   0 received a package from 3
+462.478984829225SN.node[1].Application                   1 received a package from 3
+462.478984829225SN.node[2].Application                   2 received a package from 3
+470.006731757567SN.node[1].Application                   1 detectou a falha
+470.006731757567SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+470.039178332896SN.node[3].Application                   3 detectou a falha
+470.039178332896SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+470.055733249231SN.node[0].Application                   0 detectou a falha
+470.055733249231SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+470.059468060501SN.node[2].Application                   2 detectou a falha
+470.059468060501SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+470.412158021425SN.node[1].Application                   1 received a package from 0
+470.412158021425SN.node[2].Application                   2 received a package from 0
+470.412158021425SN.node[3].Application                   3 received a package from 0
+471.025493348254SN.node[0].Application                   0 received a package from 2
+471.025493348254SN.node[1].Application                   1 received a package from 2
+471.025493348254SN.node[3].Application                   3 received a package from 2
+471.632993598619SN.node[0].Application                   0 received a package from 1
+471.632993598619SN.node[2].Application                   2 received a package from 1
+471.632993598619SN.node[3].Application                   3 received a package from 1
+472.239938283852SN.node[0].Application                   0 received a package from 3
+472.239938283852SN.node[1].Application                   1 received a package from 3
+472.239938283852SN.node[2].Application                   2 received a package from 3
+480.006799747217SN.node[1].Application                   1 detectou a falha
+480.006799747217SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+480.039118351636SN.node[3].Application                   3 detectou a falha
+480.039118351636SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+480.056333107827SN.node[0].Application                   0 detectou a falha
+480.056333107827SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+480.059979989637SN.node[2].Application                   2 detectou a falha
+480.059979989637SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+480.165955067068SN.node[0].Application                   0 received a package from 2
+480.165955067068SN.node[1].Application                   1 received a package from 2
+480.165955067068SN.node[3].Application                   3 received a package from 2
+480.77550696347 SN.node[0].Application                   0 received a package from 3
+480.77550696347 SN.node[1].Application                   1 received a package from 3
+480.77550696347 SN.node[2].Application                   2 received a package from 3
+481.390440735249SN.node[1].Application                   1 received a package from 0
+481.390440735249SN.node[2].Application                   2 received a package from 0
+481.390440735249SN.node[3].Application                   3 received a package from 0
+483.218029208089SN.node[0].Application                   0 received a package from 1
+483.218029208089SN.node[2].Application                   2 received a package from 1
+483.218029208089SN.node[3].Application                   3 received a package from 1
 490.006867736867SN.node[1].Application                   1 detectou a falha
-490.039058370375SN.node[3].Application                   O sink tá massa
-490.039058370375SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+490.006867736867SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+490.039058370376SN.node[3].Application                   3 detectou a falha
+490.039058370376SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 490.056932966423SN.node[0].Application                   0 detectou a falha
+490.056932966423SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 490.060491918773SN.node[2].Application                   2 detectou a falha
-490.53294676761 SN.node[0].Application                   0 received a package from 3
-490.53294676761 SN.node[1].Application                   1 received a package from 3
-490.53294676761 SN.node[2].Application                   2 received a package from 3
-495.039028379745SN.node[3].Application                   O sink tá massa
-495.039028379745SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-496.639418184997SN.node[0].Application                   0 received a package from 3
-496.639418184997SN.node[1].Application                   1 received a package from 3
-496.639418184997SN.node[2].Application                   2 received a package from 3
-500.038998389115SN.node[3].Application                   O sink tá massa
-500.038998389115SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-500.295673662292SN.node[0].Application                   0 received a package from 3
-500.295673662292SN.node[1].Application                   1 received a package from 3
-500.295673662292SN.node[2].Application                   2 received a package from 3
-505.038968398485SN.node[3].Application                   O sink tá massa
-505.038968398485SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-505.173582657977SN.node[0].Application                   0 received a package from 3
-505.173582657977SN.node[1].Application                   1 received a package from 3
-505.173582657977SN.node[2].Application                   2 received a package from 3
-510.038938407855SN.node[3].Application                   O sink tá massa
-510.038938407855SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-510.056676853046SN.node[0].Application                   0 received a package from 3
-510.056676853046SN.node[1].Application                   1 received a package from 3
-510.056676853046SN.node[2].Application                   2 received a package from 3
-515.038908417225SN.node[3].Application                   O sink tá massa
-515.038908417225SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-515.058432612913SN.node[0].Application                   0 detectou a falha
-515.061771741613SN.node[2].Application                   2 detectou a falha
-515.548554763245SN.node[0].Application                   0 received a package from 3
-515.548554763245SN.node[1].Application                   1 received a package from 3
-515.548554763245SN.node[2].Application                   2 received a package from 3
-520.038878426595SN.node[3].Application                   O sink tá massa
-520.038878426595SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-520.425042620141SN.node[0].Application                   0 received a package from 3
-520.425042620141SN.node[1].Application                   1 received a package from 3
-520.425042620141SN.node[2].Application                   2 received a package from 3
-525.038848435965SN.node[3].Application                   O sink tá massa
-525.038848435965SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-525.313509058889SN.node[0].Application                   0 received a package from 3
-525.313509058889SN.node[1].Application                   1 received a package from 3
-525.313509058889SN.node[2].Application                   2 received a package from 3
-530.038818445335SN.node[3].Application                   O sink travou
-535.007173690292SN.node[1].Application                   1 detectou a falha
-535.038788454705SN.node[3].Application                   O sink tá massa
-535.038788454705SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-535.059632330105SN.node[0].Application                   0 detectou a falha
-535.062795599885SN.node[2].Application                   2 detectou a falha
-535.064841693   SN.node[1].Application                   1 received a package from 3
-540.038758464075SN.node[3].Application                   O sink travou
+490.060491918773SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+490.534936863321SN.node[0].Application                   0 received a package from 3
+490.534936863321SN.node[1].Application                   1 received a package from 3
+490.534936863321SN.node[2].Application                   2 received a package from 3
+491.144197683961SN.node[0].Application                   0 received a package from 2
+491.144197683961SN.node[1].Application                   1 received a package from 2
+491.144197683961SN.node[3].Application                   3 received a package from 2
+491.755800649225SN.node[1].Application                   1 received a package from 0
+491.755800649225SN.node[2].Application                   2 received a package from 0
+491.755800649225SN.node[3].Application                   3 received a package from 0
+492.370627156338SN.node[0].Application                   0 received a package from 1
+492.370627156338SN.node[2].Application                   2 received a package from 1
+492.370627156338SN.node[3].Application                   3 received a package from 1
+500.006935726517SN.node[1].Application                   1 detectou a falha
+500.006935726517SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+500.038998389116SN.node[3].Application                   3 detectou a falha
+500.038998389116SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+500.057532825019SN.node[0].Application                   0 detectou a falha
+500.057532825019SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+500.061003847909SN.node[2].Application                   2 detectou a falha
+500.061003847909SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+500.293650220889SN.node[0].Application                   0 received a package from 2
+500.293650220889SN.node[1].Application                   1 received a package from 2
+500.293650220889SN.node[3].Application                   3 received a package from 2
+500.906618335123SN.node[0].Application                   0 received a package from 1
+500.906618335123SN.node[2].Application                   2 received a package from 1
+500.906618335123SN.node[3].Application                   3 received a package from 1
+501.521186238458SN.node[1].Application                   1 received a package from 0
+501.521186238458SN.node[2].Application                   2 received a package from 0
+501.521186238458SN.node[3].Application                   3 received a package from 0
+503.347266564818SN.node[0].Application                   0 received a package from 3
+503.347266564818SN.node[1].Application                   1 received a package from 3
+503.347266564818SN.node[2].Application                   2 received a package from 3
+510.007003716167SN.node[1].Application                   1 detectou a falha
+510.007003716167SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+510.038938407856SN.node[3].Application                   3 detectou a falha
+510.038938407856SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+510.0546487513  SN.node[0].Application                   0 received a package from 1
+510.0546487513  SN.node[2].Application                   2 received a package from 1
+510.0546487513  SN.node[3].Application                   3 received a package from 1
+510.663816054515SN.node[0].Application                   0 received a package from 3
+510.663816054515SN.node[1].Application                   1 received a package from 3
+510.663816054515SN.node[2].Application                   2 received a package from 3
+520.007071705817SN.node[1].Application                   1 detectou a falha
+520.007071705817SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+520.038878426596SN.node[3].Application                   3 detectou a falha
+520.038878426596SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+520.058732542211SN.node[0].Application                   0 detectou a falha
+520.058732542211SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+520.062027706181SN.node[2].Application                   2 detectou a falha
+520.062027706181SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+520.425394522242SN.node[1].Application                   1 received a package from 0
+520.425394522242SN.node[2].Application                   2 received a package from 0
+520.425394522242SN.node[3].Application                   3 received a package from 0
+521.035045878799SN.node[0].Application                   0 received a package from 1
+521.035045878799SN.node[2].Application                   2 received a package from 1
+521.035045878799SN.node[3].Application                   3 received a package from 1
+521.65037034567 SN.node[0].Application                   0 received a package from 2
+521.65037034567 SN.node[1].Application                   1 received a package from 2
+521.65037034567 SN.node[3].Application                   3 received a package from 2
+522.255364631026SN.node[0].Application                   0 received a package from 3
+522.255364631026SN.node[1].Application                   1 received a package from 3
+522.255364631026SN.node[2].Application                   2 received a package from 3
+530.007139695467SN.node[1].Application                   1 detectou a falha
+530.007139695467SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+530.038818445336SN.node[3].Application                   3 detectou a falha
+530.038818445336SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+530.059332400807SN.node[0].Application                   0 detectou a falha
+530.059332400807SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+530.062539635317SN.node[2].Application                   2 detectou a falha
+530.062539635317SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+530.189196226609SN.node[1].Application                   1 received a package from 0
+530.189196226609SN.node[2].Application                   2 received a package from 0
+530.189196226609SN.node[3].Application                   3 received a package from 0
+530.800153188306SN.node[0].Application                   0 received a package from 3
+530.800153188306SN.node[1].Application                   1 received a package from 3
+530.800153188306SN.node[2].Application                   2 received a package from 3
+531.417626406096SN.node[0].Application                   0 received a package from 1
+531.417626406096SN.node[2].Application                   2 received a package from 1
+531.417626406096SN.node[3].Application                   3 received a package from 1
+532.017873873742SN.node[0].Application                   0 received a package from 2
+532.017873873742SN.node[1].Application                   1 received a package from 2
+532.017873873742SN.node[3].Application                   3 received a package from 2
+540.007207685117SN.node[1].Application                   1 detectou a falha
+540.007207685117SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+540.038758464076SN.node[3].Application                   3 detectou a falha
+540.038758464076SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 540.059932259403SN.node[0].Application                   0 detectou a falha
+540.059932259403SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 540.063051564453SN.node[2].Application                   2 detectou a falha
-545.007241679942SN.node[1].Application                   1 detectou a falha
-545.038728473445SN.node[3].Application                   O sink travou
-545.060232188701SN.node[0].Application                   0 detectou a falha
-545.063307529021SN.node[2].Application                   2 detectou a falha
+540.063051564453SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+540.558430017797SN.node[0].Application                   0 received a package from 3
+540.558430017797SN.node[1].Application                   1 received a package from 3
+540.558430017797SN.node[2].Application                   2 received a package from 3
+541.165551927461SN.node[1].Application                   1 received a package from 0
+541.165551927461SN.node[2].Application                   2 received a package from 0
+541.165551927461SN.node[3].Application                   3 received a package from 0
+541.782757535934SN.node[0].Application                   0 received a package from 2
+541.782757535934SN.node[1].Application                   1 received a package from 2
+541.782757535934SN.node[3].Application                   3 received a package from 2
+543.610509684464SN.node[0].Application                   0 received a package from 1
+543.610509684464SN.node[2].Application                   2 received a package from 1
+543.610509684464SN.node[3].Application                   3 received a package from 1
 550.007275674767SN.node[1].Application                   1 detectou a falha
-550.038698482815SN.node[3].Application                   O sink tá massa
-550.038698482815SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+550.007275674767SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+550.038698482816SN.node[3].Application                   3 detectou a falha
+550.038698482816SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 550.060532117999SN.node[0].Application                   0 detectou a falha
+550.060532117999SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 550.063563493589SN.node[2].Application                   2 detectou a falha
-550.317333036925SN.node[0].Application                   0 received a package from 3
-550.317333036925SN.node[1].Application                   1 received a package from 3
-550.317333036925SN.node[2].Application                   2 received a package from 3
-555.038668492185SN.node[3].Application                   O sink tá massa
-555.038668492185SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-555.203932853295SN.node[0].Application                   0 received a package from 3
-555.203932853295SN.node[1].Application                   1 received a package from 3
-555.203932853295SN.node[2].Application                   2 received a package from 3
-560.038638501555SN.node[3].Application                   O sink tá massa
-560.038638501555SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-561.311168420833SN.node[0].Application                   0 received a package from 3
-561.311168420833SN.node[1].Application                   1 received a package from 3
-561.311168420833SN.node[2].Application                   2 received a package from 3
-565.038608510925SN.node[3].Application                   O sink travou
+550.063563493589SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+550.317205306141SN.node[0].Application                   0 received a package from 1
+550.317205306141SN.node[2].Application                   2 received a package from 1
+550.317205306141SN.node[3].Application                   3 received a package from 1
+550.932916606144SN.node[0].Application                   0 received a package from 3
+550.932916606144SN.node[1].Application                   1 received a package from 3
+550.932916606144SN.node[2].Application                   2 received a package from 3
+551.538029104296SN.node[1].Application                   1 received a package from 0
+551.538029104296SN.node[2].Application                   2 received a package from 0
+551.538029104296SN.node[3].Application                   3 received a package from 0
+552.154989230274SN.node[0].Application                   0 received a package from 2
+552.154989230274SN.node[1].Application                   1 received a package from 2
+552.154989230274SN.node[3].Application                   3 received a package from 2
+560.007343664417SN.node[1].Application                   1 detectou a falha
+560.007343664417SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+560.038638501556SN.node[3].Application                   3 detectou a falha
+560.038638501556SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+560.061131976595SN.node[0].Application                   0 detectou a falha
+560.061131976595SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+560.064075422725SN.node[2].Application                   2 detectou a falha
+560.064075422725SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+560.076410310876SN.node[3].Application                   3 received a package from 1
+560.079134329091SN.node[0].Application                   0 received a package from 2
+560.079134329091SN.node[1].Application                   1 received a package from 2
+560.079134329091SN.node[3].Application                   3 received a package from 2
+560.690173134972SN.node[0].Application                   0 received a package from 3
+560.690173134972SN.node[1].Application                   1 received a package from 3
+560.690173134972SN.node[2].Application                   2 received a package from 3
+561.303954717546SN.node[1].Application                   1 received a package from 0
+561.303954717546SN.node[2].Application                   2 received a package from 0
+561.303954717546SN.node[3].Application                   3 received a package from 0
 570.007411654067SN.node[1].Application                   1 detectou a falha
-570.038578520295SN.node[3].Application                   O sink tá massa
-570.038578520295SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+570.007411654067SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+570.038578520296SN.node[3].Application                   3 detectou a falha
+570.038578520296SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 570.061731835191SN.node[0].Application                   0 detectou a falha
+570.061731835191SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
 570.064587351861SN.node[2].Application                   2 detectou a falha
-570.44848038899 SN.node[0].Application                   0 received a package from 3
-570.44848038899 SN.node[1].Application                   1 received a package from 3
-570.44848038899 SN.node[2].Application                   2 received a package from 3
-575.038548529665SN.node[3].Application                   O sink tá massa
-575.038548529665SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-575.330168394918SN.node[0].Application                   0 received a package from 3
-575.330168394918SN.node[1].Application                   1 received a package from 3
-575.330168394918SN.node[2].Application                   2 received a package from 3
-580.038518539035SN.node[3].Application                   O sink tá massa
-580.038518539035SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-580.826399228654SN.node[0].Application                   0 received a package from 3
-580.826399228654SN.node[1].Application                   1 received a package from 3
-580.826399228654SN.node[2].Application                   2 received a package from 3
-585.038488548405SN.node[3].Application                   O sink tá massa
-585.038488548405SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-585.703854089331SN.node[0].Application                   0 received a package from 3
-585.703854089331SN.node[1].Application                   1 received a package from 3
-585.703854089331SN.node[2].Application                   2 received a package from 3
-590.038458557775SN.node[3].Application                   O sink tá massa
-590.038458557775SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-590.589113403494SN.node[0].Application                   0 received a package from 3
-590.589113403494SN.node[1].Application                   1 received a package from 3
-590.589113403494SN.node[2].Application                   2 received a package from 3
-595.038428567145SN.node[3].Application                   O sink tá massa
-595.038428567145SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
-595.462040595114SN.node[0].Application                   0 received a package from 3
-595.462040595114SN.node[1].Application                   1 received a package from 3
-595.462040595114SN.node[2].Application                   2 received a package from 3
+570.064587351861SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+570.448661917822SN.node[0].Application                   0 received a package from 3
+570.448661917822SN.node[1].Application                   1 received a package from 3
+570.448661917822SN.node[2].Application                   2 received a package from 3
+571.060285388454SN.node[0].Application                   0 received a package from 1
+571.060285388454SN.node[2].Application                   2 received a package from 1
+571.060285388454SN.node[3].Application                   3 received a package from 1
+571.670058944999SN.node[1].Application                   1 received a package from 0
+571.670058944999SN.node[2].Application                   2 received a package from 0
+571.670058944999SN.node[3].Application                   3 received a package from 0
+574.119591340702SN.node[0].Application                   0 received a package from 2
+574.119591340702SN.node[1].Application                   1 received a package from 2
+574.119591340702SN.node[3].Application                   3 received a package from 2
+580.007479643717SN.node[1].Application                   1 detectou a falha
+580.007479643717SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+580.038518539036SN.node[3].Application                   3 detectou a falha
+580.038518539036SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+580.062331693787SN.node[0].Application                   0 detectou a falha
+580.062331693787SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+580.065099280997SN.node[2].Application                   2 detectou a falha
+580.065099280997SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+580.208964413112SN.node[0].Application                   0 received a package from 1
+580.208964413112SN.node[2].Application                   2 received a package from 1
+580.208964413112SN.node[3].Application                   3 received a package from 1
+580.825889923912SN.node[0].Application                   0 received a package from 2
+580.825889923912SN.node[1].Application                   1 received a package from 2
+580.825889923912SN.node[3].Application                   3 received a package from 2
+581.429499287307SN.node[0].Application                   0 received a package from 3
+581.429499287307SN.node[1].Application                   1 received a package from 3
+581.429499287307SN.node[2].Application                   2 received a package from 3
+582.044680744529SN.node[1].Application                   1 received a package from 0
+582.044680744529SN.node[2].Application                   2 received a package from 0
+582.044680744529SN.node[3].Application                   3 received a package from 0
+590.007547633367SN.node[1].Application                   1 detectou a falha
+590.007547633367SN.node[1].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+590.038458557776SN.node[3].Application                   3 detectou a falha
+590.038458557776SN.node[3].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+590.062931552383SN.node[0].Application                   0 detectou a falha
+590.062931552383SN.node[0].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+590.065611210133SN.node[2].Application                   2 detectou a falha
+590.065611210133SN.node[2].Application                   Sending [App generic packet] of size 20 bytes to communication layer
+590.587965343999SN.node[0].Application                   0 received a package from 2
+590.587965343999SN.node[1].Application                   1 received a package from 2
+590.587965343999SN.node[3].Application                   3 received a package from 2
+591.190751576066SN.node[1].Application                   1 received a package from 0
+591.190751576066SN.node[2].Application                   2 received a package from 0
+591.190751576066SN.node[3].Application                   3 received a package from 0
+591.803539111467SN.node[0].Application                   0 received a package from 3
+591.803539111467SN.node[1].Application                   1 received a package from 3
+591.803539111467SN.node[2].Application                   2 received a package from 3
+592.416502465902SN.node[0].Application                   0 received a package from 1
+592.416502465902SN.node[2].Application                   2 received a package from 1
+592.416502465902SN.node[3].Application                   3 received a package from 1

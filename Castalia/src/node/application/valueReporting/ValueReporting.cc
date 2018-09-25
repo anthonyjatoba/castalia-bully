@@ -23,9 +23,9 @@ void ValueReporting::timerFiredCallback(int index) {
 					toNetworkLayer(createGenericDataPacket(self, 1), BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede
 					//newPacket->setData(data);
 					//newPacket->setSequenceNumber(seqNum);
-					for (int i = self+1; i < netSize; i++){
-						toNetworkLayer(createGenericDataPacket(self, 1), i);
-					}
+					//for (int i = self+1; i < netSize; i++){
+						//toNetworkLayer(createGenericDataPacket(self, 1), i);
+					//}
 				}
 				setTimer(CHECK, 5);
 				break;
