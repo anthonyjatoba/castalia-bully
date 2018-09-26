@@ -3,50 +3,55 @@
 Define_Module(BullyElection);
 
 void BullyElection::startup() {
-	setTimer(HEARTBEAT, 5);	//o sink começa a enviar o heartbeat após 5 segundos
-	setTimer(CHECK, 10);		//após 10 segundos os nodes começam a checar
+	sendLeader();
+	setTimer(SEND_HEARTBEAT, 5);	//o sink começa a enviar o heartbeat após 5 segundos
+	setTimer(CHECK_LEADER, 10);		//após 10 segundos os nodes começam a checar
 }
 
 void BullyElection::timerFiredCallback(int index) {
-		switch (index) {
-		case HEARTBEAT:{
-				sendHeartbeat();
-				setTimer(HEARTBEAT, 5);
-				break;
+	switch (index) {
+		case SEND_HEARTBEAT: {
+			sendHeartbeat();
+			setTimer(SEND_HEARTBEAT, 5);
+			break;
 		}
-		case CHECK: {
-			if (!isLeader) {
-				if (getClock() - lastHeartbeat > 5){		//se passou 5 segundos sem receber o heartbeat, detecta a falha
-					trace() << self << " detectou a falha";
+		case CHECK_LEADER: {
+			if (!isLeader){
+				if (getClock() - lastHeartbeat > 5){		//5 segundos sem receber o heartbeat, detecta a falha
+					trace() << self << " detectou a falha do líder " << leaderID;
 					//TODO ELEIÇÃO
-					toNetworkLayer(createGenericDataPacket(self, 1), BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede
-					//newPacket->setData(data);
-					//newPacket->setSequenceNumber(seqNum);
-					//for (int i = self+1; i < netSize; i++){
-						//toNetworkLayer(createGenericDataPacket(self, 1), i);
-					//}
 				}
-				setTimer(CHECK, 5);
-				break;
+
 			}
+			setTimer(CHECK_LEADER, 5);
+			break;
 		}
 	}
 }
 
 void BullyElection::fromNetworkLayer(ApplicationPacket * genericPacket, const char *source, double rssi, double lqi) {
-	if (isLeader){
+	BullyElectionDataPacket	*rcvPacket = check_and_cast<BullyElectionDataPacket*>(genericPacket);
+	BullyElectionData theData = rcvPacket->getExtraData();
 
-	} else {
-		ApplicationPacket *rcvPacket = check_and_cast<ApplicationPacket*>(genericPacket);
-		trace() << self << " received a package from " << rcvPacket->getData();
-		lastHeartbeat = getClock();
-	}
+
+		switch (theData.messageType) {
+			case HEARTBEAT:
+				trace() << self << " received a HB from " << theData.nodeID;
+				lastHeartbeat = getClock();
+				break;
+			case LEADER:
+				trace() << self << " knows the leader " << theData.nodeID;
+				leaderID = theData.nodeID;
+				break;
+		}
+
+
 }
 
 void BullyElection::sendHeartbeat() {
 	if (isLeader){
 		if (working){
-			working = rand() % 100 > 20 ? true : false;		//20% de chance de travar
+			working = rand() % 100 > 70 ? true : false;		//30% de chance de travar
 		} else {
 			working = rand() % 100 > 70 ? true : false;		//Um node travado tem 30% de chance de voltar a funcionar
 		}
@@ -54,9 +59,27 @@ void BullyElection::sendHeartbeat() {
 		trace() << "O lider" << (working ? " está funcionando normalmente" : " está travado");
 
 		if (working) {
-			toNetworkLayer(createGenericDataPacket(self, 1), BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede
-		} else {
-			//faz nada
+			BullyElectionData tmpData;
+			tmpData.nodeID = (unsigned short)self;
+			tmpData.messageType = HEARTBEAT;
+
+			BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("Heartbeat pck", APPLICATION_PACKET);
+			packet2Net->setExtraData(tmpData);
+
+			toNetworkLayer(packet2Net, BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede (tá errado o tipo da mensagem)
 		}
+	}
+}
+
+void BullyElection::sendLeader() {
+	if (isLeader){
+		BullyElectionData tmpData;
+		tmpData.nodeID = (unsigned short)self;
+		tmpData.messageType = LEADER;
+
+		BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("Leader pck", APPLICATION_PACKET);
+		packet2Net->setExtraData(tmpData);
+
+		toNetworkLayer(packet2Net, BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede (tá errado o tipo da mensagem)
 	}
 }

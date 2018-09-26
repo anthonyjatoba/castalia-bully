@@ -1,0 +1,258 @@
+
+0.041997452115  SN.node[3].Application                   Sending [Leader pck] of size 20 bytes to communication layer
+1.901793161945  SN.node[0].Application                   0 knows the leader 3
+1.901793161945  SN.node[1].Application                   1 knows the leader 3
+1.901793161945  SN.node[2].Application                   2 knows the leader 3
+5.041967461485  SN.node[3].Application                   O lider está funcionando normalmente
+5.041967461485  SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+5.554024695082  SN.node[0].Application                   0 received a HB from 3
+5.554024695082  SN.node[1].Application                   1 received a HB from 3
+5.554024695082  SN.node[2].Application                   2 received a HB from 3
+10.041937470855 SN.node[3].Application                   O lider está funcionando normalmente
+10.041937470855 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+10.438984069794 SN.node[0].Application                   0 received a HB from 3
+10.438984069794 SN.node[1].Application                   1 received a HB from 3
+10.438984069794 SN.node[2].Application                   2 received a HB from 3
+15.041907480225 SN.node[3].Application                   O lider está funcionando normalmente
+15.041907480225 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+15.932950832281 SN.node[0].Application                   0 received a HB from 3
+15.932950832281 SN.node[1].Application                   1 received a HB from 3
+15.932950832281 SN.node[2].Application                   2 received a HB from 3
+20.041877489595 SN.node[3].Application                   O lider está travado
+25.003706218142 SN.node[1].Application                   1 detectou a falha do líder 3
+25.029039541709 SN.node[0].Application                   0 detectou a falha do líder 3
+25.036687213949 SN.node[2].Application                   2 detectou a falha do líder 3
+25.041847498965 SN.node[3].Application                   O lider está funcionando normalmente
+25.041847498965 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+25.07763969726  SN.node[0].Application                   0 received a HB from 3
+25.07763969726  SN.node[1].Application                   1 received a HB from 3
+25.07763969726  SN.node[2].Application                   2 received a HB from 3
+30.041817508335 SN.node[3].Application                   O lider está travado
+35.003774207792 SN.node[1].Application                   1 detectou a falha do líder 3
+35.029639400305 SN.node[0].Application                   0 detectou a falha do líder 3
+35.037199143085 SN.node[2].Application                   2 detectou a falha do líder 3
+35.041787517705 SN.node[3].Application                   O lider está funcionando normalmente
+35.041787517705 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+35.448084148898 SN.node[0].Application                   0 received a HB from 3
+35.448084148898 SN.node[1].Application                   1 received a HB from 3
+35.448084148898 SN.node[2].Application                   2 received a HB from 3
+40.041757527075 SN.node[3].Application                   O lider está funcionando normalmente
+40.041757527075 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+40.334690206757 SN.node[0].Application                   0 received a HB from 3
+40.334690206757 SN.node[1].Application                   1 received a HB from 3
+40.334690206757 SN.node[2].Application                   2 received a HB from 3
+45.041727536445 SN.node[3].Application                   O lider está travado
+50.003876192267 SN.node[1].Application                   1 detectou a falha do líder 3
+50.030539188199 SN.node[0].Application                   0 detectou a falha do líder 3
+50.037967036789 SN.node[2].Application                   2 detectou a falha do líder 3
+50.041697545815 SN.node[3].Application                   O lider está travado
+55.003910187092 SN.node[1].Application                   1 detectou a falha do líder 3
+55.030839117497 SN.node[0].Application                   0 detectou a falha do líder 3
+55.038223001357 SN.node[2].Application                   2 detectou a falha do líder 3
+55.041667555185 SN.node[3].Application                   O lider está travado
+60.003944181917 SN.node[1].Application                   1 detectou a falha do líder 3
+60.031139046795 SN.node[0].Application                   0 detectou a falha do líder 3
+60.038478965925 SN.node[2].Application                   2 detectou a falha do líder 3
+60.041637564555 SN.node[3].Application                   O lider está travado
+65.003978176742 SN.node[1].Application                   1 detectou a falha do líder 3
+65.031438976093 SN.node[0].Application                   0 detectou a falha do líder 3
+65.038734930493 SN.node[2].Application                   2 detectou a falha do líder 3
+65.041607573925 SN.node[3].Application                   O lider está funcionando normalmente
+65.041607573925 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+65.342140904934 SN.node[0].Application                   0 received a HB from 3
+65.342140904934 SN.node[1].Application                   1 received a HB from 3
+65.342140904934 SN.node[2].Application                   2 received a HB from 3
+70.041577583295 SN.node[3].Application                   O lider está travado
+75.004046166392 SN.node[1].Application                   1 detectou a falha do líder 3
+75.032038834689 SN.node[0].Application                   0 detectou a falha do líder 3
+75.039246859629 SN.node[2].Application                   2 detectou a falha do líder 3
+75.041547592665 SN.node[3].Application                   O lider está travado
+80.004080161217 SN.node[1].Application                   1 detectou a falha do líder 3
+80.032338763987 SN.node[0].Application                   0 detectou a falha do líder 3
+80.039502824197 SN.node[2].Application                   2 detectou a falha do líder 3
+80.041517602035 SN.node[3].Application                   O lider está travado
+85.004114156042 SN.node[1].Application                   1 detectou a falha do líder 3
+85.032638693285 SN.node[0].Application                   0 detectou a falha do líder 3
+85.039758788765 SN.node[2].Application                   2 detectou a falha do líder 3
+85.041487611405 SN.node[3].Application                   O lider está travado
+90.004148150867 SN.node[1].Application                   1 detectou a falha do líder 3
+90.032938622583 SN.node[0].Application                   0 detectou a falha do líder 3
+90.040014753333 SN.node[2].Application                   2 detectou a falha do líder 3
+90.041457620775 SN.node[3].Application                   O lider está travado
+95.004182145692 SN.node[1].Application                   1 detectou a falha do líder 3
+95.033238551881 SN.node[0].Application                   0 detectou a falha do líder 3
+95.040270717901 SN.node[2].Application                   2 detectou a falha do líder 3
+95.041427630145 SN.node[3].Application                   O lider está funcionando normalmente
+95.041427630145 SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+95.235898972223 SN.node[0].Application                   0 received a HB from 3
+95.235898972223 SN.node[1].Application                   1 received a HB from 3
+95.235898972223 SN.node[2].Application                   2 received a HB from 3
+100.041397639515SN.node[3].Application                   O lider está travado
+105.004250135342SN.node[1].Application                   1 detectou a falha do líder 3
+105.033838410477SN.node[0].Application                   0 detectou a falha do líder 3
+105.040782647037SN.node[2].Application                   2 detectou a falha do líder 3
+105.041367648885SN.node[3].Application                   O lider está travado
+110.004284130167SN.node[1].Application                   1 detectou a falha do líder 3
+110.034138339775SN.node[0].Application                   0 detectou a falha do líder 3
+110.041038611605SN.node[2].Application                   2 detectou a falha do líder 3
+110.041337658255SN.node[3].Application                   O lider está travado
+115.004318124992SN.node[1].Application                   1 detectou a falha do líder 3
+115.034438269073SN.node[0].Application                   0 detectou a falha do líder 3
+115.041294576173SN.node[2].Application                   2 detectou a falha do líder 3
+115.041307667625SN.node[3].Application                   O lider está travado
+120.004352119817SN.node[1].Application                   1 detectou a falha do líder 3
+120.034738198371SN.node[0].Application                   0 detectou a falha do líder 3
+120.041277676995SN.node[3].Application                   O lider está travado
+120.041550540741SN.node[2].Application                   2 detectou a falha do líder 3
+125.004386114642SN.node[1].Application                   1 detectou a falha do líder 3
+125.035038127669SN.node[0].Application                   0 detectou a falha do líder 3
+125.041247686365SN.node[3].Application                   O lider está funcionando normalmente
+125.041247686365SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+125.041806505309SN.node[2].Application                   2 detectou a falha do líder 3
+125.12879456162 SN.node[0].Application                   0 received a HB from 3
+125.12879456162 SN.node[1].Application                   1 received a HB from 3
+125.12879456162 SN.node[2].Application                   2 received a HB from 3
+130.041217695735SN.node[3].Application                   O lider está travado
+135.004454104292SN.node[1].Application                   1 detectou a falha do líder 3
+135.035637986265SN.node[0].Application                   0 detectou a falha do líder 3
+135.041187705105SN.node[3].Application                   O lider está travado
+135.042318434445SN.node[2].Application                   2 detectou a falha do líder 3
+140.004488099117SN.node[1].Application                   1 detectou a falha do líder 3
+140.035937915563SN.node[0].Application                   0 detectou a falha do líder 3
+140.041157714475SN.node[3].Application                   O lider está travado
+140.042574399013SN.node[2].Application                   2 detectou a falha do líder 3
+145.004522093942SN.node[1].Application                   1 detectou a falha do líder 3
+145.036237844861SN.node[0].Application                   0 detectou a falha do líder 3
+145.041127723845SN.node[3].Application                   O lider está travado
+145.042830363581SN.node[2].Application                   2 detectou a falha do líder 3
+150.004556088767SN.node[1].Application                   1 detectou a falha do líder 3
+150.036537774159SN.node[0].Application                   0 detectou a falha do líder 3
+150.041097733215SN.node[3].Application                   O lider está travado
+150.043086328149SN.node[2].Application                   2 detectou a falha do líder 3
+155.004590083592SN.node[1].Application                   1 detectou a falha do líder 3
+155.036837703457SN.node[0].Application                   0 detectou a falha do líder 3
+155.041067742585SN.node[3].Application                   O lider está travado
+155.043342292717SN.node[2].Application                   2 detectou a falha do líder 3
+160.004624078417SN.node[1].Application                   1 detectou a falha do líder 3
+160.037137632755SN.node[0].Application                   0 detectou a falha do líder 3
+160.041037751955SN.node[3].Application                   O lider está travado
+160.043598257285SN.node[2].Application                   2 detectou a falha do líder 3
+165.004658073242SN.node[1].Application                   1 detectou a falha do líder 3
+165.037437562053SN.node[0].Application                   0 detectou a falha do líder 3
+165.041007761325SN.node[3].Application                   O lider está travado
+165.043854221853SN.node[2].Application                   2 detectou a falha do líder 3
+170.004692068067SN.node[1].Application                   1 detectou a falha do líder 3
+170.037737491351SN.node[0].Application                   0 detectou a falha do líder 3
+170.040977770695SN.node[3].Application                   O lider está travado
+170.044110186421SN.node[2].Application                   2 detectou a falha do líder 3
+175.004726062892SN.node[1].Application                   1 detectou a falha do líder 3
+175.038037420649SN.node[0].Application                   0 detectou a falha do líder 3
+175.040947780065SN.node[3].Application                   O lider está travado
+175.044366150989SN.node[2].Application                   2 detectou a falha do líder 3
+180.004760057717SN.node[1].Application                   1 detectou a falha do líder 3
+180.038337349947SN.node[0].Application                   0 detectou a falha do líder 3
+180.040917789435SN.node[3].Application                   O lider está travado
+180.044622115557SN.node[2].Application                   2 detectou a falha do líder 3
+185.004794052542SN.node[1].Application                   1 detectou a falha do líder 3
+185.038637279245SN.node[0].Application                   0 detectou a falha do líder 3
+185.040887798805SN.node[3].Application                   O lider está funcionando normalmente
+185.040887798805SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+185.044878080125SN.node[2].Application                   2 detectou a falha do líder 3
+185.522359672434SN.node[0].Application                   0 received a HB from 3
+185.522359672434SN.node[1].Application                   1 received a HB from 3
+185.522359672434SN.node[2].Application                   2 received a HB from 3
+190.040857808175SN.node[3].Application                   O lider está travado
+195.004862042192SN.node[1].Application                   1 detectou a falha do líder 3
+195.039237137841SN.node[0].Application                   0 detectou a falha do líder 3
+195.040827817545SN.node[3].Application                   O lider está travado
+195.045390009261SN.node[2].Application                   2 detectou a falha do líder 3
+200.004896037017SN.node[1].Application                   1 detectou a falha do líder 3
+200.039537067139SN.node[0].Application                   0 detectou a falha do líder 3
+200.040797826915SN.node[3].Application                   O lider está travado
+200.045645973829SN.node[2].Application                   2 detectou a falha do líder 3
+205.004930031842SN.node[1].Application                   1 detectou a falha do líder 3
+205.039836996437SN.node[0].Application                   0 detectou a falha do líder 3
+205.040767836285SN.node[3].Application                   O lider está travado
+205.045901938397SN.node[2].Application                   2 detectou a falha do líder 3
+210.004964026667SN.node[1].Application                   1 detectou a falha do líder 3
+210.040136925735SN.node[0].Application                   0 detectou a falha do líder 3
+210.040737845655SN.node[3].Application                   O lider está funcionando normalmente
+210.040737845655SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+210.046157902965SN.node[2].Application                   2 detectou a falha do líder 3
+210.525970300986SN.node[0].Application                   0 received a HB from 3
+210.525970300986SN.node[1].Application                   1 received a HB from 3
+210.525970300986SN.node[2].Application                   2 received a HB from 3
+215.040707855025SN.node[3].Application                   O lider está travado
+220.005032016317SN.node[1].Application                   1 detectou a falha do líder 3
+220.040677864395SN.node[3].Application                   O lider está travado
+220.040736784331SN.node[0].Application                   0 detectou a falha do líder 3
+220.046669832101SN.node[2].Application                   2 detectou a falha do líder 3
+225.005066011142SN.node[1].Application                   1 detectou a falha do líder 3
+225.040647873765SN.node[3].Application                   O lider está funcionando normalmente
+225.040647873765SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+225.041036713629SN.node[0].Application                   0 detectou a falha do líder 3
+225.046925796669SN.node[2].Application                   2 detectou a falha do líder 3
+225.783347983245SN.node[0].Application                   0 received a HB from 3
+225.783347983245SN.node[1].Application                   1 received a HB from 3
+225.783347983245SN.node[2].Application                   2 received a HB from 3
+230.040617883135SN.node[3].Application                   O lider está travado
+235.005134000792SN.node[1].Application                   1 detectou a falha do líder 3
+235.040587892505SN.node[3].Application                   O lider está funcionando normalmente
+235.040587892505SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+235.041636572225SN.node[0].Application                   0 detectou a falha do líder 3
+235.047437725805SN.node[2].Application                   2 detectou a falha do líder 3
+235.545581590843SN.node[0].Application                   0 received a HB from 3
+235.545581590843SN.node[1].Application                   1 received a HB from 3
+235.545581590843SN.node[2].Application                   2 received a HB from 3
+240.040557901875SN.node[3].Application                   O lider está travado
+245.005201990442SN.node[1].Application                   1 detectou a falha do líder 3
+245.040527911245SN.node[3].Application                   O lider está travado
+245.042236430821SN.node[0].Application                   0 detectou a falha do líder 3
+245.047949654941SN.node[2].Application                   2 detectou a falha do líder 3
+250.005235985267SN.node[1].Application                   1 detectou a falha do líder 3
+250.040497920615SN.node[3].Application                   O lider está travado
+250.042536360119SN.node[0].Application                   0 detectou a falha do líder 3
+250.048205619509SN.node[2].Application                   2 detectou a falha do líder 3
+255.005269980092SN.node[1].Application                   1 detectou a falha do líder 3
+255.040467929985SN.node[3].Application                   O lider está travado
+255.042836289417SN.node[0].Application                   0 detectou a falha do líder 3
+255.048461584077SN.node[2].Application                   2 detectou a falha do líder 3
+260.005303974917SN.node[1].Application                   1 detectou a falha do líder 3
+260.040437939355SN.node[3].Application                   O lider está travado
+260.043136218715SN.node[0].Application                   0 detectou a falha do líder 3
+260.048717548645SN.node[2].Application                   2 detectou a falha do líder 3
+265.005337969742SN.node[1].Application                   1 detectou a falha do líder 3
+265.040407948725SN.node[3].Application                   O lider está funcionando normalmente
+265.040407948725SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+265.043436148013SN.node[0].Application                   0 detectou a falha do líder 3
+265.048973513213SN.node[2].Application                   2 detectou a falha do líder 3
+265.435211514368SN.node[0].Application                   0 received a HB from 3
+265.435211514368SN.node[1].Application                   1 received a HB from 3
+265.435211514368SN.node[2].Application                   2 received a HB from 3
+270.040377958095SN.node[3].Application                   O lider está funcionando normalmente
+270.040377958095SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+270.316156308495SN.node[0].Application                   0 received a HB from 3
+270.316156308495SN.node[1].Application                   1 received a HB from 3
+270.316156308495SN.node[2].Application                   2 received a HB from 3
+275.040347967465SN.node[3].Application                   O lider está travado
+280.005439954217SN.node[1].Application                   1 detectou a falha do líder 3
+280.040317976835SN.node[3].Application                   O lider está funcionando normalmente
+280.040317976835SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+280.044335935907SN.node[0].Application                   0 detectou a falha do líder 3
+280.049741406917SN.node[2].Application                   2 detectou a falha do líder 3
+280.084717997267SN.node[0].Application                   0 received a HB from 3
+280.084717997267SN.node[1].Application                   1 received a HB from 3
+280.084717997267SN.node[2].Application                   2 received a HB from 3
+285.040287986205SN.node[3].Application                   O lider está travado
+290.005507943867SN.node[1].Application                   1 detectou a falha do líder 3
+290.040257995575SN.node[3].Application                   O lider está travado
+290.044935794503SN.node[0].Application                   0 detectou a falha do líder 3
+290.050253336053SN.node[2].Application                   2 detectou a falha do líder 3
+295.005541938692SN.node[1].Application                   1 detectou a falha do líder 3
+295.040228004945SN.node[3].Application                   O lider está funcionando normalmente
+295.040228004945SN.node[3].Application                   Sending [Heartbeat pck] of size 20 bytes to communication layer
+295.045235723801SN.node[0].Application                   0 detectou a falha do líder 3
+295.050509300621SN.node[2].Application                   2 detectou a falha do líder 3
+295.321861340043SN.node[0].Application                   0 received a HB from 3
+295.321861340043SN.node[1].Application                   1 received a HB from 3
+295.321861340043SN.node[2].Application                   2 received a HB from 3

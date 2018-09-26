@@ -53,25 +53,31 @@ inline std::ostream& operator<<(std::ostream& out, const std::vector<T,A>& vec)
 template<typename T>
 inline std::ostream& operator<<(std::ostream& out,const T&) {return out;}
 
+EXECUTE_ON_STARTUP(
+    cEnum *e = cEnum::find("MessageType");
+    if (!e) enums.getInstance()->add(e = new cEnum("MessageType"));
+    e->insert(HEARTBEAT, "HEARTBEAT");
+    e->insert(ELECTION, "ELECTION");
+    e->insert(OKAY, "OKAY");
+    e->insert(LEADER, "LEADER");
+);
+
 BullyElectionData::BullyElectionData()
 {
     nodeID = 0;
-    locX = 0;
-    locY = 0;
+    messageType = 0;
 }
 
 void doPacking(cCommBuffer *b, BullyElectionData& a)
 {
     doPacking(b,a.nodeID);
-    doPacking(b,a.locX);
-    doPacking(b,a.locY);
+    doPacking(b,a.messageType);
 }
 
 void doUnpacking(cCommBuffer *b, BullyElectionData& a)
 {
     doUnpacking(b,a.nodeID);
-    doUnpacking(b,a.locX);
-    doUnpacking(b,a.locY);
+    doUnpacking(b,a.messageType);
 }
 
 class BullyElectionDataDescriptor : public cClassDescriptor
@@ -121,7 +127,7 @@ const char *BullyElectionDataDescriptor::getProperty(const char *propertyname) c
 int BullyElectionDataDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
-    return basedesc ? 3+basedesc->getFieldCount(object) : 3;
+    return basedesc ? 2+basedesc->getFieldCount(object) : 2;
 }
 
 unsigned int BullyElectionDataDescriptor::getFieldTypeFlags(void *object, int field) const
@@ -135,9 +141,8 @@ unsigned int BullyElectionDataDescriptor::getFieldTypeFlags(void *object, int fi
     static unsigned int fieldTypeFlags[] = {
         FD_ISEDITABLE,
         FD_ISEDITABLE,
-        FD_ISEDITABLE,
     };
-    return (field>=0 && field<3) ? fieldTypeFlags[field] : 0;
+    return (field>=0 && field<2) ? fieldTypeFlags[field] : 0;
 }
 
 const char *BullyElectionDataDescriptor::getFieldName(void *object, int field) const
@@ -150,10 +155,9 @@ const char *BullyElectionDataDescriptor::getFieldName(void *object, int field) c
     }
     static const char *fieldNames[] = {
         "nodeID",
-        "locX",
-        "locY",
+        "messageType",
     };
-    return (field>=0 && field<3) ? fieldNames[field] : NULL;
+    return (field>=0 && field<2) ? fieldNames[field] : NULL;
 }
 
 int BullyElectionDataDescriptor::findField(void *object, const char *fieldName) const
@@ -161,8 +165,7 @@ int BullyElectionDataDescriptor::findField(void *object, const char *fieldName) 
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount(object) : 0;
     if (fieldName[0]=='n' && strcmp(fieldName, "nodeID")==0) return base+0;
-    if (fieldName[0]=='l' && strcmp(fieldName, "locX")==0) return base+1;
-    if (fieldName[0]=='l' && strcmp(fieldName, "locY")==0) return base+2;
+    if (fieldName[0]=='m' && strcmp(fieldName, "messageType")==0) return base+1;
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
@@ -176,10 +179,9 @@ const char *BullyElectionDataDescriptor::getFieldTypeString(void *object, int fi
     }
     static const char *fieldTypeStrings[] = {
         "unsigned short",
-        "double",
-        "double",
+        "int",
     };
-    return (field>=0 && field<3) ? fieldTypeStrings[field] : NULL;
+    return (field>=0 && field<2) ? fieldTypeStrings[field] : NULL;
 }
 
 const char *BullyElectionDataDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
@@ -191,6 +193,9 @@ const char *BullyElectionDataDescriptor::getFieldProperty(void *object, int fiel
         field -= basedesc->getFieldCount(object);
     }
     switch (field) {
+        case 1:
+            if (!strcmp(propertyname,"enum")) return "MessageType";
+            return NULL;
         default: return NULL;
     }
 }
@@ -220,8 +225,7 @@ std::string BullyElectionDataDescriptor::getFieldAsString(void *object, int fiel
     BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         case 0: return ulong2string(pp->nodeID);
-        case 1: return double2string(pp->locX);
-        case 2: return double2string(pp->locY);
+        case 1: return long2string(pp->messageType);
         default: return "";
     }
 }
@@ -237,8 +241,7 @@ bool BullyElectionDataDescriptor::setFieldAsString(void *object, int field, int 
     BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         case 0: pp->nodeID = string2ulong(value); return true;
-        case 1: pp->locX = string2double(value); return true;
-        case 2: pp->locY = string2double(value); return true;
+        case 1: pp->messageType = string2long(value); return true;
         default: return false;
     }
 }

@@ -20,21 +20,40 @@
 // }}
 
 /**
- * Struct generated from src/node/application/bullyElection/BullyElectionPacket.msg:19 by nedtool.
+ * Enum generated from <tt>src/node/application/bullyElection/BullyElectionPacket.msg:7</tt> by nedtool.
+ * <pre>
+ * enum MessageType
+ * {
+ * 
+ *     HEARTBEAT = 1;
+ *     ELECTION = 2;
+ *     OKAY = 3;
+ *     LEADER = 4;
+ * }
+ * </pre>
+ */
+enum MessageType {
+    HEARTBEAT = 1,
+    ELECTION = 2,
+    OKAY = 3,
+    LEADER = 4
+};
+
+/**
+ * Struct generated from src/node/application/bullyElection/BullyElectionPacket.msg:14 by nedtool.
  */
 struct BullyElectionData
 {
     BullyElectionData();
     unsigned short nodeID;
-    double locX;
-    double locY;
+    int messageType;
 };
 
 void doPacking(cCommBuffer *b, BullyElectionData& a);
 void doUnpacking(cCommBuffer *b, BullyElectionData& a);
 
 /**
- * Class generated from <tt>src/node/application/bullyElection/BullyElectionPacket.msg:25</tt> by nedtool.
+ * Class generated from <tt>src/node/application/bullyElection/BullyElectionPacket.msg:19</tt> by nedtool.
  * <pre>
  * packet BullyElectionDataPacket extends ApplicationPacket
  * {

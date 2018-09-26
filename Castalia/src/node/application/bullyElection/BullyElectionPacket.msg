@@ -1,25 +1,19 @@
-//***************************************************************************************
-//*  Copyright: National ICT Australia, 2007 - 2011                                     *
-//*  Developed at the ATP lab, Networked Systems research theme                         *
-//*  Author(s): Dimosthenis Pediaditakis, Yuriy Tselishchev                             *
-//*  This file is distributed under the terms in the attached LICENSE file.             *
-//*  If you do not find this file, copies can be found by writing to:                   *
-//*                                                                                     *
-//*      NICTA, Locked Bag 9013, Alexandria, NSW 1435, Australia                        *
-//*      Attention:  License Inquiry.                                                   *
-//*                                                                                     *
-//***************************************************************************************
-
 cplusplus {{
 #include "ApplicationPacket_m.h"
 }}
 
 class ApplicationPacket;
 
+enum MessageType {
+    HEARTBEAT = 1;
+    ELECTION = 2;
+		OKAY = 3;
+		LEADER = 4;
+};
+
 struct BullyElectionData {
-	unsigned short nodeID;	//the ID of the Node
-	double locX;			// x-coordinate of the node
-	double locY;			// y-coordinate of the node
+	unsigned short nodeID;								//ID do nó
+	int messageType enum(MessageType);		//Tipo da mensagem
 }
 
 packet BullyElectionDataPacket extends ApplicationPacket {

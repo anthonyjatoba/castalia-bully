@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Castalia
+Castalia/CastaliaBin
+Castalia/Makefile
+Castalia/out/gcc-release/CastaliaBin
+Castalia/out/gcc-release/.last-copts
+Castalia/Simulations/valueReporting/*-*.txt
