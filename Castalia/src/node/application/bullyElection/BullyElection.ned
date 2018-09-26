@@ -1,5 +1,5 @@
 //***************************************************************************************
-//*  Copyright: National ICT Australia, 2007 - 2011                                     *
+//*  Copyright: National ICT Australia, 2007 - 2010                                     *
 //*  Developed at the ATP lab, Networked Systems research theme                         *
 //*  Author(s): Dimosthenis Pediaditakis, Yuriy Tselishchev                             *
 //*  This file is distributed under the terms in the attached LICENSE file.             *
@@ -10,18 +10,25 @@
 //*                                                                                     *
 //***************************************************************************************
 
-cplusplus {{
-#include "ApplicationPacket_m.h"
-}}
+package node.application.bullyElection;
 
-class ApplicationPacket;
+// The sensor node module. Connects to the wireless channel in order to communicate
+// with other nodes. Connects to psysical processes so it can sample them.
 
-struct ValueReportData {
-	unsigned short nodeID;	//the ID of the Node
-	double locX;			// x-coordinate of the node
-	double locY;			// y-coordinate of the node
-}
+simple BullyElection like node.application.iApplication {
+ parameters:
+ 	string applicationID = default ("bullyElection");
+	bool collectTraceInfo = default (true);
+	int priority = default (1);
+	int packetHeaderOverhead = default (8);	// in bytes
+	int constantDataPayload = default (12);	// in bytes
+	bool isSink = default (false);
+  bool isLeader = default (false);
 
-packet ValueReportingDataPacket extends ApplicationPacket {
-	ValueReportData extraData;
+ gates:
+ 	output toCommunicationModule;
+	output toSensorDeviceManager;
+	input fromCommunicationModule;
+	input fromSensorDeviceManager;
+	input fromResourceManager;
 }

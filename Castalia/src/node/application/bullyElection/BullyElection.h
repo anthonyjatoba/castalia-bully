@@ -10,20 +10,20 @@
  *                                                                          *
  ****************************************************************************/
 
-#ifndef _VALUEREPORTING_H_
-#define _VALUEREPORTING_H_
+#ifndef _BULLYELECTION_H_
+#define _BULLYELECTION_H_
 
 #include "VirtualApplication.h"
-#include "ValueReportingPacket_m.h"
+#include "BullyElectionPacket_m.h"
 
 using namespace std;
 
-enum ValueReportingTimers {
+enum BullyElectionTimers {
 	HEARTBEAT = 1,
 	CHECK = 2,
 };
 
-class ValueReporting: public VirtualApplication {
+class BullyElection: public VirtualApplication {
  private:
 	bool working;
 
@@ -36,4 +36,4 @@ class ValueReporting: public VirtualApplication {
 	void timerFiredCallback(int);
 };
 
-#endif				// _VALUEREPORTING_APPLICATIONMODULE_H_
+#endif				// _BULLYELECTION_APPLICATIONMODULE_H_

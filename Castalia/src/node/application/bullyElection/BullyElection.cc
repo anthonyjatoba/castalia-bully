@@ -1,13 +1,13 @@
-#include "ValueReporting.h"
+#include "BullyElection.h"
 
-Define_Module(ValueReporting);
+Define_Module(BullyElection);
 
-void ValueReporting::startup() {
+void BullyElection::startup() {
 	setTimer(HEARTBEAT, 5);	//o sink começa a enviar o heartbeat após 5 segundos
 	setTimer(CHECK, 10);		//após 10 segundos os nodes começam a checar
 }
 
-void ValueReporting::timerFiredCallback(int index) {
+void BullyElection::timerFiredCallback(int index) {
 		switch (index) {
 		case HEARTBEAT:{
 				sendHeartbeat();
@@ -33,7 +33,7 @@ void ValueReporting::timerFiredCallback(int index) {
 	}
 }
 
-void ValueReporting::fromNetworkLayer(ApplicationPacket * genericPacket, const char *source, double rssi, double lqi) {
+void BullyElection::fromNetworkLayer(ApplicationPacket * genericPacket, const char *source, double rssi, double lqi) {
 	if (isLeader){
 
 	} else {
@@ -43,7 +43,7 @@ void ValueReporting::fromNetworkLayer(ApplicationPacket * genericPacket, const c
 	}
 }
 
-void ValueReporting::sendHeartbeat() {
+void BullyElection::sendHeartbeat() {
 	if (isLeader){
 		if (working){
 			working = rand() % 100 > 20 ? true : false;		//20% de chance de travar

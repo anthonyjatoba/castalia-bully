@@ -1,5 +1,5 @@
 //
-// Generated file, do not edit! Created by nedtool 4.6 from src/node/application/valueReporting/ValueReportingPacket.msg.
+// Generated file, do not edit! Created by nedtool 4.6 from src/node/application/bullyElection/BullyElectionPacket.msg.
 //
 
 // Disable warnings about unused variables, empty switch stmts, etc:
@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include <sstream>
-#include "ValueReportingPacket_m.h"
+#include "BullyElectionPacket_m.h"
 
 USING_NAMESPACE
 
@@ -53,32 +53,32 @@ inline std::ostream& operator<<(std::ostream& out, const std::vector<T,A>& vec)
 template<typename T>
 inline std::ostream& operator<<(std::ostream& out,const T&) {return out;}
 
-ValueReportData::ValueReportData()
+BullyElectionData::BullyElectionData()
 {
     nodeID = 0;
     locX = 0;
     locY = 0;
 }
 
-void doPacking(cCommBuffer *b, ValueReportData& a)
+void doPacking(cCommBuffer *b, BullyElectionData& a)
 {
     doPacking(b,a.nodeID);
     doPacking(b,a.locX);
     doPacking(b,a.locY);
 }
 
-void doUnpacking(cCommBuffer *b, ValueReportData& a)
+void doUnpacking(cCommBuffer *b, BullyElectionData& a)
 {
     doUnpacking(b,a.nodeID);
     doUnpacking(b,a.locX);
     doUnpacking(b,a.locY);
 }
 
-class ValueReportDataDescriptor : public cClassDescriptor
+class BullyElectionDataDescriptor : public cClassDescriptor
 {
   public:
-    ValueReportDataDescriptor();
-    virtual ~ValueReportDataDescriptor();
+    BullyElectionDataDescriptor();
+    virtual ~BullyElectionDataDescriptor();
 
     virtual bool doesSupport(cObject *obj) const;
     virtual const char *getProperty(const char *propertyname) const;
@@ -97,34 +97,34 @@ class ValueReportDataDescriptor : public cClassDescriptor
     virtual void *getFieldStructPointer(void *object, int field, int i) const;
 };
 
-Register_ClassDescriptor(ValueReportDataDescriptor);
+Register_ClassDescriptor(BullyElectionDataDescriptor);
 
-ValueReportDataDescriptor::ValueReportDataDescriptor() : cClassDescriptor("ValueReportData", "")
+BullyElectionDataDescriptor::BullyElectionDataDescriptor() : cClassDescriptor("BullyElectionData", "")
 {
 }
 
-ValueReportDataDescriptor::~ValueReportDataDescriptor()
+BullyElectionDataDescriptor::~BullyElectionDataDescriptor()
 {
 }
 
-bool ValueReportDataDescriptor::doesSupport(cObject *obj) const
+bool BullyElectionDataDescriptor::doesSupport(cObject *obj) const
 {
-    return dynamic_cast<ValueReportData *>(obj)!=NULL;
+    return dynamic_cast<BullyElectionData *>(obj)!=NULL;
 }
 
-const char *ValueReportDataDescriptor::getProperty(const char *propertyname) const
+const char *BullyElectionDataDescriptor::getProperty(const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? basedesc->getProperty(propertyname) : NULL;
 }
 
-int ValueReportDataDescriptor::getFieldCount(void *object) const
+int BullyElectionDataDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? 3+basedesc->getFieldCount(object) : 3;
 }
 
-unsigned int ValueReportDataDescriptor::getFieldTypeFlags(void *object, int field) const
+unsigned int BullyElectionDataDescriptor::getFieldTypeFlags(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -140,7 +140,7 @@ unsigned int ValueReportDataDescriptor::getFieldTypeFlags(void *object, int fiel
     return (field>=0 && field<3) ? fieldTypeFlags[field] : 0;
 }
 
-const char *ValueReportDataDescriptor::getFieldName(void *object, int field) const
+const char *BullyElectionDataDescriptor::getFieldName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -156,7 +156,7 @@ const char *ValueReportDataDescriptor::getFieldName(void *object, int field) con
     return (field>=0 && field<3) ? fieldNames[field] : NULL;
 }
 
-int ValueReportDataDescriptor::findField(void *object, const char *fieldName) const
+int BullyElectionDataDescriptor::findField(void *object, const char *fieldName) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount(object) : 0;
@@ -166,7 +166,7 @@ int ValueReportDataDescriptor::findField(void *object, const char *fieldName) co
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
-const char *ValueReportDataDescriptor::getFieldTypeString(void *object, int field) const
+const char *BullyElectionDataDescriptor::getFieldTypeString(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -182,7 +182,7 @@ const char *ValueReportDataDescriptor::getFieldTypeString(void *object, int fiel
     return (field>=0 && field<3) ? fieldTypeStrings[field] : NULL;
 }
 
-const char *ValueReportDataDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
+const char *BullyElectionDataDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -195,7 +195,7 @@ const char *ValueReportDataDescriptor::getFieldProperty(void *object, int field,
     }
 }
 
-int ValueReportDataDescriptor::getArraySize(void *object, int field) const
+int BullyElectionDataDescriptor::getArraySize(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -203,13 +203,13 @@ int ValueReportDataDescriptor::getArraySize(void *object, int field) const
             return basedesc->getArraySize(object, field);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportData *pp = (ValueReportData *)object; (void)pp;
+    BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         default: return 0;
     }
 }
 
-std::string ValueReportDataDescriptor::getFieldAsString(void *object, int field, int i) const
+std::string BullyElectionDataDescriptor::getFieldAsString(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -217,7 +217,7 @@ std::string ValueReportDataDescriptor::getFieldAsString(void *object, int field,
             return basedesc->getFieldAsString(object,field,i);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportData *pp = (ValueReportData *)object; (void)pp;
+    BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         case 0: return ulong2string(pp->nodeID);
         case 1: return double2string(pp->locX);
@@ -226,7 +226,7 @@ std::string ValueReportDataDescriptor::getFieldAsString(void *object, int field,
     }
 }
 
-bool ValueReportDataDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
+bool BullyElectionDataDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -234,7 +234,7 @@ bool ValueReportDataDescriptor::setFieldAsString(void *object, int field, int i,
             return basedesc->setFieldAsString(object,field,i,value);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportData *pp = (ValueReportData *)object; (void)pp;
+    BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         case 0: pp->nodeID = string2ulong(value); return true;
         case 1: pp->locX = string2double(value); return true;
@@ -243,7 +243,7 @@ bool ValueReportDataDescriptor::setFieldAsString(void *object, int field, int i,
     }
 }
 
-const char *ValueReportDataDescriptor::getFieldStructName(void *object, int field) const
+const char *BullyElectionDataDescriptor::getFieldStructName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -256,7 +256,7 @@ const char *ValueReportDataDescriptor::getFieldStructName(void *object, int fiel
     };
 }
 
-void *ValueReportDataDescriptor::getFieldStructPointer(void *object, int field, int i) const
+void *BullyElectionDataDescriptor::getFieldStructPointer(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -264,28 +264,28 @@ void *ValueReportDataDescriptor::getFieldStructPointer(void *object, int field, 
             return basedesc->getFieldStructPointer(object, field, i);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportData *pp = (ValueReportData *)object; (void)pp;
+    BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
         default: return NULL;
     }
 }
 
-Register_Class(ValueReportingDataPacket);
+Register_Class(BullyElectionDataPacket);
 
-ValueReportingDataPacket::ValueReportingDataPacket(const char *name, int kind) : ::ApplicationPacket(name,kind)
+BullyElectionDataPacket::BullyElectionDataPacket(const char *name, int kind) : ::ApplicationPacket(name,kind)
 {
 }
 
-ValueReportingDataPacket::ValueReportingDataPacket(const ValueReportingDataPacket& other) : ::ApplicationPacket(other)
+BullyElectionDataPacket::BullyElectionDataPacket(const BullyElectionDataPacket& other) : ::ApplicationPacket(other)
 {
     copy(other);
 }
 
-ValueReportingDataPacket::~ValueReportingDataPacket()
+BullyElectionDataPacket::~BullyElectionDataPacket()
 {
 }
 
-ValueReportingDataPacket& ValueReportingDataPacket::operator=(const ValueReportingDataPacket& other)
+BullyElectionDataPacket& BullyElectionDataPacket::operator=(const BullyElectionDataPacket& other)
 {
     if (this==&other) return *this;
     ::ApplicationPacket::operator=(other);
@@ -293,38 +293,38 @@ ValueReportingDataPacket& ValueReportingDataPacket::operator=(const ValueReporti
     return *this;
 }
 
-void ValueReportingDataPacket::copy(const ValueReportingDataPacket& other)
+void BullyElectionDataPacket::copy(const BullyElectionDataPacket& other)
 {
     this->extraData_var = other.extraData_var;
 }
 
-void ValueReportingDataPacket::parsimPack(cCommBuffer *b)
+void BullyElectionDataPacket::parsimPack(cCommBuffer *b)
 {
     ::ApplicationPacket::parsimPack(b);
     doPacking(b,this->extraData_var);
 }
 
-void ValueReportingDataPacket::parsimUnpack(cCommBuffer *b)
+void BullyElectionDataPacket::parsimUnpack(cCommBuffer *b)
 {
     ::ApplicationPacket::parsimUnpack(b);
     doUnpacking(b,this->extraData_var);
 }
 
-ValueReportData& ValueReportingDataPacket::getExtraData()
+BullyElectionData& BullyElectionDataPacket::getExtraData()
 {
     return extraData_var;
 }
 
-void ValueReportingDataPacket::setExtraData(const ValueReportData& extraData)
+void BullyElectionDataPacket::setExtraData(const BullyElectionData& extraData)
 {
     this->extraData_var = extraData;
 }
 
-class ValueReportingDataPacketDescriptor : public cClassDescriptor
+class BullyElectionDataPacketDescriptor : public cClassDescriptor
 {
   public:
-    ValueReportingDataPacketDescriptor();
-    virtual ~ValueReportingDataPacketDescriptor();
+    BullyElectionDataPacketDescriptor();
+    virtual ~BullyElectionDataPacketDescriptor();
 
     virtual bool doesSupport(cObject *obj) const;
     virtual const char *getProperty(const char *propertyname) const;
@@ -343,34 +343,34 @@ class ValueReportingDataPacketDescriptor : public cClassDescriptor
     virtual void *getFieldStructPointer(void *object, int field, int i) const;
 };
 
-Register_ClassDescriptor(ValueReportingDataPacketDescriptor);
+Register_ClassDescriptor(BullyElectionDataPacketDescriptor);
 
-ValueReportingDataPacketDescriptor::ValueReportingDataPacketDescriptor() : cClassDescriptor("ValueReportingDataPacket", "ApplicationPacket")
+BullyElectionDataPacketDescriptor::BullyElectionDataPacketDescriptor() : cClassDescriptor("BullyElectionDataPacket", "ApplicationPacket")
 {
 }
 
-ValueReportingDataPacketDescriptor::~ValueReportingDataPacketDescriptor()
+BullyElectionDataPacketDescriptor::~BullyElectionDataPacketDescriptor()
 {
 }
 
-bool ValueReportingDataPacketDescriptor::doesSupport(cObject *obj) const
+bool BullyElectionDataPacketDescriptor::doesSupport(cObject *obj) const
 {
-    return dynamic_cast<ValueReportingDataPacket *>(obj)!=NULL;
+    return dynamic_cast<BullyElectionDataPacket *>(obj)!=NULL;
 }
 
-const char *ValueReportingDataPacketDescriptor::getProperty(const char *propertyname) const
+const char *BullyElectionDataPacketDescriptor::getProperty(const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? basedesc->getProperty(propertyname) : NULL;
 }
 
-int ValueReportingDataPacketDescriptor::getFieldCount(void *object) const
+int BullyElectionDataPacketDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? 1+basedesc->getFieldCount(object) : 1;
 }
 
-unsigned int ValueReportingDataPacketDescriptor::getFieldTypeFlags(void *object, int field) const
+unsigned int BullyElectionDataPacketDescriptor::getFieldTypeFlags(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -384,7 +384,7 @@ unsigned int ValueReportingDataPacketDescriptor::getFieldTypeFlags(void *object,
     return (field>=0 && field<1) ? fieldTypeFlags[field] : 0;
 }
 
-const char *ValueReportingDataPacketDescriptor::getFieldName(void *object, int field) const
+const char *BullyElectionDataPacketDescriptor::getFieldName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -398,7 +398,7 @@ const char *ValueReportingDataPacketDescriptor::getFieldName(void *object, int f
     return (field>=0 && field<1) ? fieldNames[field] : NULL;
 }
 
-int ValueReportingDataPacketDescriptor::findField(void *object, const char *fieldName) const
+int BullyElectionDataPacketDescriptor::findField(void *object, const char *fieldName) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount(object) : 0;
@@ -406,7 +406,7 @@ int ValueReportingDataPacketDescriptor::findField(void *object, const char *fiel
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
-const char *ValueReportingDataPacketDescriptor::getFieldTypeString(void *object, int field) const
+const char *BullyElectionDataPacketDescriptor::getFieldTypeString(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -415,12 +415,12 @@ const char *ValueReportingDataPacketDescriptor::getFieldTypeString(void *object,
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldTypeStrings[] = {
-        "ValueReportData",
+        "BullyElectionData",
     };
     return (field>=0 && field<1) ? fieldTypeStrings[field] : NULL;
 }
 
-const char *ValueReportingDataPacketDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
+const char *BullyElectionDataPacketDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -433,7 +433,7 @@ const char *ValueReportingDataPacketDescriptor::getFieldProperty(void *object, i
     }
 }
 
-int ValueReportingDataPacketDescriptor::getArraySize(void *object, int field) const
+int BullyElectionDataPacketDescriptor::getArraySize(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -441,13 +441,13 @@ int ValueReportingDataPacketDescriptor::getArraySize(void *object, int field) co
             return basedesc->getArraySize(object, field);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportingDataPacket *pp = (ValueReportingDataPacket *)object; (void)pp;
+    BullyElectionDataPacket *pp = (BullyElectionDataPacket *)object; (void)pp;
     switch (field) {
         default: return 0;
     }
 }
 
-std::string ValueReportingDataPacketDescriptor::getFieldAsString(void *object, int field, int i) const
+std::string BullyElectionDataPacketDescriptor::getFieldAsString(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -455,14 +455,14 @@ std::string ValueReportingDataPacketDescriptor::getFieldAsString(void *object, i
             return basedesc->getFieldAsString(object,field,i);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportingDataPacket *pp = (ValueReportingDataPacket *)object; (void)pp;
+    BullyElectionDataPacket *pp = (BullyElectionDataPacket *)object; (void)pp;
     switch (field) {
         case 0: {std::stringstream out; out << pp->getExtraData(); return out.str();}
         default: return "";
     }
 }
 
-bool ValueReportingDataPacketDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
+bool BullyElectionDataPacketDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -470,13 +470,13 @@ bool ValueReportingDataPacketDescriptor::setFieldAsString(void *object, int fiel
             return basedesc->setFieldAsString(object,field,i,value);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportingDataPacket *pp = (ValueReportingDataPacket *)object; (void)pp;
+    BullyElectionDataPacket *pp = (BullyElectionDataPacket *)object; (void)pp;
     switch (field) {
         default: return false;
     }
 }
 
-const char *ValueReportingDataPacketDescriptor::getFieldStructName(void *object, int field) const
+const char *BullyElectionDataPacketDescriptor::getFieldStructName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -485,12 +485,12 @@ const char *ValueReportingDataPacketDescriptor::getFieldStructName(void *object,
         field -= basedesc->getFieldCount(object);
     }
     switch (field) {
-        case 0: return opp_typename(typeid(ValueReportData));
+        case 0: return opp_typename(typeid(BullyElectionData));
         default: return NULL;
     };
 }
 
-void *ValueReportingDataPacketDescriptor::getFieldStructPointer(void *object, int field, int i) const
+void *BullyElectionDataPacketDescriptor::getFieldStructPointer(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -498,7 +498,7 @@ void *ValueReportingDataPacketDescriptor::getFieldStructPointer(void *object, in
             return basedesc->getFieldStructPointer(object, field, i);
         field -= basedesc->getFieldCount(object);
     }
-    ValueReportingDataPacket *pp = (ValueReportingDataPacket *)object; (void)pp;
+    BullyElectionDataPacket *pp = (BullyElectionDataPacket *)object; (void)pp;
     switch (field) {
         case 0: return (void *)(&pp->getExtraData()); break;
         default: return NULL;
