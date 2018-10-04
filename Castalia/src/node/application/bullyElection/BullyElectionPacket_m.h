@@ -45,7 +45,7 @@ enum MessageType {
 struct BullyElectionData
 {
     BullyElectionData();
-    unsigned short nodeID;
+    int nodeID;
     int messageType;
 };
 

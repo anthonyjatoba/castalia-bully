@@ -18,9 +18,9 @@ void BullyElection::timerFiredCallback(int index) {
 		case CHECK_LEADER: {
 			if (!isLeader && getClock() - lastHeartbeat > 5) {
 					trace() << self << " detectou a falha do líder " << leaderID;
+					callElection();
 					//TODO ELEIÇÃO
 				}
-			}
 			setTimer(CHECK_LEADER, 5);
 			break;
 		}
@@ -40,6 +40,16 @@ void BullyElection::fromNetworkLayer(ApplicationPacket * genericPacket, const ch
 				trace() << self << " knows the leader " << theData.nodeID;
 				leaderID = theData.nodeID;	// atualiza a variável de líder
 				break;
+			case ELECTION:
+				if (working && self > theData.nodeID){
+					trace() << self << " received the election from " << theData.nodeID;
+					sendOKAY(source);
+					callElection();
+				}
+				break;
+			case OKAY:
+				trace() << self << " received an OK from " << theData.nodeID;
+				break;
 		}
 }
 
@@ -56,7 +66,7 @@ void BullyElection::sendHeartbeat() {
 		// cria e envia o pacote de HB
 		if (working) {
 			BullyElectionData tmpData;
-			tmpData.nodeID = (unsigned short)self;
+			//tmpData.nodeID = (unsigned short)self;
 			tmpData.messageType = HEARTBEAT;
 
 			BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("Heartbeat pck", APPLICATION_PACKET);
@@ -78,4 +88,26 @@ void BullyElection::sendLeader() {
 
 		toNetworkLayer(packet2Net, BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede (tá errado o tipo da mensagem)
 	}
+}
+
+void BullyElection::callElection() {
+	BullyElectionData tmpData;
+	tmpData.nodeID = (unsigned short)self;
+	tmpData.messageType = ELECTION;
+
+	BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("Election pck", APPLICATION_PACKET);
+	packet2Net->setExtraData(tmpData);
+
+	toNetworkLayer(packet2Net, BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede (tá errado o tipo da mensagem)
+}
+
+void BullyElection::sendOKAY(const char *source) {
+	BullyElectionData tmpData;
+	tmpData.nodeID = (unsigned short)self;
+	tmpData.messageType = OKAY;
+
+	BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("okay pck", APPLICATION_PACKET);
+	packet2Net->setExtraData(tmpData);
+
+	toNetworkLayer(packet2Net, source);		//Envia seu id para a rede (tá errado o tipo da mensagem)
 }

@@ -16,12 +16,14 @@ class BullyElection: public VirtualApplication {
 	bool working;								//Indica se o nó está funcionando normalmente
 	simtime_t lastHeartbeat;		//Timestamp do último heartbeat recebido
 	int leaderID;
-	
+
  protected:
 	void startup();
 	void fromNetworkLayer(ApplicationPacket *, const char *, double, double);
 	void sendHeartbeat();
 	void sendLeader();
+	void callElection();
+	void sendOKAY(const char *source);
 	void timerFiredCallback(int);
 };
 
