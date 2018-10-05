@@ -12,6 +12,7 @@ simple BullyElection like node.application.iApplication {
 	int constantDataPayload = default (12);	// in bytes
 	bool isSink = default (false);
   bool isLeader = default (false);
+  int numNodes = default (1);
 
  gates:
  	output toCommunicationModule;

@@ -41,6 +41,7 @@ class VirtualApplication: public CastaliaModule, public TimerService {
 	int latencyBuckets;
 
   bool isLeader;
+  int numNodes;
 
 	/*--- Custom class parameters ---*/
 	int self;								// the node's ID

@@ -178,7 +178,7 @@ const char *BullyElectionDataDescriptor::getFieldTypeString(void *object, int fi
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldTypeStrings[] = {
-        "int",
+        "unsigned short",
         "int",
     };
     return (field>=0 && field<2) ? fieldTypeStrings[field] : NULL;
@@ -224,7 +224,7 @@ std::string BullyElectionDataDescriptor::getFieldAsString(void *object, int fiel
     }
     BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
-        case 0: return long2string(pp->nodeID);
+        case 0: return ulong2string(pp->nodeID);
         case 1: return long2string(pp->messageType);
         default: return "";
     }
@@ -240,7 +240,7 @@ bool BullyElectionDataDescriptor::setFieldAsString(void *object, int field, int 
     }
     BullyElectionData *pp = (BullyElectionData *)object; (void)pp;
     switch (field) {
-        case 0: pp->nodeID = string2long(value); return true;
+        case 0: pp->nodeID = string2ulong(value); return true;
         case 1: pp->messageType = string2long(value); return true;
         default: return false;
     }

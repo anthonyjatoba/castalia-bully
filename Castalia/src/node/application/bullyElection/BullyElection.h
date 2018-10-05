@@ -9,6 +9,7 @@ using namespace std;
 enum BullyElectionTimers {
 	SEND_HEARTBEAT = 1,
 	CHECK_LEADER = 2,
+	CHECK_ELECTION = 3,
 };
 
 class BullyElection: public VirtualApplication {
@@ -16,6 +17,9 @@ class BullyElection: public VirtualApplication {
 	bool working;								//Indica se o nó está funcionando normalmente
 	simtime_t lastHeartbeat;		//Timestamp do último heartbeat recebido
 	int leaderID;
+
+	bool electioneering;
+	int oks;
 
  protected:
 	void startup();
