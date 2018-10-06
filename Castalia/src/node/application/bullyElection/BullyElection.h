@@ -18,16 +18,17 @@ class BullyElection: public VirtualApplication {
 	simtime_t lastHeartbeat;		//Timestamp do último heartbeat recebido
 	int leaderID;
 
-	bool electioneering;
+	bool applying;
 	int oks;
 
  protected:
 	void startup();
 	void fromNetworkLayer(ApplicationPacket *, const char *, double, double);
 	void sendHeartbeat();
-	void sendLeader();
+	void sendLeader(unsigned short id, const char *source);
+	void sendLeader(unsigned short id);
 	void callElection();
-	void sendOKAY(const char *source);
+	void sendOKAY(const char *dest);
 	void timerFiredCallback(int);
 };
 

@@ -13,7 +13,6 @@ simple BullyElection like node.application.iApplication {
 	bool isSink = default (false);
   bool isLeader = default (false);
   int numNodes = default (1);
-
  gates:
  	output toCommunicationModule;
 	output toSensorDeviceManager;
