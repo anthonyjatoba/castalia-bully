@@ -14,12 +14,11 @@ enum BullyElectionTimers {
 
 class BullyElection: public VirtualApplication {
  private:
-	bool working;								//Indica se o nó está funcionando normalmente
-	simtime_t lastHeartbeat;		//Timestamp do último heartbeat recebido
-	int leaderID;
-
-	bool applying;
-	int oks;
+	bool working;								// Indica se o nó está funcionando normalmente
+	simtime_t lastHeartbeat;		// Timestamp do último heartbeat recebido
+	int leaderID;								// Cada nó tem o ID do líder
+	bool applying;							// Indica se o nó está participando de uma eleição
+	int oks;										// Contador de OKs (ver algoritmo)
 
  protected:
 	void startup();

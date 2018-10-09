@@ -3,12 +3,11 @@
 Define_Module(BullyElection);
 
 void BullyElection::startup() {
-	working = true;
 	if (isLeader) {
-		sendLeader(self);									//o líder informa aos demais
-		setTimer(SEND_HEARTBEAT, 5);	//o sink começa a enviar o heartbeat após 5 segundos
+		sendLeader(self);							// o líder informa seu ID aos demais
+		setTimer(SEND_HEARTBEAT, 5);	//o líder começa a enviar o heartbeat após 5 segundos
 	} else {
-		setTimer(CHECK_LEADER, 10);		//após 10 segundos os nodes começam a checar
+		setTimer(CHECK_LEADER, 10);		//após 10 segundos os nodes começam a checar o líder
 	}
 }
 
@@ -16,8 +15,7 @@ void BullyElection::timerFiredCallback(int index) {
 	switch (index) {
 		case SEND_HEARTBEAT: {
 			sendHeartbeat();
-			if (isLeader)
-				setTimer(SEND_HEARTBEAT, 5);
+			setTimer(SEND_HEARTBEAT, 5);
 			break;
 		}
 		case CHECK_LEADER: {
@@ -30,13 +28,12 @@ void BullyElection::timerFiredCallback(int index) {
 			break;
 		}
 		case CHECK_ELECTION: {
-			trace() << self << " is checking the election";
 			if (oks == 0) {
-					trace() << self << " didn't get a response and declares itself leader";
+					trace() << self << " declares itself leader";
 					isLeader = true;
 					leaderID = self;
 					sendLeader(self);
-					setTimer(SEND_HEARTBEAT, 5);	//o lider começa a enviar o heartbeat após 5 segundos
+					setTimer(SEND_HEARTBEAT, 0);	//o lider começa a enviar o heartbeat imediatamente
 			}
 			applying = false;
 			oks = 0;
@@ -52,26 +49,26 @@ void BullyElection::fromNetworkLayer(ApplicationPacket * genericPacket, const ch
 		switch (theData.messageType) {
 			case HEARTBEAT:
 				trace() << self << " received a HB from " << theData.nodeID;
-				lastHeartbeat = getClock();	//registra o instante do último HB
+				lastHeartbeat = getClock();		//registra o instante do último HB
 				break;
 			case LEADER:
 				trace() << self << " knows the leader " << theData.nodeID;
-				leaderID = theData.nodeID;	// atualiza a variável de líder
-				cancelTimer(SEND_HEARTBEAT);		//após 5 segundos os nodes começam a checar
-				setTimer(CHECK_LEADER, 5);		//após 10 segundos os nodes começam a checar				lastHeartbeat = getClock();	//registra o instante do último HB
-				working = true;
+				leaderID = theData.nodeID;		// atualiza a variável de líder
 				isLeader = false;
+				cancelTimer(SEND_HEARTBEAT);	// se o nó for líder, para de enviar o heartbeat
+				setTimer(CHECK_LEADER, 5);		// começam a checar o líder dentro de 10 segundos
+				working = true;
 				break;
 			case ELECTION:
 				if (working && !isLeader) {
 					trace() << self << " received the election from " << theData.nodeID;
-					sendOKAY(source);
-					if (!applying)
+					sendOKAY(source);		//diz que está funcionando
+					if (!applying)			// evita que um nó dispare mais de uma eleiçãos
 						callElection();
 				}
 				break;
 			case OKAY:
-				if (applying) {
+				if (applying) {		//apenas nós participando de eleições reagem ao OK
 					trace() << self << " received an OK from " << theData.nodeID << " and is not applying anymore";
 					applying = false;
 					oks++;
@@ -103,7 +100,6 @@ void BullyElection::sendHeartbeat() {
 }
 
 void BullyElection::sendLeader(unsigned short id) {
-	if (isLeader) {
 		BullyElectionData tmpData;
 		tmpData.nodeID = (unsigned short)id;
 		tmpData.messageType = LEADER;
@@ -112,20 +108,6 @@ void BullyElection::sendLeader(unsigned short id) {
 		packet2Net->setExtraData(tmpData);
 
 		toNetworkLayer(packet2Net, BROADCAST_NETWORK_ADDRESS);		//Envia seu id para a rede (tá errado o tipo da mensagem)
-	}
-}
-
-void BullyElection::sendLeader(unsigned short id, const char *source) {
-	if (isLeader) {
-		BullyElectionData tmpData;
-		tmpData.nodeID = (unsigned short)id;
-		tmpData.messageType = LEADER;
-
-		BullyElectionDataPacket *packet2Net = new BullyElectionDataPacket("Leader pck", APPLICATION_PACKET);
-		packet2Net->setExtraData(tmpData);
-
-		toNetworkLayer(packet2Net, source);		//Envia seu id para a rede (tá errado o tipo da mensagem)
-	}
 }
 
 void BullyElection::callElection() {
