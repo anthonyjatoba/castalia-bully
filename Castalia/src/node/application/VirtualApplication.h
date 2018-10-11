@@ -42,6 +42,7 @@ class VirtualApplication: public CastaliaModule, public TimerService {
 
   bool isLeader;
   int numNodes;
+  bool working;
 
 	/*--- Custom class parameters ---*/
 	int self;								// the node's ID

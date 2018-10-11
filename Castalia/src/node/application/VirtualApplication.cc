@@ -42,6 +42,7 @@ void VirtualApplication::initialize()
 
 	isLeader = hasPar("isLeader") ? par("isLeader") : false;
 	numNodes = hasPar("numNodes") ? par("numNodes") : 1;
+	working = hasPar("working") ? par("working") : true;
 
 	double startup_delay = parent->par("startupOffset");
 	// Randomize the delay if the startupRandomization is non-zero

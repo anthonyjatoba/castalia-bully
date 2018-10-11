@@ -13,7 +13,7 @@ simple BullyElection like node.application.iApplication {
 	bool isSink = default (false);
   bool isLeader = default (false);
   int numNodes = default (1);
-  bool working = default(true);
+  bool working = default (true);
 
  gates:
  	output toCommunicationModule;
