@@ -14,6 +14,8 @@ simple BullyElection like node.application.iApplication {
   bool isLeader = default (false);
   int numNodes = default (1);
   bool working = default (true);
+  int failureP = default (20);
+  int recoveryP = default (80);
 
  gates:
  	output toCommunicationModule;

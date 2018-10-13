@@ -44,6 +44,12 @@ void VirtualApplication::initialize()
 	numNodes = hasPar("numNodes") ? par("numNodes") : 1;
 	working = hasPar("working") ? par("working") : true;
 
+	failureP = par("failureP");
+	recoveryP = par("recoveryP");
+
+	//failureP = hasPar("failureP") ? par("failureP") : 80;
+	//recoveryP = hasPar("recoveryP") ? par("recoveryP") : 80;
+
 	double startup_delay = parent->par("startupOffset");
 	// Randomize the delay if the startupRandomization is non-zero
 	startup_delay += genk_dblrand(0) * (double)parent->par("startupRandomization");

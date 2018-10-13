@@ -3,6 +3,7 @@
 Define_Module(BullyElection);
 
 void BullyElection::startup() {
+	trace() << numNodes << ", " << failureP << ", " << recoveryP;
 	setTimer(FAILURE, 5);
 	setTimer(CHECK_LEADER, 10);		//após 10 segundos os nodes começam a checar o líder
 	if (isLeader) {
@@ -88,12 +89,8 @@ void BullyElection::fromNetworkLayer(ApplicationPacket * genericPacket, const ch
 
 void BullyElection::failureUtility() {
 	//if (!isLeader) return;	//por enquanto apenas o líder falha
-
-	int failureP = isLeader ? 80 : 95;
-	int recoverP = 80;
-
 	if (working) {
-		if (rand() % 100 > failureP) {
+		if (rand() % 100 < failureP) {
 			trace() << self << " has failed";
 			working = false;
 			cancelTimer(SEND_HEARTBEAT);
@@ -102,7 +99,7 @@ void BullyElection::failureUtility() {
 			cancelTimer(FAILURE);
 		}
 	} else {
-		if (rand() % 100 > recoverP) {
+		if (rand() % 100 < recoveryP) {
 			trace() << self << " is working";
 			working = true;
 			setTimer(CHECK_LEADER, 0);

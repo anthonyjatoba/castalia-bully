@@ -44,6 +44,9 @@ class VirtualApplication: public CastaliaModule, public TimerService {
   int numNodes;
   bool working;
 
+  int failureP;
+  int recoveryP;
+
 	/*--- Custom class parameters ---*/
 	int self;								// the node's ID
 	string selfAddress;						// the node's routing level address
