@@ -3,7 +3,6 @@
 Define_Module(BullyElection);
 
 void BullyElection::startup() {
-	trace() << numNodes << ", " << failureP << ", " << recoveryP;
 	setTimer(FAILURE, 5);
 	setTimer(CHECK_LEADER, 10);		//após 10 segundos os nodes começam a checar o líder
 	if (isLeader) {

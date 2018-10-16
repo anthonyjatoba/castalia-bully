@@ -24,7 +24,6 @@ class BullyElection: public VirtualApplication {
 	void startup();
 	void fromNetworkLayer(ApplicationPacket *, const char *, double, double);
 	void sendHeartbeat();
-	void sendLeader(unsigned short id, const char *source);
 	void sendLeader(unsigned short id);
 	void callElection();
 	void failureUtility();
