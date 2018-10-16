@@ -35,7 +35,7 @@ void BullyElection::timerFiredCallback(int index) {
 			break;
 		}
 		case CHECK_ELECTION: {
-			if (oks == 0) {
+			if (!isLeader && oks == 0) {
 					trace() << self << " declares itself leader";
 					isLeader = true;
 					leaderID = self;
